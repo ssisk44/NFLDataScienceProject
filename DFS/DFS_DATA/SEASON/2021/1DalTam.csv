@@ -1,0 +1,22 @@
+Season,Week,Game,Team,Name,Code,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Dak Prescott,PresDa01,qb,3,403,0,13,0,0,0,1,0,0,0,0,0,0,0,0,0,0,28.42
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Ezekiel Elliott,ElliEz00,RB,0,0,0,33,2,0,6,0,0,0,0,0,0,0,0,0,0,0,4.9
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Tony Pollard,PollTo00,RB,0,0,0,14,4,0,29,0,0,0,0,0,0,0,0,0,0,0,6.3
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Amari Cooper,CoopAm00,WR,0,0,0,0,13,2,139,0,0,0,0,0,0,0,0,0,0,0,32.4
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,CeeDee Lamb,LambCe00,WR,0,0,0,0,7,1,104,0,0,0,0,0,0,0,0,0,0,0,19.9
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Dalton Schultz,SchuDa00,TE,0,0,0,0,6,0,45,0,0,0,0,0,0,0,0,0,0,0,7.5
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Michael Gallup,GallMi00,WR,0,0,0,0,4,0,36,0,0,0,0,0,0,0,0,0,0,0,5.6
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Cedrick Wilson Jr.,WilsCe01,WR,0,0,0,0,3,0,24,0,0,0,0,0,0,0,0,0,0,0,3.9
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Blake Jarwin,JarwBl00,TE,0,0,0,0,3,0,20,0,0,0,0,0,0,0,0,0,0,0,3.5
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Tom Brady,BradTo00,QB,4,379,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,29.16
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Leonard Fournette,FourLe00,RB,0,0,0,32,5,0,27,0,0,0,0,0,0,0,0,0,0,0,8.4
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Ronald Jones II,JoneRo01,RB,0,0,0,14,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-0.6
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Antonio Brown,BrowAn04,WRThrows:Left,0,0,0,6,5,1,121,0,0,0,0,0,0,0,0,0,0,0,21.2
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Chris Godwin,GodwCh00,WR,0,0,0,0,9,1,105,0,1,0,0,0,0,0,0,0,0,0,19.0
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Rob Gronkowski,GronRo00,TE,0,0,0,0,8,2,90,0,0,0,0,0,0,0,0,0,0,0,25.0
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Mike Evans,EvanMi00,WR,0,0,0,0,3,0,24,0,0,0,0,0,0,0,0,0,0,0,3.9
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Giovani Bernard,BernGi00,RB,0,0,0,0,2,0,12,0,0,0,0,0,0,0,0,0,0,0,2.2
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Tyler Johnson,JohnTy00,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Jaydon Mickens,MickJa01,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2021,1,Dallas CowboysVTampa Bay Buccaneers,DAL,Greg Zuerlein,ZuerGr00,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,1,1,0,0,12.0
+2021,1,Dallas CowboysVTampa Bay Buccaneers,TAM,Ryan Succop,SuccRy44,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,0,0,7.0

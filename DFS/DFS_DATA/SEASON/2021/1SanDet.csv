@@ -1,0 +1,27 @@
+Season,Week,Game,Team,Name,Code,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Jimmy Garoppolo,GaroJi00,qb,1,314,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,0,14.76
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Trey Lance,LancTr00,,1,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.4
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Elijah Mitchell,MitcEl00,,0,0,1,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16.4
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Raheem Mostert,MostRa00,RB,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.0
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Jamycal Hasty,HastJa02,RB,0,0,1,3,1,0,15,0,0,0,0,0,0,0,0,0,0,0,8.3
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Deebo Samuel,SamuDe00,wr,0,0,0,0,9,1,189,0,1,0,0,0,0,0,0,0,0,0,27.4
+2021,1,San Francisco 49ersVDetroit Lions,SFO,George Kittle,KittGe00,TE,0,0,0,0,4,0,78,0,0,0,0,0,0,0,0,0,0,0,9.8
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Trent Sherfield,SherTr00,WR,0,0,0,0,2,1,23,0,0,0,0,0,0,0,0,0,0,0,9.3
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Kyle Juszczyk,JuszKy00,FB,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Mohamed Sanu,SanuMo00,WRThrows:Right,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
+2021,1,San Francisco 49ersVDetroit Lions,DET,Jared Goff,GoffJa00,QB,3,338,0,14,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25.92
+2021,1,San Francisco 49ersVDetroit Lions,DET,Jamaal Williams,WillJa06,RB,0,0,1,54,8,0,56,0,0,0,0,0,0,0,0,0,0,0,21.0
+2021,1,San Francisco 49ersVDetroit Lions,DET,D'Andre Swift,SwifDA00,RB,0,0,0,39,8,1,65,0,0,0,0,0,0,0,0,0,0,0,20.4
+2021,1,San Francisco 49ersVDetroit Lions,DET,Kalif Raymond,RaymKa00,WR,0,0,0,9,3,0,50,0,0,0,0,0,0,0,0,0,0,0,7.4
+2021,1,San Francisco 49ersVDetroit Lions,DET,T.J. Hockenson,HockTJ00,TE,0,0,0,0,8,1,97,0,0,0,0,0,0,0,0,0,0,0,19.7
+2021,1,San Francisco 49ersVDetroit Lions,DET,Amon-Ra St. Brown,StxxAm00,,0,0,0,0,2,0,23,0,0,0,0,0,0,0,0,0,0,0,3.3
+2021,1,San Francisco 49ersVDetroit Lions,DET,Trinity Benson,BensTr00,,0,0,0,0,3,0,19,0,0,0,0,0,0,0,0,0,0,0,3.4
+2021,1,San Francisco 49ersVDetroit Lions,DET,Tyrell Williams,WillTy00,,0,0,0,0,2,0,14,0,0,0,0,0,0,0,0,0,0,0,2.4
+2021,1,San Francisco 49ersVDetroit Lions,DET,Quintez Cephus,CephQu00,WR,0,0,0,0,3,1,12,0,0,0,0,0,0,0,0,0,0,0,8.7
+2021,1,San Francisco 49ersVDetroit Lions,DET,Darren Fells,FellDa01,TE,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0.7
+2021,1,San Francisco 49ersVDetroit Lions,DET,Jason Cabinda,CabiJa00,ILB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Brandon Aiyuk,AiyuBr00,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2021,1,San Francisco 49ersVDetroit Lions,SFO,Ambry Thomas,ThomAm00,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2021,1,San Francisco 49ersVDetroit Lions,DET,Godwin Igwebuike,IgweGo00,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2021,1,San Francisco 49ersVDetroit Lions,,Robbie Gould\g,gouldrob01,,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5.0
+2021,1,San Francisco 49ersVDetroit Lions,DET,Austin Seibert,SeibAu00,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,6.0
