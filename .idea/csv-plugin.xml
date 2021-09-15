@@ -17,13 +17,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\2020NFLScheduleAndResults.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\09122021LARCHI_reduced_players.csv">
           <value>
             <Attribute>
@@ -38,42 +31,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\FanDuel-NFL-2021 ET-09 ET-12 ET-63853-players-list.csv">
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09162021NYGWAS.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\FanDuel-NFL-2021 ET-09 ET-13 ET-63855-players-list.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2020\0_players_db.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2020\10BalNew.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2020\10BufAri.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2020\13LasNew.csv">
+        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09162021NYGWAS_reduced_players.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -164,6 +129,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\2BufMia.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\2CinCle.csv">
           <value>
             <Attribute>
@@ -199,13 +171,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2020\9NewNew.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\9NewWas.csv">
           <value>
             <Attribute>
@@ -213,35 +178,42 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2020\9PitDal.csv">
+        <entry key="\DFS\DFS_DATA\SEASON\2021\1BalLas.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2021\Week1\09092021DALTB_BEFORE_GAME_permutations.csv">
+        <entry key="\DFS\DFS_DATA\SEASON\2021\1ChiLos.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2021\Week1\09132021BALLV_BEFORE_GAME_permutations.csv">
+        <entry key="\DFS\DFS_DATA\SEASON\2021\1DalTam.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2021\Week1\09132021BALLV_BEFORE_GAME_reduced_players.csv">
+        <entry key="\DFS\DFS_DATA\SEASON\2021\1GreNew.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2021\Week1\09132021BALLV_reduced_players.csv">
+        <entry key="\DFS\DFS_DATA\SEASON\2021\1JacHou.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2021\1LosWas.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
