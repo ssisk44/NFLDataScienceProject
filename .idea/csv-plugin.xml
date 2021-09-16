@@ -38,7 +38,70 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09162021NYGWAS_reduced_players.csv">
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09162021NYGWAS_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week2\09162021NYGWAS_BEFORE_GAME_permutations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week2\09162021NYGWAS_BEFORE_GAME_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09092021DALTB_BEFORE_GAME_permutations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09132021BALLV_BEFORE_GAME_permutations.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09132021BALLV_BEFORE_GAME_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SCHEDULES\2020NFLScheduleAndResults.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SCHEDULES\2021NFLScheduleAndResults.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\11AtlNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\12LasAtl.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -150,6 +213,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\4DenNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\6DenNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\7BufNew.csv">
           <value>
             <Attribute>
@@ -214,6 +291,27 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2021\1LosWas.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\all_lineups_position_count.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\top_5_positions_per_contest.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\remaining_output.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
