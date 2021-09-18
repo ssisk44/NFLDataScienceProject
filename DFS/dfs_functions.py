@@ -937,14 +937,14 @@ def createAnalysisTables():
     print("RBs: " + '\t' + str(rb_position_counter) + '\t' + str(sum(rb_position_counter)/256) + ' per lineup')
     print("WRs: " + '\t' + str(wr_position_counter) + '\t' + str(sum(wr_position_counter)/256) + ' per lineup')
     print("TEs: " + '\t' + str(te_position_counter) + '\t' + str(sum(te_position_counter)/256) + ' per lineup')
-    print("Ks: " + '\t' + str(k_position_counter) + '\t' + str(sum(k_position_counter)/256) + ' per lineup')
-    print("Other: " + '\t' + str(other_position_counter) + '\t' + str(sum(other_position_counter)/256) + ' per lineup')
+    print("Ks: " + '\t' + str(k_position_counter) + '\t    ' + str(sum(k_position_counter)/256) + ' per lineup')
+    print("Other: " + '\t' + str(other_position_counter) + '\t        ' + str(sum(other_position_counter)/256) + ' per lineup')
     total_players = sum(qb_position_counter) + sum(rb_position_counter) + sum(wr_position_counter) + sum(te_position_counter) + sum(
         k_position_counter) + sum(other_position_counter)
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players/256))
     print('\n')
 
-    print("Place: ALL 2020 MVP")
+    print("Place: ALL 2020 MVP ***percent of mvp lineups in")
     print("QBs: " + '\t' + str(qb_position_counter[0]) + '\t' + str((qb_position_counter[0] / 256) * 100) + '%')
     print("RBs: " + '\t' + str(rb_position_counter[0]) + '\t' + str((rb_position_counter[0] / 256) * 100) + '%')
     print("WRs: " + '\t' + str(wr_position_counter[0]) + '\t' + str((wr_position_counter[0] / 256) * 100) + '%')
@@ -955,21 +955,21 @@ def createAnalysisTables():
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n')
 
-    print("Place: ALL 2020 UTIL")
-    qb_position_counter = qb_position_counter[1] + qb_position_counter[2] + qb_position_counter[3] + qb_position_counter[4]
-    rb_position_counter = rb_position_counter[1] + rb_position_counter[2] + rb_position_counter[3] + rb_position_counter[4]
-    wr_position_counter = wr_position_counter[1] + wr_position_counter[2] + wr_position_counter[3] + wr_position_counter[4]
-    te_position_counter = te_position_counter[1] + te_position_counter[2] + te_position_counter[3] + te_position_counter[4]
-    k_position_counter = k_position_counter[1] + k_position_counter[2] + k_position_counter[3] + k_position_counter[4]
-    other_position_counter = other_position_counter[1] + other_position_counter[2] + other_position_counter[3] + other_position_counter[4]
-    print("QBs: " + '\t' + str(qb_position_counter) + '\t' + str((qb_position_counter / 256) * 100/4) + '%')
-    print("RBs: " + '\t' + str(rb_position_counter) + '\t' + str((rb_position_counter / 256) * 100/4) + '%')
-    print("WRs: " + '\t' + str(wr_position_counter) + '\t' + str((wr_position_counter / 256) * 100/4) + '%')
-    print("TEs: " + '\t' + str(te_position_counter) + '\t' + str((te_position_counter / 256) * 100/4) + '%')
-    print("Ks: " + '\t' + str(k_position_counter) + '\t' + str((k_position_counter / 256) * 100/4) + '%')
-    print("Other: " + '\t' + str(other_position_counter) + '\t' + str((other_position_counter / 256) * 100/4) + '%')
-    total_players = qb_position_counter + rb_position_counter + wr_position_counter + te_position_counter + \
-                    k_position_counter + other_position_counter
+    print("Place: ALL 2020 UTIL ***percent of util lineups in")
+    qb_position_counter_util = qb_position_counter[1] + qb_position_counter[2] + qb_position_counter[3] + qb_position_counter[4]
+    rb_position_counter_util = rb_position_counter[1] + rb_position_counter[2] + rb_position_counter[3] + rb_position_counter[4]
+    wr_position_counter_util = wr_position_counter[1] + wr_position_counter[2] + wr_position_counter[3] + wr_position_counter[4]
+    te_position_counter_util = te_position_counter[1] + te_position_counter[2] + te_position_counter[3] + te_position_counter[4]
+    k_position_counter_util = k_position_counter[1] + k_position_counter[2] + k_position_counter[3] + k_position_counter[4]
+    other_position_counter_util = other_position_counter[1] + other_position_counter[2] + other_position_counter[3] + other_position_counter[4]
+    print("QBs: " + '\t' + str(qb_position_counter_util) + '\t' + str((qb_position_counter_util / 256) * 100/4) + '%')
+    print("RBs: " + '\t' + str(rb_position_counter_util) + '\t' + str((rb_position_counter_util / 256) * 100/4) + '%')
+    print("WRs: " + '\t' + str(wr_position_counter_util) + '\t' + str((wr_position_counter_util / 256) * 100/4) + '%')
+    print("TEs: " + '\t' + str(te_position_counter_util) + '\t' + str((te_position_counter_util / 256) * 100/4) + '%')
+    print("Ks: " + '\t' + str(k_position_counter_util) + '\t' + str((k_position_counter_util / 256) * 100/4) + '%')
+    print("Other: " + '\t' + str(other_position_counter_util) + '\t' + str((other_position_counter_util / 256) * 100/4) + '%')
+    total_players = qb_position_counter_util + rb_position_counter_util + wr_position_counter_util + te_position_counter_util + \
+                    k_position_counter_util + other_position_counter_util
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n\n\n')
 
@@ -979,49 +979,49 @@ def createAnalysisTables():
     print("QBs: " + '\t' + str(winner_qb_position_counter) + '\t' + str(sum(winner_qb_position_counter) / 256) + ' per lineup')
     print("RBs: " + '\t' + str(winner_rb_position_counter) + '\t' + str(sum(winner_rb_position_counter) / 256) + ' per lineup')
     print("WRs: " + '\t' + str(winner_wr_position_counter) + '\t' + str(sum(winner_wr_position_counter) / 256) + ' per lineup')
-    print("TEs: " + '\t' + str(winner_te_position_counter) + '\t' + str(sum(winner_te_position_counter) / 256) + ' per lineup')
-    print("Ks: " + '\t' + str(winner_k_position_counter) + '\t' + str(sum(winner_k_position_counter) / 256) + ' per lineup')
+    print("TEs: " + '\t' + str(winner_te_position_counter) + '\t    ' + str(sum(winner_te_position_counter) / 256) + ' per lineup')
+    print("Ks: " + '\t' + str(winner_k_position_counter) + '\t    ' + str(sum(winner_k_position_counter) / 256) + ' per lineup')
     print(
-        "Other: " + '\t' + str(winner_other_position_counter) + '\t' + str(sum(winner_other_position_counter) / 256) + ' per lineup')
+        "Other: " + '\t' + str(winner_other_position_counter) + '\t        ' + str(sum(winner_other_position_counter) / 256) + ' per lineup')
     total_players = sum(winner_qb_position_counter) + sum(winner_rb_position_counter) + sum(winner_wr_position_counter) + sum(
         winner_te_position_counter) + sum(
         winner_k_position_counter) + sum(winner_other_position_counter)
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n')
 
-    print("Place: WINNING TEAMS 2020 MVP")
-    print("QBs: " + '\t' + str(winner_qb_position_counter[0]) + '\t' + str((winner_qb_position_counter[0] / 256) * 100) + '%')
-    print("RBs: " + '\t' + str(winner_rb_position_counter[0]) + '\t' + str((winner_rb_position_counter[0] / 256) * 100) + '%')
-    print("WRs: " + '\t' + str(winner_wr_position_counter[0]) + '\t' + str((winner_wr_position_counter[0] / 256) * 100) + '%')
-    print("TEs: " + '\t' + str(winner_te_position_counter[0]) + '\t' + str((winner_te_position_counter[0] / 256) * 100) + '%')
-    print("Ks: " + '\t' + str(winner_k_position_counter[0]) + '\t' + str((winner_k_position_counter[0] / 256) * 100) + '%')
-    print("Other: " + '\t' + str(winner_other_position_counter[0]) + '\t' + str((winner_other_position_counter[0] / 256) * 100) + '%')
+    print("Place: WINNING TEAMS 2020 MVP ***percent of total mvp lineup position")
+    print("QBs: " + '\t' + str(winner_qb_position_counter[0]) + '\t' + str((winner_qb_position_counter[0] / qb_position_counter[0]) * 100) + '%')
+    print("RBs: " + '\t' + str(winner_rb_position_counter[0]) + '\t' + str((winner_rb_position_counter[0] / rb_position_counter[0]) * 100) + '%')
+    print("WRs: " + '\t' + str(winner_wr_position_counter[0]) + '\t' + str((winner_wr_position_counter[0] / wr_position_counter[0]) * 100) + '%')
+    print("TEs: " + '\t' + str(winner_te_position_counter[0]) + '\t' + str((winner_te_position_counter[0] / te_position_counter[0]) * 100) + '%')
+    print("Ks: " + '\t' + str(winner_k_position_counter[0]) + '\t' + str((winner_k_position_counter[0] / k_position_counter[0]) * 100) + '%')
+    print("Other: " + '\t' + str(winner_other_position_counter[0]) + '\t' + str((winner_other_position_counter[0] / 1) * 100) + '%')
     total_players = winner_qb_position_counter[0] + winner_rb_position_counter[0] + winner_wr_position_counter[0] + winner_te_position_counter[0] + \
                     winner_k_position_counter[0] + winner_other_position_counter[0]
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n')
 
 
-    print("Place: WINNING TEAMS 2020 UTIL")
-    winner_qb_position_counter = winner_qb_position_counter[1] + winner_qb_position_counter[2] + winner_qb_position_counter[3] + \
+    print("Place: WINNING TEAMS 2020 UTIL ***percent of total util lineup position")
+    winner_qb_position_counter_util = winner_qb_position_counter[1] + winner_qb_position_counter[2] + winner_qb_position_counter[3] + \
                           winner_qb_position_counter[4]
-    winner_rb_position_counter = winner_rb_position_counter[1] + winner_rb_position_counter[2] + winner_rb_position_counter[3] + \
+    winner_rb_position_counter_util = winner_rb_position_counter[1] + winner_rb_position_counter[2] + winner_rb_position_counter[3] + \
                           winner_rb_position_counter[4]
-    winner_wr_position_counter = winner_wr_position_counter[1] + winner_wr_position_counter[2] + winner_wr_position_counter[3] + \
+    winner_wr_position_counter_util = winner_wr_position_counter[1] + winner_wr_position_counter[2] + winner_wr_position_counter[3] + \
                           winner_wr_position_counter[4]
-    winner_te_position_counter = winner_te_position_counter[1] + winner_te_position_counter[2] + winner_te_position_counter[3] + \
+    winner_te_position_counter_util = winner_te_position_counter[1] + winner_te_position_counter[2] + winner_te_position_counter[3] + \
                           winner_te_position_counter[4]
-    winner_k_position_counter = winner_k_position_counter[1] + winner_k_position_counter[2] + winner_k_position_counter[3] + winner_k_position_counter[4]
-    winner_other_position_counter = winner_other_position_counter[1] + winner_other_position_counter[2] + winner_other_position_counter[3] + \
+    winner_k_position_counter_util = winner_k_position_counter[1] + winner_k_position_counter[2] + winner_k_position_counter[3] + winner_k_position_counter[4]
+    winner_other_position_counter_util = winner_other_position_counter[1] + winner_other_position_counter[2] + winner_other_position_counter[3] + \
                              winner_other_position_counter[4]
-    print("QBs: " + '\t' + str(winner_qb_position_counter) + '\t' + str((winner_qb_position_counter / 256) * 100 / 4) + '%')
-    print("RBs: " + '\t' + str(winner_rb_position_counter) + '\t' + str((winner_rb_position_counter / 256) * 100 / 4) + '%')
-    print("WRs: " + '\t' + str(winner_wr_position_counter) + '\t' + str((winner_wr_position_counter / 256) * 100 / 4) + '%')
-    print("TEs: " + '\t' + str(winner_te_position_counter) + '\t' + str((winner_te_position_counter / 256) * 100 / 4) + '%')
-    print("Ks: " + '\t' + str(winner_k_position_counter) + '\t' + str((winner_k_position_counter / 256) * 100 / 4) + '%')
-    print("Other: " + '\t' + str(winner_other_position_counter) + '\t' + str((winner_other_position_counter / 256) * 100 / 4) + '%')
-    total_players = winner_qb_position_counter + winner_rb_position_counter + winner_wr_position_counter + winner_te_position_counter + \
-                    winner_k_position_counter + winner_other_position_counter
+    print("QBs: " + '\t' + str(winner_qb_position_counter_util) + '\t' + str((winner_qb_position_counter_util / qb_position_counter_util) * 100) + '%')
+    print("RBs: " + '\t' + str(winner_rb_position_counter_util) + '\t' + str((winner_rb_position_counter_util / rb_position_counter_util) * 100) + '%')
+    print("WRs: " + '\t' + str(winner_wr_position_counter_util) + '\t' + str((winner_wr_position_counter_util / wr_position_counter_util) * 100) + '%')
+    print("TEs: " + '\t' + str(winner_te_position_counter_util) + '\t' + str((winner_te_position_counter_util / te_position_counter_util) * 100) + '%')
+    print("Ks: " + '\t' + str(winner_k_position_counter_util) + '\t' + str((winner_k_position_counter_util / k_position_counter_util) * 100) + '%')
+    print("Other: " + '\t' + str(winner_other_position_counter_util) + '\t' + str((winner_other_position_counter_util / other_position_counter_util) * 100) + '%')
+    total_players = winner_qb_position_counter_util + winner_rb_position_counter_util + winner_wr_position_counter_util + winner_te_position_counter_util + \
+                    winner_k_position_counter_util + winner_other_position_counter_util
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n\n\n')
 
@@ -1032,48 +1032,48 @@ def createAnalysisTables():
     print("QBs: " + '\t' + str(loser_qb_position_counter) + '\t' + str(sum(loser_qb_position_counter) / 256) + ' per lineup')
     print("RBs: " + '\t' + str(loser_rb_position_counter) + '\t' + str(sum(loser_rb_position_counter) / 256) + ' per lineup')
     print("WRs: " + '\t' + str(loser_wr_position_counter) + '\t' + str(sum(loser_wr_position_counter) / 256) + ' per lineup')
-    print("TEs: " + '\t' + str(loser_te_position_counter) + '\t' + str(sum(loser_te_position_counter) / 256) + ' per lineup')
-    print("Ks: " + '\t' + str(loser_k_position_counter) + '\t' + str(sum(loser_k_position_counter) / 256) + ' per lineup')
+    print("TEs: " + '\t' + str(loser_te_position_counter) + '\t    ' + str(sum(loser_te_position_counter) / 256) + ' per lineup')
+    print("Ks: " + '\t' + str(loser_k_position_counter) + '\t    ' + str(sum(loser_k_position_counter) / 256) + ' per lineup')
     print(
-        "Other: " + '\t' + str(loser_other_position_counter) + '\t' + str(sum(loser_other_position_counter) / 256) + ' per lineup')
+        "Other: " + '\t' + str(loser_other_position_counter) + '\t        ' + str(sum(loser_other_position_counter) / 256) + ' per lineup')
     total_players = sum(loser_qb_position_counter) + sum(loser_rb_position_counter) + sum(loser_wr_position_counter) + sum(
         loser_te_position_counter) + sum(
         loser_k_position_counter) + sum(loser_other_position_counter)
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n')
 
-    print("Place: LOSING TEAMS 2020 MVP")
-    print("QBs: " + '\t' + str(loser_qb_position_counter[0]) + '\t' + str((loser_qb_position_counter[0] / 256) * 100) + '%')
-    print("RBs: " + '\t' + str(loser_rb_position_counter[0]) + '\t' + str((loser_rb_position_counter[0] / 256) * 100) + '%')
-    print("WRs: " + '\t' + str(loser_wr_position_counter[0]) + '\t' + str((loser_wr_position_counter[0] / 256) * 100) + '%')
-    print("TEs: " + '\t' + str(loser_te_position_counter[0]) + '\t' + str((loser_te_position_counter[0] / 256) * 100) + '%')
-    print("Ks: " + '\t' + str(loser_k_position_counter[0]) + '\t' + str((loser_k_position_counter[0] / 256) * 100) + '%')
-    print("Other: " + '\t' + str(loser_other_position_counter[0]) + '\t' + str((loser_other_position_counter[0] / 256) * 100) + '%')
+    print("Place: LOSING TEAMS 2020 MVP ***percent of total mvp lineup position")
+    print("QBs: " + '\t' + str(loser_qb_position_counter[0]) + '\t' + str((loser_qb_position_counter[0] / qb_position_counter[0]) * 100) + '%')
+    print("RBs: " + '\t' + str(loser_rb_position_counter[0]) + '\t' + str((loser_rb_position_counter[0] / rb_position_counter[0]) * 100) + '%')
+    print("WRs: " + '\t' + str(loser_wr_position_counter[0]) + '\t' + str((loser_wr_position_counter[0] / wr_position_counter[0]) * 100) + '%')
+    print("TEs: " + '\t' + str(loser_te_position_counter[0]) + '\t' + str((loser_te_position_counter[0] / te_position_counter[0]) * 100) + '%')
+    print("Ks: " + '\t' + str(loser_k_position_counter[0]) + '\t' + str((loser_k_position_counter[0] / k_position_counter[0]) * 100) + '%')
+    print("Other: " + '\t' + str(loser_other_position_counter[0]) + '\t' + str((loser_other_position_counter[0] / 1) * 100) + '%')
     total_players = loser_qb_position_counter[0] + loser_rb_position_counter[0] + loser_wr_position_counter[0] + loser_te_position_counter[0] + \
                     loser_k_position_counter[0] + loser_other_position_counter[0]
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n')
 
-    print("Place: LOSING TEAMS 2020 UTIL")
-    loser_qb_position_counter = loser_qb_position_counter[1] + loser_qb_position_counter[2] + loser_qb_position_counter[3] + \
+    print("Place: LOSING TEAMS 2020 UTIL ***percent of total util lineup position")
+    loser_qb_position_counter_util = loser_qb_position_counter[1] + loser_qb_position_counter[2] + loser_qb_position_counter[3] + \
                           loser_qb_position_counter[4]
-    loser_rb_position_counter = loser_rb_position_counter[1] + loser_rb_position_counter[2] + loser_rb_position_counter[3] + \
+    loser_rb_position_counter_util = loser_rb_position_counter[1] + loser_rb_position_counter[2] + loser_rb_position_counter[3] + \
                           loser_rb_position_counter[4]
-    loser_wr_position_counter = loser_wr_position_counter[1] + loser_wr_position_counter[2] + loser_wr_position_counter[3] + \
+    loser_wr_position_counter_util = loser_wr_position_counter[1] + loser_wr_position_counter[2] + loser_wr_position_counter[3] + \
                           loser_wr_position_counter[4]
-    loser_te_position_counter = loser_te_position_counter[1] + loser_te_position_counter[2] + loser_te_position_counter[3] + \
+    loser_te_position_counter_util = loser_te_position_counter[1] + loser_te_position_counter[2] + loser_te_position_counter[3] + \
                           loser_te_position_counter[4]
-    loser_k_position_counter = loser_k_position_counter[1] + loser_k_position_counter[2] + loser_k_position_counter[3] + loser_k_position_counter[4]
-    loser_other_position_counter = loser_other_position_counter[1] + loser_other_position_counter[2] + loser_other_position_counter[3] + \
+    loser_k_position_counter_util = loser_k_position_counter[1] + loser_k_position_counter[2] + loser_k_position_counter[3] + loser_k_position_counter[4]
+    loser_other_position_counter_util = loser_other_position_counter[1] + loser_other_position_counter[2] + loser_other_position_counter[3] + \
                              loser_other_position_counter[4]
-    print("QBs: " + '\t' + str(loser_qb_position_counter) + '\t' + str((loser_qb_position_counter / 256) * 100 / 4) + '%')
-    print("RBs: " + '\t' + str(loser_rb_position_counter) + '\t' + str((loser_rb_position_counter / 256) * 100 / 4) + '%')
-    print("WRs: " + '\t' + str(loser_wr_position_counter) + '\t' + str((loser_wr_position_counter / 256) * 100 / 4) + '%')
-    print("TEs: " + '\t' + str(loser_te_position_counter) + '\t' + str((loser_te_position_counter / 256) * 100 / 4) + '%')
-    print("Ks: " + '\t' + str(loser_k_position_counter) + '\t' + str((loser_k_position_counter / 256) * 100 / 4) + '%')
-    print("Other: " + '\t' + str(loser_other_position_counter) + '\t' + str((loser_other_position_counter / 256) * 100 / 4) + '%')
-    total_players = loser_qb_position_counter + loser_rb_position_counter + loser_wr_position_counter + loser_te_position_counter + \
-                    loser_k_position_counter + loser_other_position_counter
+    print("QBs: " + '\t' + str(loser_qb_position_counter_util) + '\t' + str((loser_qb_position_counter_util / qb_position_counter_util) * 100) + '%')
+    print("RBs: " + '\t' + str(loser_rb_position_counter_util) + '\t' + str((loser_rb_position_counter_util / rb_position_counter_util) * 100) + '%')
+    print("WRs: " + '\t' + str(loser_wr_position_counter_util) + '\t' + str((loser_wr_position_counter_util / wr_position_counter_util) * 100) + '%')
+    print("TEs: " + '\t' + str(loser_te_position_counter_util) + '\t' + str((loser_te_position_counter_util / te_position_counter_util) * 100) + '%')
+    print("Ks: " + '\t' + str(loser_k_position_counter_util) + '\t' + str((loser_k_position_counter_util / k_position_counter_util) * 100) + '%')
+    print("Other: " + '\t' + str(loser_other_position_counter_util) + '\t' + str((loser_other_position_counter_util / other_position_counter_util) * 100) + '%')
+    total_players = loser_qb_position_counter_util + loser_rb_position_counter_util + loser_wr_position_counter_util + loser_te_position_counter_util + \
+                    loser_k_position_counter_util + loser_other_position_counter_util
     print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
     print('\n\n\n')
 
