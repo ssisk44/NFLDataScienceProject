@@ -45,6 +45,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09192021KCBAL.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09192021KCBAL_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week2\09162021NYGWAS_BEFORE_GAME_permutations.csv">
           <value>
             <Attribute>
@@ -59,21 +73,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09092021DALTB_BEFORE_GAME_permutations.csv">
+        <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week2\09192021KCBAL_BEFORE_GAME_permutations.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09132021BALLV_BEFORE_GAME_permutations.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\Week1\09132021BALLV_BEFORE_GAME_reduced_players.csv">
+        <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week2\09192021KCBAL_BEFORE_GAME_reduced_players.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -94,6 +101,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\10BalNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\11AtlNew.csv">
           <value>
             <Attribute>
@@ -101,7 +115,63 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\11KanLas.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\12KanTam.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\12LasAtl.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\13DenKan.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\13DetChi.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\14KanMia.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\15KanNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\16AtlKan.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\17LosKan.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -185,6 +255,41 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\1PhiWas.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\1PitNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\1SeaAtl.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\1TamNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\1TenDen.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\2AtlDal.csv">
           <value>
             <Attribute>
@@ -206,7 +311,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\2KanLos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\2LosPhi.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\3KanBal.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -220,7 +339,28 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\4NewKan.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\5LasKan.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\6DenNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\6KanBuf.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -235,6 +375,27 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2020\7CarNew.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\7KanDen.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\8NewKan.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\SEASON\2020\9CarKan.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -305,6 +466,13 @@
           </value>
         </entry>
         <entry key="\DFS\top_5_positions_per_contest.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\output_contest_file.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
