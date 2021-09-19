@@ -17,6 +17,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\ANALYSIS\all_top_5_positions_per_contest.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\09122021LARCHI_reduced_players.csv">
           <value>
             <Attribute>
@@ -452,20 +459,6 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\SEASON\2021\1LosWas.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\all_lineups_position_count.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\top_5_positions_per_contest.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
