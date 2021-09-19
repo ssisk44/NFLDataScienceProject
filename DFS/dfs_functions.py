@@ -57,7 +57,7 @@ def main(season):
     createCombos(0, 2021, 2, '09192021KCBAL')
     filterCombosContests()
     countCSVPermutations(filterCombosCombos(2021, 2, '09192021KCBAL'))
-    # returnCSVEntries()
+    returnCSVEntries()
     createAnalysisTables()
     # countLineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv', 'all')
     # countLineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/winner_top_5_positions_per_contest.csv', 'winner')
@@ -273,13 +273,28 @@ def filterCombosCombos(season, week, dateteams):
         if lineup_names[0] not in ('Patrick Mahomes'):
             add_to = False
 
+        if lineup_teams.count('BAL') == 3 and lineup_names.count('Lamar Jackson') == 0:
+            add_to = False
+
         # if salary < 55000:
         #     add_to = False
+        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Devin Duvernay') == 1:
+            add_to = False
+
+        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Demarcus Robinson') == 1 and lineup_names.count('Clyde Edwards-Helaire') == 1:
+            add_to = False
+
+
+        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Demarcus Robinson') == 1 and (lineup_names.count('Latavius Murray') == 1 or lineup_names.count('Devin Duvernay') == 1):
+            add_to = False
+
+        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Latavius Murray') == 1:
+            add_to = False
 
         if lineup_teams.count('BAL') >= 4:
             add_to = False
 
-        if lineup_names.count('Latavius Murray ') == 1 and lineup_names.count('Devin Duvernay ') == 1:
+        if lineup_names.count('Latavius Murray') == 1 and lineup_names.count('Devin Duvernay') == 1:
             add_to = False
 
         if lineup_names[0] != 'Lamar Jackson' and lineup_teams[0] == 'BAL' and 'Lamar Jackson' not in lineup_names:
