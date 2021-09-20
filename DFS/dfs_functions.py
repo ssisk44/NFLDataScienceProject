@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import time, os
 
-file = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/09192021KCBAL_reduced_players.csv'
+file = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/09202021DETGB_reduced_players.csv'
 
 team_abbrev_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 'Buffalo Bills', 'Carolina Panthers',
                     'Chicago Bears', 'Cincinnati Bengals', 'Cleveland Browns', 'Dallas Cowboys', 'Denver Broncos',
@@ -54,9 +54,8 @@ bbref_team_abbrev_dict_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'a
 
 
 def main(season):
-    createCombos(0, 2021, 2, '09192021KCBAL')
-    filterCombosContests()
-    countCSVPermutations(filterCombosCombos(2021, 2, '09192021KCBAL'))
+    createCombos(0, 2021, 2, '09202021DETGB')
+    countCSVPermutations(filterCombosCombos(2021, 2, '09202021DETGB'))
     returnCSVEntries()
     createAnalysisTables()
     # countLineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv', 'all')
@@ -270,55 +269,15 @@ def filterCombosCombos(season, week, dateteams):
 #64108-63186,WR,James,James Proche,Proche,0.15833333134651184,12,5500,KC@BAL,BAL,KC,,,,,,MVP - 1.5X Points/AnyFLEX
 
         #GAME SPECIFIC FILTERS
-        if lineup_names[0] not in ('Patrick Mahomes'):
-            add_to = False
 
-        if lineup_teams.count('BAL') == 3 and lineup_names.count('Lamar Jackson') == 0:
-            add_to = False
-
-        # if salary < 55000:
-        #     add_to = False
-        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Devin Duvernay') == 1:
-            add_to = False
-
-        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Demarcus Robinson') == 1 and lineup_names.count('Clyde Edwards-Helaire') == 1:
-            add_to = False
-
-
-        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Demarcus Robinson') == 1 and (lineup_names.count('Latavius Murray') == 1 or lineup_names.count('Devin Duvernay') == 1):
-            add_to = False
-
-        if lineup_names.count('Mecole Hardman') == 1 and lineup_names.count('Latavius Murray') == 1:
-            add_to = False
-
-        if lineup_teams.count('BAL') >= 4:
-            add_to = False
-
-        if lineup_names.count('Latavius Murray') == 1 and lineup_names.count('Devin Duvernay') == 1:
-            add_to = False
-
-        if lineup_names[0] != 'Lamar Jackson' and lineup_teams[0] == 'BAL' and 'Lamar Jackson' not in lineup_names:
-            add_to = False
-
-        if lineup_names.count('Patrick Mahomes') != lineup_names.count('Clyde Edwards-Helaire') and lineup_names.count('Patrick Mahomes') != lineup_names.count('Tyreek Hill') and lineup_names.count('Patrick Mahomes') != lineup_names.count('Travis Kelce'):
-            add_to = False
-
-        if lineup_names.count('Clyde Edwards-Helaire') == 1 and lineup_names.count('Darrel Williams') == 1:
-            add_to = False
-
-        if lineup_names.count('Latavius Murray') == 1 and lineup_names.count("Ty'Son Williams") == 1:
-            add_to = False
-
-        if wr_counter == 0:
-            add_to = False
 
         #REMOVE NON MVP CHOICES
-        if lineup_names[0] not in ('Patrick Mahomes','Travis Kelce','Tyreek Hill','Clyde Edwards-Helaire','Lamar Jackson','Sammy Watkins','Mark Andrews','Marquise Brown',"Ty'Son Williams"):
-            add_to = False
+        # if lineup_names[0] not in ():
+        #     add_to = False
 
         #GENERAL SINGLE GAME DFS FILTERS
-        # if qb_counter==0 and te_counter>0:
-        #     add_to = False
+        if qb_counter==0 and te_counter>0:
+            add_to = False
 
         if qb_counter==0 or rb_counter >=3 or kicker_counter>=2 or te_counter>=3:
             add_to = False
@@ -333,8 +292,7 @@ def filterCombosCombos(season, week, dateteams):
                                                           header=col)  # ,'Count])
     return list
 def countCSVPermutations(list):
-    array = pd.read_csv(
-        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/09192021KCBAL_reduced_players.csv').to_numpy()
+    array = pd.read_csv(file).to_numpy()
     names = []
 
     def nameIndex(name):
