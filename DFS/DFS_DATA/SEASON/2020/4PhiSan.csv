@@ -1,25 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,George Kittle,TE,0,0,0,8,15,1,183,0,0,0,0,0,0,0,0,0,0,0,32.6
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Carson Wentz,QB,1,193,1,37,0,0,0,1,0,0,0,0,0,0,0,0,0,1,22.42
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Jerick McKinnon,RB,0,0,1,54,7,0,43,0,0,0,0,0,0,0,0,0,0,0,19.2
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Travis Fulgham,WR,0,0,0,0,2,1,57,0,0,0,0,0,0,0,0,0,0,0,12.7
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Brandon Aiyuk,WR,0,0,1,38,2,0,18,0,0,0,0,0,0,0,0,0,0,0,12.6
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Miles Sanders,RB,0,0,0,46,2,0,30,0,0,0,0,0,0,0,0,0,0,0,8.6
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Nick Mullens,QB,1,200,0,0,0,0,0,2,1,0,0,0,0,0,0,0,0,0,8.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Deebo Samuel,wr,0,0,0,10,3,0,35,0,0,0,0,0,0,0,0,0,0,0,6.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Greg Ward,WR,0,0,0,0,4,0,38,0,0,0,0,0,0,0,0,0,0,0,5.8
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,C.J. Beathard,QB,0,138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5.52
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Richard Rodgers,TE,0,0,0,0,3,0,35,0,0,0,0,0,0,0,0,0,0,0,5.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Jake Elliott,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,5.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Zach Ertz,TE,0,0,0,0,4,0,9,0,0,0,0,0,0,0,0,0,0,1,4.9
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Kendrick Bourne,wr,0,0,0,0,3,0,33,0,0,0,0,0,0,0,0,0,0,0,4.8
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,John Hightower,WR,0,0,0,0,2,0,22,0,0,0,0,0,0,0,0,0,0,0,3.2
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Jeff Wilson,RB,0,0,0,6,1,0,13,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Robbie Gould\g,,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Jalen Hurts,QB,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.8
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Kyle Juszczyk,FB,0,0,0,0,1,0,13,0,0,0,0,0,0,0,0,0,0,0,1.8
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Corey Clement,RB,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Boston Scott,RB,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Trent Taylor,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,SFO,Dante Pettis,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,4,Philadelphia EaglesVSan Francisco 49ers,PHI,Adrian Killins,RB,0,0,0,-12,1,0,2,0,0,0,0,0,0,0,0,0,0,0,-0.5
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Teddy Bridgewater,QB,2,276,1,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.24
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kyler Murray,QB,3,133,0,78,0,0,0,0,1,0,0,0,0,0,0,0,0,0,23.12
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Mike Davis,RB1,0,0,1,84,5,0,27,0,0,0,0,0,0,0,0,0,0,0,19.6
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Reggie Bonnafon,RB2,0,0,0,53,2,1,18,0,0,0,0,0,0,0,0,0,0,0,14.1
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Robby Anderson,WR2,0,0,0,0,8,0,99,0,0,0,0,0,0,0,0,0,0,0,13.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Chase Edmonds,RB2,0,0,0,16,5,1,24,0,0,0,0,0,0,0,0,0,0,0,12.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Christian Kirk,WR2,0,0,0,0,3,1,19,0,0,0,0,0,0,0,0,0,0,0,9.4
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,DeAndre Hopkins,WR1,0,0,0,0,7,0,41,0,0,0,0,0,0,0,0,0,0,0,7.6
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Ian Thomas,TE1,0,0,0,0,2,1,5,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,7.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,D.J. Moore,WR1,0,0,0,0,4,0,49,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Jordan Thomas,,0,0,0,0,1,1,3,0,0,0,0,0,0,0,0,0,0,0,6.8
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Curtis Samuel,WR3,0,0,0,-3,3,0,51,0,0,0,0,0,0,0,0,0,0,0,6.3
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Dan Arnold,TE2,0,0,0,0,4,0,39,0,0,0,0,0,0,0,0,0,0,0,5.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kenyan Drake,RB1,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Chris Manhertz,TE2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Seth Roberts,WR4,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Larry Fitzgerald,WR3,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Andy Isabella,WR4,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Alex Armah,FB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

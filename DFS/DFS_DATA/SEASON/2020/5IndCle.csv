@@ -1,26 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Baker Mayfield,QB,2,247,0,17,0,0,0,2,0,0,0,0,0,0,0,0,0,0,17.58
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Kareem Hunt,rb,0,0,0,72,3,1,21,0,0,0,0,0,0,0,0,0,0,0,16.8
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Jonathan Taylor,RB,0,0,1,57,2,0,17,0,0,0,0,0,0,0,0,0,0,0,14.4
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Cody Parkey,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,1,1,0,0,13.0
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Rodrigo Blankenship,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,2,0,0,0,11.0
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Jarvis Landry,WR,0,0,0,0,4,0,88,0,0,0,0,0,0,0,0,0,0,0,10.8
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Rashard Higgins,wr,0,0,0,0,3,1,31,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,5,Indianapolis ColtsVCleveland Browns,IND,T.Y. Hilton,WR,0,0,0,0,6,0,69,0,0,0,0,0,0,0,0,0,0,0,9.9
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Odell Beckham Jr.,WR,0,18,0,-1,5,0,58,0,0,0,0,0,0,0,0,0,0,0,8.92
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Austin Hooper,TE,0,0,0,0,5,0,57,0,0,0,0,0,0,0,0,0,0,0,8.2
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Philip Rivers,QB,0,243,0,-1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,7.62
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Marcus Johnson,WR,0,0,0,0,3,0,53,0,0,0,0,0,0,0,0,0,0,0,6.8
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Isaiah Rodgers,CB,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,6.0
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Trey Burton,TE,0,0,0,0,5,0,33,0,0,0,0,0,0,0,0,0,0,0,5.8
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Ashton Dulin,WR,0,0,0,3,1,0,34,0,0,0,0,0,0,0,0,0,0,0,4.2
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,D'Ernest Johnson,RB,0,0,0,32,1,0,4,0,0,0,0,0,0,0,0,0,0,0,4.1
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Nyheim Hines,RB,0,0,0,8,2,0,22,0,0,0,0,0,0,0,0,0,0,0,4.0
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Zach Pascal,WR,0,0,0,0,2,0,15,0,0,0,0,0,0,0,0,0,0,0,2.5
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,David Njoku,te,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Andy Janovich,FB,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Jordan Wilkins,RB,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Mo Alie-Cox,te,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,5,Indianapolis ColtsVCleveland Browns,IND,Jack Doyle,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Harrison Bryant,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,5,Indianapolis ColtsVCleveland Browns,CLE,Donovan Peoples-Jones,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,5,Arizona CardinalsVNew York Jets,ARI,Kyler Murray,QB,1,380,1,31,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.3
+2020,5,Arizona CardinalsVNew York Jets,ARI,DeAndre Hopkins,WR1,0,0,0,0,6,1,131,0,0,0,0,0,0,0,0,0,0,0,22.1
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Jamison Crowder,WR1,0,0,0,0,8,1,116,0,0,0,0,0,0,0,0,0,0,0,21.6
+2020,5,Arizona CardinalsVNew York Jets,ARI,Chase Edmonds,RB2,0,0,1,36,5,0,56,0,0,0,0,0,0,0,0,0,0,0,17.7
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Joe Flacco,QB,1,195,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13.8
+2020,5,Arizona CardinalsVNew York Jets,ARI,Kenyan Drake,RB1,0,0,1,60,1,0,2,0,0,0,0,0,0,0,0,0,0,0,12.7
+2020,5,Arizona CardinalsVNew York Jets,ARI,Christian Kirk,WR2,0,0,0,0,5,0,78,0,0,0,0,0,0,0,0,0,0,0,10.3
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Le'Veon Bell,RB1,0,0,0,60,1,0,7,0,0,0,0,0,0,0,0,0,0,0,7.2
+2020,5,Arizona CardinalsVNew York Jets,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,7.0
+2020,5,Arizona CardinalsVNew York Jets,ARI,Larry Fitzgerald,WR3,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
+2020,5,Arizona CardinalsVNew York Jets,ARI,Darrell Daniels,TE1,0,0,0,0,2,0,37,0,0,0,0,0,0,0,0,0,0,0,4.7
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Sam Ficken,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,4.0
+2020,5,Arizona CardinalsVNew York Jets,ARI,Andy Isabella,WR4,0,0,0,0,2,0,30,0,0,0,0,0,0,0,0,0,0,0,4.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Jeff Smith,WR4,0,0,0,0,3,0,23,0,0,0,0,0,0,0,0,0,0,0,3.8
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Chris Hogan,,0,0,0,0,3,0,20,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Chris Herndon,TE1,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Frank Gore,RB2,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Braxton Berrios,WR3,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,5,Arizona CardinalsVNew York Jets,ARI,Trent Sherfield,,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,5,Arizona CardinalsVNew York Jets,ARI,KeeSean Johnson,S1,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Trevon Wesco,FB,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,La'Mical Perine,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

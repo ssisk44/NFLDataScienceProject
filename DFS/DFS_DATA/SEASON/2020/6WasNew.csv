@@ -1,24 +1,22 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,6,Washington Football TeamVNew York Giants,WAS,Kyle Allen,QB,2,280,0,8,0,0,0,1,1,0,0,0,0,0,0,0,0,0,17.0
-2020,6,Washington Football TeamVNew York Giants,NYG,Daniel Jones,QB,1,112,0,74,0,0,0,1,0,0,0,0,0,0,0,0,0,0,14.88
-2020,6,Washington Football TeamVNew York Giants,WAS,Logan Thomas,TE,0,0,0,0,3,1,42,0,0,0,0,0,0,0,0,0,0,0,11.7
-2020,6,Washington Football TeamVNew York Giants,WAS,J.D. McKissic,rb,0,0,0,41,6,0,43,0,0,0,0,0,0,0,0,0,0,0,11.4
-2020,6,Washington Football TeamVNew York Giants,WAS,Terry McLaurin,WR,0,0,0,0,7,0,74,0,0,0,0,0,0,0,0,0,0,0,10.9
-2020,6,Washington Football TeamVNew York Giants,NYG,Darius Slayton,WR,0,0,0,-3,2,1,41,0,0,0,0,0,0,0,0,0,0,0,10.8
-2020,6,Washington Football TeamVNew York Giants,WAS,Cam Sims,WR,0,0,0,0,1,1,22,0,0,0,0,0,0,0,0,0,0,0,8.7
-2020,6,Washington Football TeamVNew York Giants,NYG,Graham Gano,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,1,0,0,0,8.0
-2020,6,Washington Football TeamVNew York Giants,WAS,Antonio Gibson,RB,0,0,0,30,4,0,25,0,0,0,0,0,0,0,0,0,0,0,7.5
-2020,6,Washington Football TeamVNew York Giants,WAS,Dontrelle Inman,WR,0,0,0,0,5,0,45,0,0,0,0,0,0,0,0,0,0,0,7.0
-2020,6,Washington Football TeamVNew York Giants,WAS,Dustin Hopkins,K,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,7.0
-2020,6,Washington Football TeamVNew York Giants,NYG,Devonta Freeman,RB,0,0,0,61,1,0,-4,0,0,0,0,0,0,0,0,0,0,0,6.2
-2020,6,Washington Football TeamVNew York Giants,WAS,Isaiah Wright,wr,0,0,0,1,4,0,25,0,0,0,0,0,0,0,0,0,0,0,4.6
-2020,6,Washington Football TeamVNew York Giants,NYG,Evan Engram,TE,0,0,0,0,2,0,30,0,0,0,0,0,0,0,0,0,0,0,4.0
-2020,6,Washington Football TeamVNew York Giants,NYG,Kaden Smith,TE,0,0,0,0,3,0,15,0,0,0,0,0,0,0,0,0,0,0,3.0
-2020,6,Washington Football TeamVNew York Giants,NYG,Golden Tate,WR,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
-2020,6,Washington Football TeamVNew York Giants,WAS,Peyton Barber,RB,0,0,0,6,1,0,4,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,6,Washington Football TeamVNew York Giants,NYG,Dion Lewis,RB,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,6,Washington Football TeamVNew York Giants,NYG,C.J. Board,WR,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.3
-2020,6,Washington Football TeamVNew York Giants,NYG,Austin Mack,WR,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0.6
-2020,6,Washington Football TeamVNew York Giants,WAS,Antonio Gandy-Golden,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,6,Washington Football TeamVNew York Giants,WAS,Danny Johnson,CB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,6,Washington Football TeamVNew York Giants,NYG,Corey Ballentine,CB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Kyler Murray,QB,2,188,1,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28.92
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Kenyan Drake,RB1,0,0,2,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28.4
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Christian Kirk,WR2,0,0,0,0,2,2,86,0,0,0,0,0,0,0,0,0,0,0,21.6
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Amari Cooper,WR1,0,0,0,0,7,1,79,0,0,0,0,0,0,0,0,0,0,0,17.4
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Andy Dalton,QB,1,266,0,4,0,0,0,2,0,0,0,0,0,0,0,0,0,0,13.04
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,CeeDee Lamb,WR3,0,0,0,0,7,0,64,0,0,0,0,0,0,0,0,0,0,0,9.9
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,DeAndre Hopkins,WR1,0,0,0,0,2,0,73,0,0,0,0,0,0,0,0,0,0,0,8.3
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,5,0,1,0,0,0,0,8.0
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Ezekiel Elliott,RB1,0,0,0,49,8,0,31,0,2,0,0,0,0,0,0,0,0,0,8.0
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Dalton Schultz,TE1,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Tony Pollard,RB2,0,0,0,31,2,0,9,0,0,0,0,0,0,0,0,0,0,0,5.0
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Greg Zuerlein,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,4.0
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Larry Fitzgerald,WR3,0,0,0,0,3,0,22,0,0,0,0,0,0,0,0,0,0,0,3.7
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Chase Edmonds,RB2,0,0,0,23,1,0,6,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Michael Gallup,WR2,0,0,0,0,2,0,23,0,0,0,0,0,0,0,0,0,0,0,3.3
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Noah Brown,,0,0,0,0,2,0,15,0,0,0,0,0,0,0,0,0,0,0,2.5
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Cedrick Wilson Jr.,WR4,0,0,0,0,2,0,10,0,0,0,0,0,0,0,0,0,0,0,2.0
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Rico Dowdle,,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Darrell Daniels,TE1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0.6
+2020,6,Arizona CardinalsVDallas Cowboys,ARI,Andy Isabella,WR4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,6,Arizona CardinalsVDallas Cowboys,DAL,Blake Bell,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

@@ -54,19 +54,21 @@ bbref_team_abbrev_dict_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'a
 
 
 def main(season):
-    createCombos(0, 2021, 2, '09202021DETGB')
-    countCSVPermutations(filterCombosCombos(2021, 2, '09202021DETGB'))
-    returnCSVEntries()
-    createAnalysisTables()
-    # countLineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv', 'all')
-    # countLineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/winner_top_5_positions_per_contest.csv', 'winner')
-    # countLineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/loser_top_5_positions_per_contest.csv', 'loser')
+    None
+    # create_Combos(0, 2021, 2, '09202021DETGB')
+    # count_CSV_Permutations(filter_Combos_Combos(2021, 2, '09202021DETGB'))
+    # return_CSV_Entries()
+    # create_Analysis_Tables()
+    # count_Lineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv', 'all')
+    # count_Lineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/winner_top_5_positions_per_contest.csv', 'winner')
+    # count_Lineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/loser_top_5_positions_per_contest.csv', 'loser')
+
 
 
 
 
 ##### CONTEST PERMUTATION CREATION #####
-def createCombos(min_points_for_players_in_lineup, season, week, dateteams):
+def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
     array = pd.read_csv(file).to_numpy()
 
     # sorts by predicted FPPG
@@ -165,7 +167,7 @@ def createCombos(min_points_for_players_in_lineup, season, week, dateteams):
     pd.DataFrame(permutationsarr).to_csv(
          'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
             week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv', index=False, header=headers)
-def filterCombosContests():
+def filter_Combos_Contests():
     array = pd.read_csv(
         'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv').to_numpy()
     print("Initial Length: " + str(len(array)))
@@ -211,7 +213,7 @@ def filterCombosContests():
         if add_to == True:
             list.append(array[i])
     print("Length after removal: " + str(len(list)) + " *******Deprecated*******")
-def filterCombosCombos(season, week, dateteams):
+def filter_Combos_Combos(season, week, dateteams):
     array = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
         week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv')
     col = array.columns
@@ -291,7 +293,7 @@ def filterCombosCombos(season, week, dateteams):
     pd.DataFrame(list).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv', index=False,
                                                           header=col)  # ,'Count])
     return list
-def countCSVPermutations(list):
+def count_CSV_Permutations(list):
     array = pd.read_csv(file).to_numpy()
     names = []
 
@@ -311,7 +313,7 @@ def countCSVPermutations(list):
                 names[nameIndex(list[i][j])][2] += 1
 
     print(pd.DataFrame(names, columns=['Name','MVPs','UTILs']))
-def returnCSVEntries():
+def return_CSV_Entries():
     this_list = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv').to_numpy()
     ret_list = []
     for i in range(0,len(this_list)):
@@ -321,7 +323,7 @@ def returnCSVEntries():
 
 
 ##### DATA PIPELINE #####
-def box_score_retrieval(season):
+def get_Box_Scores(season):
     get_Season_Schedule(season)
     schedule = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/'+str(season)+'NFLScheduleAndResults.csv').to_numpy()
     game_count = 0
@@ -329,7 +331,7 @@ def box_score_retrieval(season):
         if game_count <= 255 and 1 <= int(schedule[game][0]) <= 17: ############CHANGE BACK TO 17
             game_count += 1
 
-            index = list(bbref_team_abbrev_dict_2021.keys()).index(defineHomeTeam(schedule[game][4], schedule[game][6], schedule[game][5]))
+            index = list(bbref_team_abbrev_dict_2021.keys()).index(define_Home_Team(schedule[game][4], schedule[game][6], schedule[game][5]))
             teamcode = list(bbref_team_abbrev_dict_2021.values())[index]
 
             #make game links and get stats with them
@@ -340,7 +342,7 @@ def box_score_retrieval(season):
 
             file_found = False
             for file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'):
-                checkfile = (str(game[0])+str(defineAwayTeam(game[4], game[6], game[5]))[0:3]+str(defineHomeTeam(game[4], game[6], game[5]))[0:3]+'.csv')
+                checkfile = (str(game[0]) + str(define_Away_Team(game[4], game[6], game[5]))[0:3] + str(define_Home_Team(game[4], game[6], game[5]))[0:3] + '.csv')
                 if file == checkfile:
                     file_found = True
                     break
@@ -607,22 +609,14 @@ def get_Player_Stats(PRR, PR_KR, K, TWOPC_FG, game, season):
 
     player_data = pd.DataFrame(columns=col).to_numpy()
     for player in range(0,len(names)):
-
-        def getPlayerCode(name):
-            for record in range(0, len(stats)):
-                this_name = str(str(stats[record][0]).split('\\')[0].replace('+',''))
-                this_name = str(this_name.replace('*',''))
-                code = str(str(stats[record][0]).split('\\')[1])
-                if name == this_name:
-                    return code
         entry = []
         entry.append(season)
         entry.append(game[0])
-        entry.append(str(defineAwayTeam(game[4], game[6], game[5]))+'V'+str(defineHomeTeam(game[4], game[6], game[5])))
+        entry.append(str(define_Away_Team(game[4], game[6], game[5])) + 'V' + str(define_Home_Team(game[4], game[6], game[5])))
         entry.append(get_team(stats,names[player]))
         entry.append(names[player])
         entry.append(codes[player])
-        entry.append(checkPlayerPosition(season,getPlayerCode(names[player])))
+        entry.append('')
 
         P = getPRRStats(PRR_stats,names[player])
         entry.append(P[0])
@@ -651,191 +645,22 @@ def get_Player_Stats(PRR, PR_KR, K, TWOPC_FG, game, season):
         points = lineup_scoring(entry)
         entry.append(points)
         player_data = np.vstack([player_data, entry])
-    pd.DataFrame(player_data).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'+str(game[0])+str(defineAwayTeam(game[4], game[6], game[5]))[0:3]+str(defineHomeTeam(game[4], game[6], game[5]))[0:3]+'.csv', index=False, header=col)
-def defineHomeTeam(winner, loser, value):  # value = @ of matchup, returns home team
+    pd.DataFrame(player_data).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) +'/' + str(game[0]) + str(define_Away_Team(game[4], game[6], game[5]))[0:3] + str(define_Home_Team(game[4], game[6], game[5]))[0:3] + '.csv', index=False, header=col)
+def define_Home_Team(winner, loser, value):  # value = @ of matchup, returns home team
     if str(value) == '@':
         return loser
     else:
         return winner
-def defineAwayTeam(winner, loser, value):  # value = @ of matchup, returns away team
+def define_Away_Team(winner, loser, value):  # value = @ of matchup, returns away team
     if str(value) == '@':
         return winner
     else:
         return loser
-def createPlayerDatabase(season):
-    player_db = []
-    for team in team_abbrev_list:
-        keys = list(bbref_team_abbrev_dict_2021.keys())
-        values = list(bbref_team_abbrev_dict_2021.values())
-        link = 'https://www.pro-football-reference.com/teams/'+values[keys.index(team)]+'/'+str(season)+'_roster.htm'
-        chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
-        os.environ["webdriver.chrome.driver"] = chromedriver
-        try:
-            driver = webdriver.Chrome(chromedriver)
-            driver.maximize_window()
-            driver.get(link)
-            time.sleep(2)
-            e1 = driver.find_element_by_xpath('/html/body/div[2]/div[5]/div[3]/div[1]/div/ul/li[2]/span')
-            driver.execute_script("arguments[0].scrollIntoView();", e1)
-            e2 = driver.find_element_by_xpath('/html/body/div[2]/div[5]/div[3]/div[1]/div/ul/li[2]/div/ul/li[4]/button')
-            action = ActionChains(driver)
-            time.sleep(2)
-            action.move_to_element(e1).perform()
-            action.move_to_element(e2).click().perform()
-            time.sleep(2)
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            crude = pd.DataFrame([soup.find('pre', id='csv_games_played_team')]).to_numpy()
-            arr = crude[0][2].split('\n')
-            arr.remove('')
-            newarr = []
-            for i in range(0, len(arr)-1):
-                if arr[i][0] != '':
-                    newarr.append(arr[i].split(','))
-            newarr = newarr[1:]
-            driver.close()
-
-
-            for entry in range(0,len(newarr)):
-                newestarr_entry = []
-                this_name = str(str(newarr[entry][1]).split('\\')[0].replace('+', ''))
-                this_name = str(this_name.replace('*', ''))
-                code = str(str(newarr[entry][1]).split('\\')[1])
-                newestarr_entry.append(this_name)
-                newestarr_entry.append(code)
-                newestarr_entry.append(newarr[entry][3])
-                player_db.append(newestarr_entry)
-
-            pd.DataFrame(player_db).to_csv(
-                '/DFS/DFS_DATA/DFS_FILES/0_players_db.csv',
-                index=False, header=['Name', 'Football-Ref-Code', 'Position'])
-
-        except:
-            driver = webdriver.Chrome(chromedriver)
-            driver.maximize_window()
-            driver.get(link)
-            time.sleep(2)
-            e1 = driver.find_element_by_xpath('/html/body/div[2]/div[5]/div[3]/div[1]/div/ul/li[2]/span')
-            driver.execute_script("arguments[0].scrollIntoView();", e1)
-            e2 = driver.find_element_by_xpath('/html/body/div[2]/div[5]/div[3]/div[1]/div/ul/li[2]/div/ul/li[4]/button')
-            action = ActionChains(driver)
-            time.sleep(2)
-            action.move_to_element(e1).perform()
-            action.move_to_element(e2).click().perform()
-            time.sleep(2)
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            crude = pd.DataFrame([soup.find('pre', id='csv_games_played_team')]).to_numpy()
-            arr = crude[0][2].split('\n')
-            arr.remove('')
-            newarr = []
-            for i in range(0, len(arr) - 1):
-                if arr[i][0] != '':
-                    newarr.append(arr[i].split(','))
-            newarr = newarr[1:]
-            driver.close()
-
-            for entry in range(0, len(newarr)):
-                newestarr_entry = []
-                this_name = str(str(newarr[entry][1]).split('\\')[0].replace('+', ''))
-                this_name = str(this_name.replace('*', ''))
-                code = str(str(newarr[entry][1]).split('\\')[1])
-                newestarr_entry.append(this_name)
-                newestarr_entry.append(code)
-                newestarr_entry.append(newarr[entry][3])
-                player_db.append(newestarr_entry)
-
-            pd.DataFrame(player_db).to_csv(
-                'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/0_players_db.csv',
-                index=False, header=['Name', 'Football-Ref-Code', 'Position'])
-def checkPlayerPosition(season,name_code):
-    exists = False
-    for file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/'):
-        checkfile = '0_players_db.csv'
-        if file == checkfile:
-            exists = True
-
-    if exists == False:
-        createPlayerDatabase(season) #just one overall no season so this check doesnt work
-
-    file = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/0_players_db.csv'
-    df = pd.read_csv(file)
-    arr = df.to_numpy()
-    for entry in range(0, len(arr)):
-        if str(arr[entry][2]) == 'nan' and str(name_code) == str(arr[entry][1]):
-            link = 'https://www.pro-football-reference.com/players/' + str(arr[entry][1])[0] + '/' + str(arr[entry][1]) + '.htm'
-            chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
-            os.environ["webdriver.chrome.driver"] = chromedriver
-            driver = webdriver.Chrome(chromedriver)
-            driver.get(link)
-            not_found = False
-            e = None
-            try:
-                e = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[1]/div[2]/p[2]')
-            except:
-                not_found=True
-            if not_found == True:
-                 e = driver.find_element_by_xpath('/html/body/div[2]/div[2]/div[1]/div/p[2]')
-
-            error = False
-            index = ''
-            position = 'error'
-            try:
-                index = (e.text).index(':')
-                position = (e.text[index + 1:]).replace(' ', '')
-            except:
-                pass
-            arr[entry][2] = position
-            driver.close()
-            pd.DataFrame(arr).to_csv(file, index=False, header=['Name', 'Football-Ref-Code', 'Position'])
-            return str(position)
-
-        elif str(arr[entry][2]) != 'nan' and str(name_code) == str(arr[entry][1]):
-            return str(arr[entry][2])
 ##############################
 
 
 ##### DATA ANALYSIS #####
-def cleanAndSortSeasonPositions(season):
-    counter = 0
-    for file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'):
-        counter += 1
-        df = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/' + file)
-        col = df.columns
-        df.sort_values(by=['Fantasy Points'], inplace=True, ascending=False)
-        arr = df.to_numpy()
-        for entry in range(0, len(arr)):
-            if 'QB' in str(arr[entry][5]) or 'RB' in str(arr[entry][5]) or 'TE' in str(arr[entry][5]) or 'WR' in str(
-                    arr[entry][5]):
-                arr[entry][5] = str(arr[entry][5])[0:2]
-            elif 'K' in str(arr[entry][5]):
-                pass
-            else:
-                arr[entry][5] = 'error'
-        pd.DataFrame(arr).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/' + file, index=False, header=col)
-
-    print("Total files:" + str(counter))
-def updatePlayerPositionsInContestsFromDB(season):
-    def getPlayerfromDB(code):
-        None
-
-    counter = 0
-    for directory in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'):
-        for file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + directory + '/'):
-            counter += 1
-            df = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/' + file)
-            col = df.columns
-            arr = df.to_numpy()
-            for entry in range(0, len(arr)):
-                if 'QB' in str(arr[entry][5]) or 'RB' in str(arr[entry][5]) or 'TE' in str(arr[entry][5]) or 'WR' in str(
-                        arr[entry][5]):
-                    arr[entry][5] = str(arr[entry][5])[0:2]
-                elif 'K' in str(arr[entry][5]):
-                    pass
-                else:
-                    arr[entry][5] = 'error'
-            pd.DataFrame(arr).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/' + file, index=False, header=col)
-
-    print("Total files:" + str(counter))
-def createAnalysisTables():
+def create_Analysis_Tables():
     game_teams_dict_2020 = {'Arizona Cardinals': 'ARI', 'Atlanta Falcons': 'ATL', 'Baltimore Ravens': 'BAL',
                     'Buffalo Bills': 'BUF', 'Carolina Panthers': 'CAR',
                     'Chicago Bears': 'CHI', 'Cincinnati Bengals': 'CIN', 'Cleveland Browns': 'CLE',
@@ -1107,7 +932,7 @@ def createAnalysisTables():
     pd.DataFrame(LOSER_distinct_positional_combinations).to_csv(
         'DFS_DATA/ANALYSIS/loser_top_5_positions_per_contest.csv', index=False,
         header=['1st', '2nd', '3rd', '4th', '5th'])
-def countLineups(file,type):
+def count_Lineups(file,type):
     df = pd.read_csv(file)
     table = df.to_numpy()
     lineups = []

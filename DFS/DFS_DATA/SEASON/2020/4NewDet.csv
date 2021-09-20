@@ -1,25 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,4,New Orleans SaintsVDetroit Lions,DET,Matthew Stafford,QB,3,206,0,21,0,0,0,1,0,0,0,0,0,0,0,0,0,1,23.34
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Latavius Murray,rb,0,0,2,64,1,0,19,0,0,0,0,0,0,0,0,0,0,0,20.8
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Tre'Quan Smith,WR,0,0,0,0,4,2,54,0,0,0,0,0,0,0,0,0,0,0,19.4
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Alvin Kamara,RB,0,0,1,83,3,0,36,0,0,0,0,0,0,0,0,0,0,0,19.4
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Drew Brees,QB,2,246,0,-3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,16.54
-2020,4,New Orleans SaintsVDetroit Lions,DET,Kenny Golladay,WR,0,0,0,0,4,1,62,0,0,0,0,0,0,0,0,0,0,0,14.2
-2020,4,New Orleans SaintsVDetroit Lions,DET,D'Andre Swift,RB,0,0,0,22,4,1,30,0,0,0,0,0,0,0,0,0,0,0,13.2
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Emmanuel Sanders,WR,0,0,0,0,6,0,93,0,0,0,0,0,0,0,0,0,0,0,12.3
-2020,4,New Orleans SaintsVDetroit Lions,DET,T.J. Hockenson,TE,0,0,0,0,2,1,9,0,0,0,0,0,0,0,0,0,0,1,9.9
-2020,4,New Orleans SaintsVDetroit Lions,DET,Adrian Peterson,RB,0,0,1,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9.6
-2020,4,New Orleans SaintsVDetroit Lions,DET,Danny Amendola,wr,0,0,0,0,2,0,57,0,0,0,0,0,0,0,0,0,0,0,6.7
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Wil Lutz,K,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5.0
-2020,4,New Orleans SaintsVDetroit Lions,DET,Jesse James,TE,0,0,0,0,1,0,31,0,0,0,0,0,0,0,0,0,0,0,3.6
-2020,4,New Orleans SaintsVDetroit Lions,DET,Matt Prater,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Deonte Harris,WR,0,0,0,10,1,0,10,0,0,0,0,0,0,0,0,0,0,0,2.5
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Marquez Callaway,WR,0,0,0,0,1,0,16,0,0,0,0,0,0,0,0,0,0,0,2.1
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Taysom Hill,WR,0,0,0,6,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.9
-2020,4,New Orleans SaintsVDetroit Lions,DET,Kerryon Johnson,RB,0,0,0,9,1,0,3,0,0,0,0,0,0,0,0,0,0,0,1.7
-2020,4,New Orleans SaintsVDetroit Lions,DET,Marvin Jones,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Michael Burton,FB,0,0,0,4,1,0,3,0,0,0,0,0,0,0,0,0,0,0,1.2
-2020,4,New Orleans SaintsVDetroit Lions,NOR,Josh Hill,te,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
-2020,4,New Orleans SaintsVDetroit Lions,DET,Jason Cabinda,ILB,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0.9
-2020,4,New Orleans SaintsVDetroit Lions,DET,Jamal Agnew,WR,0,0,0,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0.8
-2020,4,New Orleans SaintsVDetroit Lions,DET,Marvin Hall,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Teddy Bridgewater,QB,2,276,1,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.24
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kyler Murray,QB,3,133,0,78,0,0,0,0,1,0,0,0,0,0,0,0,0,0,23.12
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Mike Davis,RB1,0,0,1,84,5,0,27,0,0,0,0,0,0,0,0,0,0,0,19.6
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Reggie Bonnafon,RB2,0,0,0,53,2,1,18,0,0,0,0,0,0,0,0,0,0,0,14.1
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Robby Anderson,WR2,0,0,0,0,8,0,99,0,0,0,0,0,0,0,0,0,0,0,13.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Chase Edmonds,RB2,0,0,0,16,5,1,24,0,0,0,0,0,0,0,0,0,0,0,12.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Christian Kirk,WR2,0,0,0,0,3,1,19,0,0,0,0,0,0,0,0,0,0,0,9.4
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,DeAndre Hopkins,WR1,0,0,0,0,7,0,41,0,0,0,0,0,0,0,0,0,0,0,7.6
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Ian Thomas,TE1,0,0,0,0,2,1,5,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,7.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,D.J. Moore,WR1,0,0,0,0,4,0,49,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Jordan Thomas,,0,0,0,0,1,1,3,0,0,0,0,0,0,0,0,0,0,0,6.8
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Curtis Samuel,WR3,0,0,0,-3,3,0,51,0,0,0,0,0,0,0,0,0,0,0,6.3
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Dan Arnold,TE2,0,0,0,0,4,0,39,0,0,0,0,0,0,0,0,0,0,0,5.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kenyan Drake,RB1,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Chris Manhertz,TE2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Seth Roberts,WR4,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Larry Fitzgerald,WR3,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Andy Isabella,WR4,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Alex Armah,FB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

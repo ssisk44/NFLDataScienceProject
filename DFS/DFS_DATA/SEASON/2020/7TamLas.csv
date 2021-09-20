@@ -1,26 +1,22 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Tom Brady,QB,4,369,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36.86
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Derek Carr,QB,2,284,0,19,0,0,0,1,0,0,0,0,0,0,0,0,0,0,20.26
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Scott Miller,WR,0,0,0,0,6,1,109,0,0,0,0,0,0,0,0,0,0,0,19.9
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Chris Godwin,WR,0,0,0,0,9,1,88,0,0,0,0,0,0,0,0,0,0,0,19.3
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Nelson Agholor,WR,0,0,0,0,5,1,107,0,0,0,0,0,0,0,0,0,0,0,19.2
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Rob Gronkowski,TE,0,0,0,0,5,1,62,0,0,0,0,0,0,0,0,0,0,0,14.7
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Darren Waller,TE,0,0,0,0,6,1,50,0,0,0,0,0,0,0,0,0,0,0,14.0
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Leonard Fournette,RB,0,0,0,50,6,0,47,0,0,0,0,0,0,0,0,0,0,0,12.7
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Ronald Jones II,RB,0,0,1,34,1,0,2,0,0,0,0,0,0,0,0,0,0,0,10.1
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Ryan Succop,K,0,0,0,0,0,0,0,0,0,0,0,6,0,1,0,0,0,0,9.0
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Daniel Carlson,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0,0,9.0
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Tyler Johnson,WR,0,0,0,0,2,1,4,0,0,0,0,0,0,0,0,0,0,0,7.4
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Hunter Renfrow,wr,0,0,0,0,4,0,42,0,0,0,0,0,0,0,0,0,0,0,6.2
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Henry Ruggs III,WR,0,0,0,10,2,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Mike Evans,WR,0,0,0,0,2,0,37,0,0,0,0,0,0,0,0,0,0,0,4.7
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Josh Jacobs,RB,0,0,0,17,3,0,14,0,0,0,0,0,0,0,0,0,0,0,4.6
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Alec Ingold,FB,0,0,0,0,1,0,21,0,0,0,0,0,0,0,0,0,0,0,2.6
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Jalen Richard,RB,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Devontae Booker,RB,0,0,0,5,2,0,9,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Tanner Hudson,TE,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Cameron Brate,TE,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.3
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Jason Witten,TE,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Jeff Heath,fs,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,LVR,Rico Gafford,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,7,Tampa Bay BuccaneersVLas Vegas Raiders,TAM,Jaydon Mickens,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Buffalo BillsVNew York Jets,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,1,0,23.0
+2020,7,Buffalo BillsVNew York Jets,BUF,Cole Beasley,WR2,0,0,0,0,11,0,112,0,0,0,0,0,0,0,0,0,0,0,16.7
+2020,7,Buffalo BillsVNew York Jets,BUF,Josh Allen,QB,0,307,0,61,0,0,0,0,1,0,0,0,0,0,0,0,0,0,16.38
+2020,7,Buffalo BillsVNew York Jets,NYJ,La'Mical Perine,RB2,0,0,1,40,2,0,16,0,0,0,0,0,0,0,0,0,0,0,12.6
+2020,7,Buffalo BillsVNew York Jets,BUF,Zack Moss,RB2,0,0,0,47,3,0,25,0,0,0,0,0,0,0,0,0,0,0,8.7
+2020,7,Buffalo BillsVNew York Jets,BUF,Tyler Kroft,TE1,0,0,0,0,4,0,64,0,0,0,0,0,0,0,0,0,0,0,8.4
+2020,7,Buffalo BillsVNew York Jets,BUF,Stefon Diggs,WR1,0,0,0,0,6,0,48,0,0,0,0,0,0,0,0,0,0,0,7.8
+2020,7,Buffalo BillsVNew York Jets,NYJ,Denzel Mims,WR1,0,0,0,0,4,0,42,0,0,0,0,0,0,0,0,0,0,0,6.2
+2020,7,Buffalo BillsVNew York Jets,NYJ,Frank Gore,RB1,0,0,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.0
+2020,7,Buffalo BillsVNew York Jets,BUF,Devin Singletary,RB1,0,0,0,29,2,0,18,0,0,0,0,0,0,0,0,0,0,0,5.7
+2020,7,Buffalo BillsVNew York Jets,NYJ,Braxton Berrios,WR2,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
+2020,7,Buffalo BillsVNew York Jets,NYJ,Sergio Castillo,K,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,4.0
+2020,7,Buffalo BillsVNew York Jets,NYJ,Breshad Perriman,,0,0,0,0,2,0,27,0,0,0,0,0,0,0,0,0,0,0,3.7
+2020,7,Buffalo BillsVNew York Jets,NYJ,Sam Darnold,QB,0,120,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,2.8
+2020,7,Buffalo BillsVNew York Jets,BUF,Reggie Gilliam,TE2,0,0,0,0,1,0,15,0,0,0,0,0,0,0,0,0,0,0,2.0
+2020,7,Buffalo BillsVNew York Jets,BUF,Gabriel Davis,WR4,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,7,Buffalo BillsVNew York Jets,BUF,Isaiah McKenzie,WR3,0,0,0,-11,2,0,14,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,7,Buffalo BillsVNew York Jets,NYJ,Jeff Smith,WR3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Buffalo BillsVNew York Jets,NYJ,Trevon Wesco,FB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Buffalo BillsVNew York Jets,BUF,Andre Roberts,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Buffalo BillsVNew York Jets,NYJ,Ty Johnson,S1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

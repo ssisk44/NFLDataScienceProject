@@ -1,25 +1,22 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,1,Chicago BearsVDetroit Lions,CHI,Mitchell Trubisky,QB,3,242,0,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24.28
-2020,1,Chicago BearsVDetroit Lions,DET,Matthew Stafford,QB,1,297,0,23,0,0,0,1,0,0,0,0,0,0,0,0,0,0,17.18
-2020,1,Chicago BearsVDetroit Lions,CHI,Anthony Miller,WR,0,0,0,0,4,1,76,0,0,0,0,0,0,0,0,0,0,0,15.6
-2020,1,Chicago BearsVDetroit Lions,DET,T.J. Hockenson,TE,0,0,0,0,5,1,56,0,0,0,0,0,0,0,0,0,0,0,14.1
-2020,1,Chicago BearsVDetroit Lions,DET,Adrian Peterson,RB,0,0,0,93,3,0,21,0,0,0,0,0,0,0,0,0,0,0,12.9
-2020,1,Chicago BearsVDetroit Lions,DET,Matt Prater,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,1,1,0,0,12.0
-2020,1,Chicago BearsVDetroit Lions,DET,Danny Amendola,wr,0,0,0,0,5,0,81,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,1,Chicago BearsVDetroit Lions,CHI,Jimmy Graham,TE,0,0,0,0,3,1,25,0,0,0,0,0,0,0,0,0,0,0,10.0
-2020,1,Chicago BearsVDetroit Lions,CHI,Allen Robinson,WR,0,0,0,-1,5,0,74,0,0,0,0,0,0,0,0,0,0,0,9.8
-2020,1,Chicago BearsVDetroit Lions,DET,D'Andre Swift,RB,0,0,1,8,3,0,15,0,0,0,0,0,0,0,0,0,0,0,9.8
-2020,1,Chicago BearsVDetroit Lions,CHI,Cairo Santos,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,1,0,0,0,9.0
-2020,1,Chicago BearsVDetroit Lions,CHI,David Montgomery,RB,0,0,0,64,1,0,10,0,0,0,0,0,0,0,0,0,0,0,7.9
-2020,1,Chicago BearsVDetroit Lions,DET,Marvin Jones,WR,0,0,0,0,4,0,55,0,0,0,0,0,0,0,0,0,0,0,7.5
-2020,1,Chicago BearsVDetroit Lions,CHI,Javon Wims,WR,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,6.6
-2020,1,Chicago BearsVDetroit Lions,DET,Quintez Cephus,WR,0,0,0,0,3,0,43,0,0,0,0,0,0,0,0,0,0,0,5.8
-2020,1,Chicago BearsVDetroit Lions,CHI,Tarik Cohen,RB,0,0,0,41,2,0,6,0,0,0,0,0,0,0,0,0,0,0,5.7
-2020,1,Chicago BearsVDetroit Lions,CHI,Darnell Mooney,WR,0,0,0,0,3,0,38,0,0,0,0,0,0,0,0,0,0,0,5.3
-2020,1,Chicago BearsVDetroit Lions,CHI,Cordarrelle Patterson,WR,0,0,0,19,1,0,12,0,0,0,0,0,0,0,0,0,0,0,3.6
-2020,1,Chicago BearsVDetroit Lions,DET,Marvin Hall,WR,0,0,0,0,1,0,26,0,0,0,0,0,0,0,0,0,0,0,3.1
-2020,1,Chicago BearsVDetroit Lions,DET,Kerryon Johnson,RB,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,1,Chicago BearsVDetroit Lions,CHI,Ted Ginn Jr.,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,1,Chicago BearsVDetroit Lions,CHI,Demetrius Harris,te,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,1,Chicago BearsVDetroit Lions,CHI,Cole Kmet,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,1,Chicago BearsVDetroit Lions,DET,Jamal Agnew,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Kyler Murray,QB,1,230,1,91,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.3
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Raheem Mostert,RB1,0,0,0,56,4,1,95,0,0,0,0,0,0,0,0,0,0,0,23.1
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,DeAndre Hopkins,WR1,0,0,0,0,14,0,151,0,0,0,0,0,0,0,0,0,0,0,22.1
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Jimmy Garoppolo,QB,2,259,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19.26
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Kenyan Drake,RB1,0,0,1,60,2,0,5,0,0,0,0,0,0,0,0,0,0,0,13.5
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Chase Edmonds,RB2,0,0,0,26,3,1,19,0,0,0,0,0,0,0,0,0,0,0,12.0
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Jerick McKinnon,,0,0,0,24,3,1,20,0,0,0,0,0,0,0,0,0,0,0,11.9
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,8.0
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,George Kittle,TE1,0,0,0,9,4,0,44,0,0,0,0,0,0,0,0,0,0,0,7.3
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Larry Fitzgerald,WR2,0,0,0,0,4,0,34,0,0,0,0,0,0,0,0,0,0,0,5.4
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Kyle Juszczyk,FB,0,0,0,7,1,0,41,0,0,0,0,0,0,0,0,0,0,0,5.3
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Kendrick Bourne,WR1,0,0,0,0,2,0,34,0,0,0,0,0,0,0,0,0,0,0,4.4
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Dan Arnold,,0,0,0,0,2,0,21,0,0,0,0,0,0,0,0,0,0,0,3.1
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Tevin Coleman,RB2,0,0,0,18,1,0,6,0,0,0,0,0,0,0,0,0,0,0,2.9
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Jordan Reed,TE2,0,0,0,0,2,0,12,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Robbie Gould\g,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Trent Taylor,WR2,0,0,0,0,2,0,7,0,0,0,0,0,0,0,0,0,0,0,1.7
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Christian Kirk,WR3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Chris Streveler,,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
+2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Maxx Williams,TE1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Dante Pettis,WR3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

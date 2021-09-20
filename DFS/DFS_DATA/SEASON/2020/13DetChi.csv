@@ -1,26 +1,25 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,13,Detroit LionsVChicago Bears,DET,Matthew Stafford,QB,3,402,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.08
-2020,13,Detroit LionsVChicago Bears,CHI,David Montgomery,RB,0,0,2,72,4,0,39,0,0,0,0,0,0,0,0,0,0,0,25.1
-2020,13,Detroit LionsVChicago Bears,DET,Marvin Jones,WR,0,0,0,0,8,1,116,0,0,0,0,0,0,0,0,0,0,0,21.6
-2020,13,Detroit LionsVChicago Bears,DET,Adrian Peterson,RB,0,0,2,57,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17.7
-2020,13,Detroit LionsVChicago Bears,DET,Quintez Cephus,WR,0,0,0,0,2,1,63,0,0,0,0,0,0,0,0,0,0,0,13.3
-2020,13,Detroit LionsVChicago Bears,CHI,Mitchell Trubisky,QB,1,267,0,6,0,0,0,0,1,0,0,0,0,0,0,0,0,0,13.28
-2020,13,Detroit LionsVChicago Bears,CHI,Cordarrelle Patterson,WR,0,0,1,59,1,0,4,0,0,0,0,0,0,0,0,0,0,0,12.8
-2020,13,Detroit LionsVChicago Bears,CHI,Cole Kmet,TE,0,0,0,0,5,1,37,0,0,0,0,0,0,0,0,0,0,0,12.2
-2020,13,Detroit LionsVChicago Bears,DET,T.J. Hockenson,TE,0,0,0,0,7,0,84,0,0,0,0,0,0,0,0,0,0,0,11.9
-2020,13,Detroit LionsVChicago Bears,CHI,Allen Robinson,WR,0,0,0,0,6,0,75,0,0,0,0,0,0,0,0,0,0,0,10.5
-2020,13,Detroit LionsVChicago Bears,CHI,Anthony Miller,WR,0,0,0,3,5,0,56,0,0,0,0,0,0,0,0,0,0,0,8.4
-2020,13,Detroit LionsVChicago Bears,DET,Danny Amendola,wr,0,0,0,0,3,0,62,0,0,0,0,0,0,0,0,0,0,0,7.7
-2020,13,Detroit LionsVChicago Bears,DET,Jesse James,TE,0,0,0,0,1,1,9,0,0,0,0,0,0,0,0,0,0,0,7.4
-2020,13,Detroit LionsVChicago Bears,CHI,Cairo Santos,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,7.0
-2020,13,Detroit LionsVChicago Bears,CHI,Darnell Mooney,WR,0,0,0,0,4,0,43,0,0,0,0,0,0,0,0,0,0,0,6.3
-2020,13,Detroit LionsVChicago Bears,DET,Mohamed Sanu,WR,0,0,0,0,2,0,36,0,0,0,0,0,0,0,0,0,0,0,4.6
-2020,13,Detroit LionsVChicago Bears,DET,Matt Prater,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,4.0
-2020,13,Detroit LionsVChicago Bears,DET,Jamal Agnew,WR,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
-2020,13,Detroit LionsVChicago Bears,DET,Kerryon Johnson,RB,0,0,0,3,2,0,8,0,0,0,0,0,0,0,0,0,0,0,2.1
-2020,13,Detroit LionsVChicago Bears,CHI,Javon Wims,WR,0,0,0,0,1,0,13,0,0,0,0,0,0,0,0,0,0,0,1.8
-2020,13,Detroit LionsVChicago Bears,CHI,Jimmy Graham,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Detroit LionsVChicago Bears,DET,Jason Cabinda,ILB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Detroit LionsVChicago Bears,DET,Jonathan Williams,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Detroit LionsVChicago Bears,CHI,DeAndre Carter,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Detroit LionsVChicago Bears,CHI,J.P. Holtz,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Josh Allen,QB,4,375,0,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,30.1
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Cole Beasley,WR2,0,0,0,0,9,1,130,0,0,0,0,0,0,0,0,0,0,0,23.5
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Nick Mullens,QB,3,316,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,22.64
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Brandon Aiyuk,,0,0,0,0,5,1,95,0,0,0,0,0,0,0,0,0,0,0,18.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Gabriel Davis,WR3,0,0,0,0,3,1,68,0,0,0,0,0,0,0,0,0,0,0,14.3
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Stefon Diggs,WR1,0,0,0,0,10,0,92,0,0,0,0,0,0,0,0,0,0,0,14.2
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Dawson Knox,TE1,0,0,0,0,4,1,27,0,0,0,0,0,0,0,0,0,0,0,10.7
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Jordan Reed,TE1,0,0,0,0,3,1,32,0,0,0,0,0,0,0,0,0,0,0,10.7
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Deebo Samuel,WR1,0,0,0,3,6,0,73,0,0,0,0,0,0,0,0,0,0,0,10.6
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Isaiah McKenzie,,0,0,0,0,2,1,31,0,0,0,0,0,0,0,0,0,0,0,10.1
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,1,0,0,0,10.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Devin Singletary,RB1,0,0,0,61,3,0,22,0,0,0,0,0,0,0,0,0,0,0,9.8
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Kyle Juszczyk,FB,0,0,0,5,1,1,6,0,0,0,0,0,0,0,0,0,0,0,7.6
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Jeff Wilson,,0,0,0,47,2,0,12,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Kendrick Bourne,WR3,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Raheem Mostert,RB1,0,0,0,42,1,0,1,0,0,0,0,0,0,0,0,0,0,0,4.8
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Charlie Woerner,,0,0,0,0,2,0,33,0,0,0,0,0,0,0,0,0,0,0,4.3
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Ross Dwelley,TE2,0,0,0,0,2,0,29,0,0,0,0,0,0,0,0,0,0,0,3.9
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Robbie Gould\g,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Zack Moss,RB2,0,0,0,9,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.9
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Lee Smith,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Andre Roberts,WR4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Richie James,WR2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Tevin Coleman,,0,0,0,-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.1

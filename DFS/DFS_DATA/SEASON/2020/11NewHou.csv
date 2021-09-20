@@ -1,24 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,11,New England PatriotsVHouston Texans,HOU,Deshaun Watson,QB,2,344,1,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,31.36
-2020,11,New England PatriotsVHouston Texans,NWE,Damiere Byrd,WR,0,0,0,11,6,1,132,0,0,0,0,0,0,0,0,0,0,0,23.3
-2020,11,New England PatriotsVHouston Texans,NWE,Cam Newton,QB,1,365,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19.2
-2020,11,New England PatriotsVHouston Texans,NWE,Damien Harris,RB,0,0,1,43,1,0,11,0,0,0,0,0,0,0,0,0,0,0,11.9
-2020,11,New England PatriotsVHouston Texans,NWE,James White,RB,0,0,0,19,6,0,64,0,0,0,0,0,0,0,0,0,0,0,11.3
-2020,11,New England PatriotsVHouston Texans,HOU,Will Fuller,WR,0,0,0,0,6,0,80,0,0,0,0,0,0,0,0,0,0,0,11.0
-2020,11,New England PatriotsVHouston Texans,HOU,Jordan Akins,te,0,0,0,0,5,0,83,0,0,0,0,0,0,0,0,0,0,0,10.8
-2020,11,New England PatriotsVHouston Texans,HOU,Brandin Cooks,WR,0,0,0,0,4,0,85,0,0,0,0,0,0,0,0,0,0,0,10.5
-2020,11,New England PatriotsVHouston Texans,HOU,Ka'imi Fairbairn,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,1,0,0,10.0
-2020,11,New England PatriotsVHouston Texans,NWE,Nick Folk,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0,0,9.0
-2020,11,New England PatriotsVHouston Texans,HOU,Keke Coutee,WR,0,0,0,0,2,1,10,0,0,0,0,0,0,0,0,0,0,0,8.0
-2020,11,New England PatriotsVHouston Texans,HOU,Randall Cobb,WR,0,0,0,0,2,1,7,0,0,0,0,0,0,0,0,0,0,0,7.7
-2020,11,New England PatriotsVHouston Texans,NWE,Ryan Izzo,TE,0,0,0,0,2,0,59,0,0,0,0,0,0,0,0,0,0,0,6.9
-2020,11,New England PatriotsVHouston Texans,NWE,N'Keal Harry,WR,0,0,0,0,5,0,41,0,0,0,0,0,0,0,0,0,0,0,6.6
-2020,11,New England PatriotsVHouston Texans,NWE,Jakobi Meyers,WR,0,0,0,0,3,0,38,0,0,0,0,0,0,0,0,0,0,0,5.3
-2020,11,New England PatriotsVHouston Texans,HOU,Duke Johnson,rb,0,0,0,15,3,0,20,0,0,0,0,0,0,0,0,0,0,0,5.0
-2020,11,New England PatriotsVHouston Texans,HOU,Darren Fells,TE,0,0,0,0,2,0,29,0,0,0,0,0,0,0,0,0,0,0,3.9
-2020,11,New England PatriotsVHouston Texans,HOU,Pharaoh Brown,TE,0,0,0,0,2,0,22,0,0,0,0,0,0,0,0,0,0,0,3.2
-2020,11,New England PatriotsVHouston Texans,HOU,C.J. Prosise,RB,0,0,0,4,2,0,8,0,0,0,0,0,0,0,0,0,0,0,2.2
-2020,11,New England PatriotsVHouston Texans,NWE,Rex Burkhead,RB,0,0,0,7,2,0,5,0,0,0,0,0,0,0,0,0,0,0,2.2
-2020,11,New England PatriotsVHouston Texans,NWE,Donte Moncrief,WR,0,0,0,0,1,0,15,0,0,0,0,0,0,0,0,0,0,0,2.0
-2020,11,New England PatriotsVHouston Texans,NWE,Jordan Thomas,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,11,New England PatriotsVHouston Texans,NWE,Gunner Olszewski,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Kyler Murray,QB,2,269,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.26
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Russell Wilson,QB,2,197,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.08
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Tyler Lockett,WR1,0,0,0,0,9,1,67,0,0,0,0,0,0,0,0,0,0,0,17.2
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Carlos Hyde,RB1,0,0,1,79,2,0,16,0,0,0,0,0,0,0,0,0,0,0,16.5
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Kenyan Drake,RB1,0,0,1,29,4,0,31,0,0,0,0,0,0,0,0,0,0,0,14.0
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Chase Edmonds,RB2,0,0,0,13,4,1,36,0,0,0,0,0,0,0,0,0,0,0,12.9
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,D.K. Metcalf,WR2,0,0,0,0,3,1,46,0,0,0,0,0,0,0,0,0,0,0,12.1
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Larry Fitzgerald,WR3,0,0,0,0,8,0,62,0,0,0,0,0,0,0,0,0,0,0,10.2
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Jason Myers,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0,0,9.0
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,DeAndre Hopkins,WR1,0,0,0,0,5,0,51,0,0,0,0,0,0,0,0,0,0,0,7.6
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Christian Kirk,WR2,0,0,0,0,4,0,50,0,0,0,0,0,0,0,0,0,0,0,7.0
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Dan Arnold,TE2,0,0,0,0,1,1,4,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,DeeJay Dallas,RB2,0,0,0,13,2,0,19,0,0,0,0,0,0,0,0,0,0,0,4.2
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Maxx Williams,TE1,0,0,0,0,2,0,29,0,0,0,0,0,0,0,0,0,0,0,3.9
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Bo Scarbrough,,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.1
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Greg Olsen,TE1,0,0,0,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,3.0
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Jacob Hollister,,0,0,0,0,2,0,14,0,0,0,0,0,0,0,0,0,0,0,2.4
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Will Dissly,TE2,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,David Moore,WR3,0,0,0,0,2,0,5,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Andy Isabella,WR4,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,11,Arizona CardinalsVSeattle Seahawks,SEA,D.J. Reed,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

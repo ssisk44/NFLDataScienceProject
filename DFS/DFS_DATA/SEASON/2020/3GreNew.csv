@@ -1,22 +1,22 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Alvin Kamara,RB,0,0,0,58,13,2,139,0,0,0,0,0,0,0,0,0,0,0,38.2
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Aaron Rodgers,QB,3,283,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,24.52
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Drew Brees,QB,3,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23.52
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Allen Lazard,WR,0,0,0,-2,6,1,146,0,0,0,0,0,0,0,0,0,0,0,23.4
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Mason Crosby,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,1,1,0,16.0
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Aaron Jones,RB,0,0,1,69,2,0,17,0,0,0,0,0,0,0,0,0,0,0,15.6
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Emmanuel Sanders,WR,0,0,0,0,4,1,56,0,0,0,0,0,0,0,0,0,0,0,13.6
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Robert Tonyan,TE,0,0,0,0,5,1,50,0,0,0,0,0,0,0,0,0,0,0,13.5
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Wil Lutz,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,2,1,0,0,13.0
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Marcedes Lewis,TE,0,0,0,0,1,1,18,0,0,0,0,0,0,0,0,0,0,0,8.3
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Latavius Murray,rb,0,0,0,58,1,0,7,0,0,0,0,0,0,0,0,0,0,0,7.0
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Tre'Quan Smith,WR,0,0,0,0,4,0,42,0,0,0,0,0,0,0,0,0,0,0,6.2
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Jace Sternberger,TE,0,0,0,0,3,0,36,0,0,0,0,0,0,0,0,0,0,0,5.1
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Jared Cook,TE,0,0,0,0,2,0,21,0,0,0,0,0,0,0,0,0,0,0,3.1
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Adam Trautman,te,0,0,0,0,2,0,17,0,0,0,0,0,0,0,0,0,0,0,2.7
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Tyler Ervin,RB,0,0,0,5,2,0,8,0,0,0,0,0,0,0,0,0,0,0,2.3
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Jamaal Williams,RB,0,0,0,14,1,0,3,0,0,0,0,0,0,0,0,0,0,0,2.2
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Deonte Harris,WR,0,0,0,0,2,0,5,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Marquez Valdes-Scantling,WR,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
-2020,3,Green Bay PackersVNew Orleans Saints,GNB,Darrius Shepherd,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,3,Green Bay PackersVNew Orleans Saints,NOR,Taysom Hill,WR,0,0,0,6,1,0,1,0,1,0,0,0,0,0,0,0,0,0,-0.8
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Austin Ekeler,RB1,0,0,1,59,11,0,84,0,0,0,0,0,0,0,0,0,0,0,25.8
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Keenan Allen,WR1,0,0,0,0,13,1,132,0,1,0,0,0,0,0,0,0,0,0,23.7
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Mike Davis,RB1,0,0,0,46,8,1,45,0,0,0,0,0,0,0,0,0,0,0,19.1
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Justin Herbert,QB,1,330,0,15,0,0,0,1,1,0,0,0,0,0,0,0,0,0,15.7
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,15.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Teddy Bridgewater,QB,1,235,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14.6
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Robby Anderson,WR2,0,0,0,0,5,0,55,0,0,0,0,0,0,0,0,0,0,0,8.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,D.J. Moore,WR1,0,0,0,0,2,0,65,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Hunter Henry,TE1,0,0,0,0,5,0,50,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Curtis Samuel,WR3,0,0,0,7,4,0,45,0,0,0,0,0,0,0,0,0,0,0,7.2
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Michael Badgley,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,5.0
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Joshua Kelley,RB2,0,0,0,43,2,0,9,0,1,0,0,0,0,0,0,0,0,0,4.2
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Jalen Guyton,WR3,0,0,0,0,2,0,23,0,0,0,0,0,0,0,0,0,0,0,3.3
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Seth Roberts,WR4,0,0,0,0,2,0,16,0,0,0,0,0,0,0,0,0,0,0,2.6
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Mike Williams,WR2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,K.J. Hill,WR4,0,0,0,0,1,0,15,0,0,0,0,0,0,0,0,0,0,0,2.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Reggie Bonnafon,RB2,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Ian Thomas,TE1,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Virgil Green,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Joe Reed,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

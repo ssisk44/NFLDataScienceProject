@@ -1,24 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,5,Buffalo BillsVTennessee Titans,TEN,Ryan Tannehill,QB,3,195,1,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30.0
-2020,5,Buffalo BillsVTennessee Titans,TEN,Derrick Henry,RB,0,0,2,57,1,0,6,0,0,0,0,0,0,0,0,0,0,0,18.8
-2020,5,Buffalo BillsVTennessee Titans,TEN,Jonnu Smith,TE,0,0,0,0,5,2,40,0,0,0,0,0,0,0,0,0,0,0,18.5
-2020,5,Buffalo BillsVTennessee Titans,BUF,Josh Allen,QB,2,263,0,18,0,0,0,2,0,0,0,0,0,0,0,0,0,0,18.32
-2020,5,Buffalo BillsVTennessee Titans,TEN,A.J. Brown,WR,0,0,0,0,7,1,82,0,0,0,0,0,0,0,0,0,0,0,17.7
-2020,5,Buffalo BillsVTennessee Titans,BUF,Stefon Diggs,WR,0,0,0,0,10,0,106,0,0,0,0,0,0,0,0,0,0,0,15.6
-2020,5,Buffalo BillsVTennessee Titans,BUF,T.J. Yeldon,RB,0,0,0,52,1,1,22,0,0,0,0,0,0,0,0,0,0,0,13.9
-2020,5,Buffalo BillsVTennessee Titans,BUF,Isaiah McKenzie,wr,0,0,0,0,4,1,7,0,0,0,0,0,0,0,0,0,0,0,8.7
-2020,5,Buffalo BillsVTennessee Titans,BUF,Gabriel Davis,WR,0,0,0,0,5,0,58,0,0,0,0,0,0,0,0,0,0,0,8.3
-2020,5,Buffalo BillsVTennessee Titans,BUF,Cole Beasley,WR,0,0,0,0,6,0,53,0,0,0,0,0,0,0,0,0,0,0,8.3
-2020,5,Buffalo BillsVTennessee Titans,TEN,Stephen Gostkowski,K,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,6.0
-2020,5,Buffalo BillsVTennessee Titans,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,5.0
-2020,5,Buffalo BillsVTennessee Titans,BUF,Devin Singletary,RB,0,0,0,25,1,0,8,0,0,0,0,0,0,0,0,0,0,0,3.8
-2020,5,Buffalo BillsVTennessee Titans,TEN,Kalif Raymond,WR,0,0,0,0,2,0,26,0,0,0,0,0,0,0,0,0,0,0,3.6
-2020,5,Buffalo BillsVTennessee Titans,TEN,Jeremy McNichols,RB,0,0,0,28,1,0,3,0,0,0,0,0,0,0,0,0,0,0,3.6
-2020,5,Buffalo BillsVTennessee Titans,TEN,Anthony Firkser,TE,0,0,0,0,3,0,19,0,0,0,0,0,0,0,0,0,0,0,3.4
-2020,5,Buffalo BillsVTennessee Titans,BUF,Dawson Knox,TE,0,0,0,0,1,0,15,0,0,0,0,0,0,0,0,0,0,0,2.0
-2020,5,Buffalo BillsVTennessee Titans,TEN,Cody Hollister,WR,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
-2020,5,Buffalo BillsVTennessee Titans,TEN,Darrynton Evans,RB,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.2
-2020,5,Buffalo BillsVTennessee Titans,TEN,Nick Westbrook-Ikhine,WR,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
-2020,5,Buffalo BillsVTennessee Titans,BUF,Matt Barkley,QB,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.88
-2020,5,Buffalo BillsVTennessee Titans,BUF,Andre Roberts,WR,0,0,0,0,1,0,16,0,1,0,0,0,0,0,0,0,0,0,0.1
-2020,5,Buffalo BillsVTennessee Titans,BUF,Taiwan Jones,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,5,Arizona CardinalsVNew York Jets,ARI,Kyler Murray,QB,1,380,1,31,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.3
+2020,5,Arizona CardinalsVNew York Jets,ARI,DeAndre Hopkins,WR1,0,0,0,0,6,1,131,0,0,0,0,0,0,0,0,0,0,0,22.1
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Jamison Crowder,WR1,0,0,0,0,8,1,116,0,0,0,0,0,0,0,0,0,0,0,21.6
+2020,5,Arizona CardinalsVNew York Jets,ARI,Chase Edmonds,RB2,0,0,1,36,5,0,56,0,0,0,0,0,0,0,0,0,0,0,17.7
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Joe Flacco,QB,1,195,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,13.8
+2020,5,Arizona CardinalsVNew York Jets,ARI,Kenyan Drake,RB1,0,0,1,60,1,0,2,0,0,0,0,0,0,0,0,0,0,0,12.7
+2020,5,Arizona CardinalsVNew York Jets,ARI,Christian Kirk,WR2,0,0,0,0,5,0,78,0,0,0,0,0,0,0,0,0,0,0,10.3
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Le'Veon Bell,RB1,0,0,0,60,1,0,7,0,0,0,0,0,0,0,0,0,0,0,7.2
+2020,5,Arizona CardinalsVNew York Jets,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,7.0
+2020,5,Arizona CardinalsVNew York Jets,ARI,Larry Fitzgerald,WR3,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
+2020,5,Arizona CardinalsVNew York Jets,ARI,Darrell Daniels,TE1,0,0,0,0,2,0,37,0,0,0,0,0,0,0,0,0,0,0,4.7
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Sam Ficken,,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,4.0
+2020,5,Arizona CardinalsVNew York Jets,ARI,Andy Isabella,WR4,0,0,0,0,2,0,30,0,0,0,0,0,0,0,0,0,0,0,4.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Jeff Smith,WR4,0,0,0,0,3,0,23,0,0,0,0,0,0,0,0,0,0,0,3.8
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Chris Hogan,,0,0,0,0,3,0,20,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Chris Herndon,TE1,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Frank Gore,RB2,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Braxton Berrios,WR3,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,5,Arizona CardinalsVNew York Jets,ARI,Trent Sherfield,,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,5,Arizona CardinalsVNew York Jets,ARI,KeeSean Johnson,S1,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,Trevon Wesco,FB,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,5,Arizona CardinalsVNew York Jets,NYJ,La'Mical Perine,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

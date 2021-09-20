@@ -1,22 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Patrick Mahomes,QB,2,236,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.24
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Tyreek Hill,WR,0,0,0,0,4,1,64,0,0,0,0,0,0,0,0,0,0,0,14.4
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Mecole Hardman,WR,0,0,0,0,4,1,27,0,0,0,0,0,0,0,0,0,0,0,10.7
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Clyde Edwards-Helaire,RB,0,0,0,64,3,0,27,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Damiere Byrd,WR,0,0,0,0,5,0,80,0,0,0,0,0,0,0,0,0,0,0,10.5
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Damien Harris,RB,0,0,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10.0
-2020,4,New England PatriotsVKansas City Chiefs,NWE,N'Keal Harry,WR,0,0,0,0,3,1,21,0,0,0,0,0,0,0,0,0,0,0,9.6
-2020,4,New England PatriotsVKansas City Chiefs,NWE,James White,RB,0,0,0,21,7,0,38,0,0,0,0,0,0,0,0,0,0,0,9.4
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Travis Kelce,TE,0,0,0,0,3,0,70,0,0,0,0,0,0,0,0,0,0,0,8.5
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Harrison Butker,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,1,0,0,0,8.0
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Rex Burkhead,RB,0,0,0,45,1,0,5,0,0,0,0,0,0,0,0,0,0,0,5.5
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Nick Folk,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,5.0
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Julian Edelman,WR,0,0,0,0,3,0,35,0,0,0,0,0,0,0,0,0,0,0,5.0
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Jarrett Stidham,QB,1,60,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,4.7
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Sammy Watkins,WR,0,0,0,0,4,0,43,0,1,0,0,0,0,0,0,0,0,0,4.3
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Brian Hoyer,QB,0,130,0,8,0,0,0,1,1,0,0,0,0,0,0,0,0,0,3.0
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Gunner Olszewski,WR,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Deon Yelder,TE,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Isaiah Zuber,WR,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8
-2020,4,New England PatriotsVKansas City Chiefs,KAN,Darrel Williams,RB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
-2020,4,New England PatriotsVKansas City Chiefs,NWE,Ryan Izzo,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Teddy Bridgewater,QB,2,276,1,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.24
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kyler Murray,QB,3,133,0,78,0,0,0,0,1,0,0,0,0,0,0,0,0,0,23.12
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Mike Davis,RB1,0,0,1,84,5,0,27,0,0,0,0,0,0,0,0,0,0,0,19.6
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Reggie Bonnafon,RB2,0,0,0,53,2,1,18,0,0,0,0,0,0,0,0,0,0,0,14.1
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Robby Anderson,WR2,0,0,0,0,8,0,99,0,0,0,0,0,0,0,0,0,0,0,13.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Chase Edmonds,RB2,0,0,0,16,5,1,24,0,0,0,0,0,0,0,0,0,0,0,12.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Christian Kirk,WR2,0,0,0,0,3,1,19,0,0,0,0,0,0,0,0,0,0,0,9.4
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,DeAndre Hopkins,WR1,0,0,0,0,7,0,41,0,0,0,0,0,0,0,0,0,0,0,7.6
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Ian Thomas,TE1,0,0,0,0,2,1,5,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,7.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,D.J. Moore,WR1,0,0,0,0,4,0,49,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Jordan Thomas,,0,0,0,0,1,1,3,0,0,0,0,0,0,0,0,0,0,0,6.8
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Curtis Samuel,WR3,0,0,0,-3,3,0,51,0,0,0,0,0,0,0,0,0,0,0,6.3
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Dan Arnold,TE2,0,0,0,0,4,0,39,0,0,0,0,0,0,0,0,0,0,0,5.9
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kenyan Drake,RB1,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Chris Manhertz,TE2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Seth Roberts,WR4,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Larry Fitzgerald,WR3,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,4,Arizona CardinalsVCarolina Panthers,ARI,Andy Isabella,WR4,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Alex Armah,FB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
+2020,4,Arizona CardinalsVCarolina Panthers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

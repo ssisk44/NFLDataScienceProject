@@ -1,24 +1,25 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Corey Davis,WR,0,0,0,0,11,1,182,0,0,0,0,0,0,0,0,0,0,0,29.7
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Baker Mayfield,QB,4,334,0,5,1,0,6,0,1,0,0,0,0,0,0,0,0,0,28.96
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Ryan Tannehill,QB,3,389,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,28.56
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Rashard Higgins,wr,0,0,0,0,6,1,95,0,0,0,0,0,0,0,0,0,0,0,18.5
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Nick Chubb,RB,0,0,1,80,1,0,26,0,0,0,0,0,0,0,0,0,0,0,17.1
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Jarvis Landry,WR,0,6,0,0,8,1,62,0,0,0,0,0,0,0,0,0,0,0,16.44
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Donovan Peoples-Jones,WR,0,0,0,0,2,1,92,0,0,0,0,0,0,0,0,0,0,0,16.2
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Cody Parkey,K,0,0,0,0,0,0,0,0,0,0,0,5,0,1,0,1,0,0,12.0
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Jeremy McNichols,RB,0,0,1,2,3,0,15,0,0,0,0,0,0,0,0,0,0,0,9.2
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Cameron Batson,WR,0,0,0,0,3,1,14,0,0,0,0,0,0,0,0,0,0,0,8.9
-2020,13,Cleveland BrownsVTennessee Titans,TEN,MyCole Pruitt,TE,0,0,0,0,1,1,22,0,0,0,0,0,0,0,0,0,0,0,8.7
-2020,13,Cleveland BrownsVTennessee Titans,TEN,A.J. Brown,WR,0,0,0,0,4,0,87,0,1,0,0,0,0,0,0,0,0,0,8.7
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Anthony Firkser,TE,0,0,0,0,5,0,51,0,0,0,0,0,0,0,0,0,0,0,7.6
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Kareem Hunt,rb,0,0,0,33,3,0,24,0,0,0,0,0,0,0,0,0,0,0,7.2
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Kendall Lamm,T,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,6.6
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Derrick Henry,RB,0,0,0,60,1,0,9,0,1,0,0,0,0,0,0,0,0,0,5.4
-2020,13,Cleveland BrownsVTennessee Titans,CLE,Austin Hooper,TE,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Stephen Gostkowski,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Adam Humphries,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,13,Cleveland BrownsVTennessee Titans,CLE,D'Ernest Johnson,RB,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
-2020,13,Cleveland BrownsVTennessee Titans,CLE,David Njoku,te,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Aaron Brewer,C,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Cleveland BrownsVTennessee Titans,TEN,Geoff Swaim,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Josh Allen,QB,4,375,0,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,30.1
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Cole Beasley,WR2,0,0,0,0,9,1,130,0,0,0,0,0,0,0,0,0,0,0,23.5
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Nick Mullens,QB,3,316,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,22.64
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Brandon Aiyuk,,0,0,0,0,5,1,95,0,0,0,0,0,0,0,0,0,0,0,18.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Gabriel Davis,WR3,0,0,0,0,3,1,68,0,0,0,0,0,0,0,0,0,0,0,14.3
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Stefon Diggs,WR1,0,0,0,0,10,0,92,0,0,0,0,0,0,0,0,0,0,0,14.2
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Dawson Knox,TE1,0,0,0,0,4,1,27,0,0,0,0,0,0,0,0,0,0,0,10.7
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Jordan Reed,TE1,0,0,0,0,3,1,32,0,0,0,0,0,0,0,0,0,0,0,10.7
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Deebo Samuel,WR1,0,0,0,3,6,0,73,0,0,0,0,0,0,0,0,0,0,0,10.6
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Isaiah McKenzie,,0,0,0,0,2,1,31,0,0,0,0,0,0,0,0,0,0,0,10.1
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,1,0,0,0,10.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Devin Singletary,RB1,0,0,0,61,3,0,22,0,0,0,0,0,0,0,0,0,0,0,9.8
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Kyle Juszczyk,FB,0,0,0,5,1,1,6,0,0,0,0,0,0,0,0,0,0,0,7.6
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Jeff Wilson,,0,0,0,47,2,0,12,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Kendrick Bourne,WR3,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Raheem Mostert,RB1,0,0,0,42,1,0,1,0,0,0,0,0,0,0,0,0,0,0,4.8
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Charlie Woerner,,0,0,0,0,2,0,33,0,0,0,0,0,0,0,0,0,0,0,4.3
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Ross Dwelley,TE2,0,0,0,0,2,0,29,0,0,0,0,0,0,0,0,0,0,0,3.9
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Robbie Gould\g,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Zack Moss,RB2,0,0,0,9,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.9
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Lee Smith,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Andre Roberts,WR4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Richie James,WR2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Tevin Coleman,,0,0,0,-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.1

@@ -1,25 +1,22 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,3,San Francisco 49ersVNew York Giants,SFO,Jeff Wilson,RB,0,0,1,15,3,1,54,0,0,0,0,0,0,0,0,0,0,0,20.4
-2020,3,San Francisco 49ersVNew York Giants,SFO,Brandon Aiyuk,WR,0,0,1,31,5,0,70,0,0,0,0,0,0,0,0,0,0,0,18.6
-2020,3,San Francisco 49ersVNew York Giants,SFO,Nick Mullens,QB,1,343,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17.72
-2020,3,San Francisco 49ersVNew York Giants,SFO,Jerick McKinnon,RB,0,0,1,38,3,0,39,0,0,0,0,0,0,0,0,0,0,0,15.2
-2020,3,San Francisco 49ersVNew York Giants,NYG,Graham Gano,K,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,13.0
-2020,3,San Francisco 49ersVNew York Giants,NYG,Daniel Jones,QB,0,179,0,49,0,0,0,1,1,0,0,0,0,0,0,0,0,0,9.06
-2020,3,San Francisco 49ersVNew York Giants,SFO,Kendrick Bourne,wr,0,0,0,0,4,0,63,0,0,0,0,0,0,0,0,0,0,0,8.3
-2020,3,San Francisco 49ersVNew York Giants,SFO,Ross Dwelley,TE,0,0,0,0,4,0,49,0,0,0,0,0,0,0,0,0,0,0,6.9
-2020,3,San Francisco 49ersVNew York Giants,NYG,Golden Tate,WR,0,0,0,0,5,0,36,0,0,0,0,0,0,0,0,0,0,0,6.1
-2020,3,San Francisco 49ersVNew York Giants,NYG,Darius Slayton,WR,0,0,0,0,3,0,53,0,1,0,0,0,0,0,0,0,0,0,4.8
-2020,3,San Francisco 49ersVNew York Giants,NYG,Evan Engram,TE,0,0,0,0,3,0,22,0,0,0,0,0,0,0,0,0,0,0,3.7
-2020,3,San Francisco 49ersVNew York Giants,NYG,Damion Ratley,WR,0,0,0,0,1,0,29,0,0,0,0,0,0,0,0,0,0,0,3.4
-2020,3,San Francisco 49ersVNew York Giants,SFO,Jordan Reed,TE,0,0,0,0,2,0,23,0,0,0,0,0,0,0,0,0,0,0,3.3
-2020,3,San Francisco 49ersVNew York Giants,SFO,Robbie Gould\g,,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
-2020,3,San Francisco 49ersVNew York Giants,SFO,Trent Taylor,WR,0,0,0,0,1,0,20,0,0,0,0,0,0,0,0,0,0,0,2.5
-2020,3,San Francisco 49ersVNew York Giants,NYG,Wayne Gallman,RB,0,0,0,7,2,0,7,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,3,San Francisco 49ersVNew York Giants,SFO,Jamycal Hasty,RB,0,0,0,9,1,0,9,0,0,0,0,0,0,0,0,0,0,0,2.3
-2020,3,San Francisco 49ersVNew York Giants,NYG,Kaden Smith,TE,0,0,0,0,1,0,13,0,0,0,0,0,0,0,0,0,0,0,1.8
-2020,3,San Francisco 49ersVNew York Giants,NYG,Dion Lewis,RB,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,3,San Francisco 49ersVNew York Giants,SFO,Mohamed Sanu,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,3,San Francisco 49ersVNew York Giants,NYG,C.J. Board,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,3,San Francisco 49ersVNew York Giants,SFO,Kyle Juszczyk,FB,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
-2020,3,San Francisco 49ersVNew York Giants,NYG,Devonta Freeman,RB,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.0
-2020,3,San Francisco 49ersVNew York Giants,NYG,Corey Ballentine,CB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Austin Ekeler,RB1,0,0,1,59,11,0,84,0,0,0,0,0,0,0,0,0,0,0,25.8
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Keenan Allen,WR1,0,0,0,0,13,1,132,0,1,0,0,0,0,0,0,0,0,0,23.7
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Mike Davis,RB1,0,0,0,46,8,1,45,0,0,0,0,0,0,0,0,0,0,0,19.1
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Justin Herbert,QB,1,330,0,15,0,0,0,1,1,0,0,0,0,0,0,0,0,0,15.7
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,0,15.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Teddy Bridgewater,QB,1,235,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,14.6
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Robby Anderson,WR2,0,0,0,0,5,0,55,0,0,0,0,0,0,0,0,0,0,0,8.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,D.J. Moore,WR1,0,0,0,0,2,0,65,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Hunter Henry,TE1,0,0,0,0,5,0,50,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Curtis Samuel,WR3,0,0,0,7,4,0,45,0,0,0,0,0,0,0,0,0,0,0,7.2
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Michael Badgley,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,5.0
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Joshua Kelley,RB2,0,0,0,43,2,0,9,0,1,0,0,0,0,0,0,0,0,0,4.2
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Jalen Guyton,WR3,0,0,0,0,2,0,23,0,0,0,0,0,0,0,0,0,0,0,3.3
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Seth Roberts,WR4,0,0,0,0,2,0,16,0,0,0,0,0,0,0,0,0,0,0,2.6
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Mike Williams,WR2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,K.J. Hill,WR4,0,0,0,0,1,0,15,0,0,0,0,0,0,0,0,0,0,0,2.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Reggie Bonnafon,RB2,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Ian Thomas,TE1,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Virgil Green,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,3,Carolina PanthersVLos Angeles Chargers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,3,Carolina PanthersVLos Angeles Chargers,LAC,Joe Reed,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
