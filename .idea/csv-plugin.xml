@@ -864,7 +864,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\all_contests_array.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\all_contests_array_analysis.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\contest_output.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

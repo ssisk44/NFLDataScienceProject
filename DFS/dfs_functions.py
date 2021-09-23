@@ -72,24 +72,24 @@ bbref_team_abbrev_dict_2020_to_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falc
                                           'Tennessee Titans': 'oti', 'Washington Football Team': 'was'}
 
 
-def main(season):
+def main():
     ###CONTESTS###
     # create_Combos(0, 2021, 3, game)
-    # count_CSV_Permutations(filter_Combos_Combos(2021, 3, 'game'))
+    # count_CSV_Permutations(filter_Combos_Combos(2021, 3, game))
     # return_CSV_Entries()
 
 
     ###DATA PIPELINE###
     # get_Box_Scores(2016)
-    # getSimplePositions(2016)
-    for i in range(2016, 2022):
-        updateGameHistoryWithSimplePlayerPositions(i)
-    # updateGameHistoryWithDepthChartPositions(2016)
+    # getSimplePositions(2016) ###ERASES MANUALLY INPUT PLAYERS IN CASE OF NAN
+    # updateGameHistoryWithSimplePlayerPositions(2016)
+    # getDepthChartPositions(2016) ###ERASES MANUALLY INPUT PLAYERS IN CASE OF NAN
 
 
     ###DATA ANALYSIS###
-    # create_Analysis_Table(2020) *****DANGER RESETS MANUAL CSV ENTRIES*****
-    # analyze_Table()
+    # create_Analysis_Table()
+    # print_Analysis_Table()
+    None
 
 
 ##### CONTEST PERMUTATION CREATION #####
@@ -274,18 +274,17 @@ def filter_Combos_Combos(season, week, dateteams):
                 kicker_counter+=1
 
             # # REMOVES MVP TE
-            # if j == 10 and str(array[i][j]) == 'TE':
-            #     add_to = False
-            #
+            if j == 10 and str(array[i][j]) == 'TE':
+                add_to = False
+
             # # REMOVES MVP K
-            # if j == 10 and str(array[i][j]) == 'K':
-            #     add_to = False
+            if j == 10 and str(array[i][j]) == 'K':
+                add_to = False
 
 
         #GAME SPECIFIC FILTERS
         if 'Christian McCaffrey' not in lineup_names:
             add_to = False
-
 
         #REMOVE NON MVP CHOICES
         # if lineup_names[0] not in ():
@@ -293,12 +292,12 @@ def filter_Combos_Combos(season, week, dateteams):
 
         #GENERAL SINGLE GAME DFS FILTERS
         # depth chart positions
-        if rb3_counter >= 1 or rb2_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2 or kicker_counter >= 2:
+        if rb3_counter >= 1 or rb2_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2:
             add_to = False
 
 
-        # simple positions
-        if qb_counter == 0 or rb_counter >=3 or wr_counter>=4 or te_counter>=2:
+        # EVERY COMPETITION BASIC FILTERS
+        if qb_counter == 0 or qb_counter >= 3 or rb_counter >= 3 or wr_counter >= 4 or te_counter >= 3 or kicker_counter >= 2:
             add_to = False
 
         if add_to == True:
@@ -734,7 +733,7 @@ def updateGameHistoryWithSimplePlayerPositions(season):
             arr[entry][5] = position
         pd.DataFrame(arr, columns=col).to_csv(games_directory+files, index=False)
         print(files)
-def updateGameHistoryWithDepthChartPositions(season):
+def getDepthChartPositions(season):
     directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'
     week_counter = 0
     weekly_depth_chart_arr = []
@@ -749,7 +748,13 @@ def updateGameHistoryWithDepthChartPositions(season):
         if week != week_counter:
             week_counter = week
             df_list = []
-            df = pd.read_html('https://www.spotrac.com/nfl/depth-charts/'+str(season)+'/week-'+week+'/')
+            chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
+            os.environ["webdriver.chrome.driver"] = chromedriver
+            driver = webdriver.Chrome(chromedriver)
+            driver.get('https://www.spotrac.com/nfl/depth-charts/'+str(season)+'/week-'+week+'/')
+            df = pd.read_html(driver.page_source)
+            driver.close()
+
             for i in range(0, len(df)):
                 if df[i].columns[1] == 'Pos.':
                     df_list.append(df[i][:-1])
@@ -762,12 +767,12 @@ def updateGameHistoryWithDepthChartPositions(season):
                 if name[-2:] == 'IR':
                     name = name[:-3]
                 if name.split(" ")[0] in str(game_arr[player][4]) and name.split(" ")[1] in str(game_arr[player][4]):
-                    game_arr[player][5] = weekly_depth_chart_arr[entry][1]
+                    game_arr[player][-1] = weekly_depth_chart_arr[entry][1]
                     break
                 else:
-                    game_arr[player][5] = ''
+                    game_arr[player][-1] = ''
         print(file)
-        pd.DataFrame(game_arr).to_csv(directory+file,header=col,index=False)
+        pd.DataFrame(game_arr).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DEPTHCHARTROSTERS'+str(season)+'/'+file, header=col, index=False)
 ##############################
 
 
@@ -787,7 +792,7 @@ def create_Analysis_Table():
                             'Philadelphia Eagles': 'PHI',
                             'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
                             'Tampa Bay Buccaneers': 'TAM',
-                            'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS'}
+                            'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS', 'San Diego Chargers': 'SDG', 'Oakland Raiders': 'OAK', 'Washington Redskins': 'WAS'}
     t_keys = game_teams_dict_2020.keys()
     t_values = game_teams_dict_2020.values()
 
@@ -796,7 +801,7 @@ def create_Analysis_Table():
     col = ['Season', 'Week', 'Game', 'Team', 'Name', 'Position', 'PassTD',
      'PassYD', 'RushTD', 'RushYD', 'Receptions', 'RecTD', 'RecYD', 'INT',
      'FUM/L', 'KRTD', 'PRTD', 'XP', 'FG0-19', 'FG20-29', 'FG30-39',
-     'FG40-49', 'FG50+', '2PC', 'Fantasy Points','Rank','Winner','Simple_Position']
+     'FG40-49', 'FG50+', '2PC', 'Fantasy Points','Rank','Winner','Depth_Chart_Position']
     for season in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'):
         for game_file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'):
             arr = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'+game_file).to_numpy()
@@ -815,7 +820,7 @@ def create_Analysis_Table():
                 for entry in range(0, len(schedule)):
                     if schedule[entry][0] == week and (schedule[entry][4] == team1 or schedule[entry][4] == team2):
                         return list(t_values)[list(t_keys).index(schedule[entry][4])]
-            def getSimplePosition(position_dc):
+            def getDCPosition(position_dc):
                 if position_dc == 'nan':
                     return ''
                 position = re.sub(r"[0-9]", '', position_dc)
@@ -830,13 +835,13 @@ def create_Analysis_Table():
                     player_list.append(True)
                 else:
                     player_list.append(False)
-                player_list.append(getSimplePosition(str(arr[entry][5])))
+                player_list.append(str(arr[entry][5]))
                 game_list.append(player_list)
 
             for player in game_list:
                 all_contest_results_array.append(player)
-    pd.DataFrame(all_contest_results_array).to_csv('all_contests_array_analysis.csv', index=False, header=col)
-def analyze_Table():
+    pd.DataFrame(all_contest_results_array).to_csv('all_contests_array.csv', index=False, header=col)
+def print_Analysis_Table():
     def print_Analysis(array, title):
         total_num_entries = 0
         for entry in range(0, len(array)):
@@ -847,9 +852,10 @@ def analyze_Table():
             print(str(array[entry][1]) + '\t' + str(array[entry][0]) + '\t' + str(
                 (array[entry][0] / total_num_entries) * 100) + '%')
         print('TOTAL' + '\t' + str(total_num_entries))
-        print('\n\n\n')
-    all_contest_results_array = pd.read_csv('all_contests_array_analysis.csv').to_numpy()
+        print('\n')
+    all_contest_results_array = pd.read_csv('all_contests_array.csv').to_numpy()
 
+    # PRINTS MVP PER CONTEST BY SIMPLE POSITION
     MVP_Position_DC_Counter = []
     retlist = []
     for i in range(0, len(all_contest_results_array)):
@@ -863,8 +869,9 @@ def analyze_Table():
     count = 0
     for i in range(0, len(retlist)):
         count += retlist[i][0]
-    print_Analysis(retlist, "Depth Chart Positions MVPs")
+    print_Analysis(retlist, "Positional MVPs")
 
+    #PRINTS TOP 5 PER CONTEST BY SIMPLE POSITION
     UTIL_Position_DC_Counter = []
     retlist = []
     for i in range(0, len(all_contest_results_array)):
@@ -878,7 +885,7 @@ def analyze_Table():
     count = 0
     for i in range(0, len(retlist)):
         count += retlist[i][0]
-    print_Analysis(retlist, "Depth Chart Positions Top 5")
+    print_Analysis(retlist, "Positional Top 5")
 
     def print_simple_position_count(position):
         # counts positions per lineup
@@ -898,6 +905,7 @@ def analyze_Table():
     print_simple_position_count('WR')
     print_simple_position_count('TE')
     print_simple_position_count('K')
+    print('\n')
 
     def print_dc_position_count(position):
         # counts positions per lineup
@@ -953,4 +961,4 @@ def analyze_Table():
     # pd.DataFrame(retlist).to_csv('contest_output.csv',index=False)
 
 
-main(2020)
+main()
