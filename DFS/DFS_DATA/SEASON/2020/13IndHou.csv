@@ -1,25 +1,26 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Josh Allen,QB,4,375,0,11,0,0,0,0,1,0,0,0,0,0,0,0,0,0,30.1
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Cole Beasley,WR2,0,0,0,0,9,1,130,0,0,0,0,0,0,0,0,0,0,0,23.5
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Nick Mullens,QB,3,316,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,22.64
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Brandon Aiyuk,,0,0,0,0,5,1,95,0,0,0,0,0,0,0,0,0,0,0,18.0
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Gabriel Davis,WR3,0,0,0,0,3,1,68,0,0,0,0,0,0,0,0,0,0,0,14.3
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Stefon Diggs,WR1,0,0,0,0,10,0,92,0,0,0,0,0,0,0,0,0,0,0,14.2
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Dawson Knox,TE1,0,0,0,0,4,1,27,0,0,0,0,0,0,0,0,0,0,0,10.7
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Jordan Reed,TE1,0,0,0,0,3,1,32,0,0,0,0,0,0,0,0,0,0,0,10.7
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Deebo Samuel,WR1,0,0,0,3,6,0,73,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Isaiah McKenzie,,0,0,0,0,2,1,31,0,0,0,0,0,0,0,0,0,0,0,10.1
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,1,0,0,0,10.0
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Devin Singletary,RB1,0,0,0,61,3,0,22,0,0,0,0,0,0,0,0,0,0,0,9.8
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Kyle Juszczyk,FB,0,0,0,5,1,1,6,0,0,0,0,0,0,0,0,0,0,0,7.6
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Jeff Wilson,,0,0,0,47,2,0,12,0,0,0,0,0,0,0,0,0,0,0,6.9
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Kendrick Bourne,WR3,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Raheem Mostert,RB1,0,0,0,42,1,0,1,0,0,0,0,0,0,0,0,0,0,0,4.8
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Charlie Woerner,,0,0,0,0,2,0,33,0,0,0,0,0,0,0,0,0,0,0,4.3
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Ross Dwelley,TE2,0,0,0,0,2,0,29,0,0,0,0,0,0,0,0,0,0,0,3.9
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Robbie Gould\g,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Zack Moss,RB2,0,0,0,9,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.9
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Lee Smith,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Buffalo BillsVSan Francisco 49ers,BUF,Andre Roberts,WR4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Richie James,WR2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,13,Buffalo BillsVSan Francisco 49ers,SFO,Tevin Coleman,,0,0,0,-11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.1
+2020,13,Indianapolis ColtsVHouston Texans,IND,Jonathan Taylor,RB,0,0,0,91,3,1,44,0,0,0,0,0,0,0,0,0,0,0,21.0
+2020,13,Indianapolis ColtsVHouston Texans,IND,T.Y. Hilton,WR,0,0,0,0,8,1,110,0,0,0,0,0,0,0,0,0,0,0,21.0
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Deshaun Watson,QB,0,341,1,38,0,0,0,1,1,0,0,0,0,0,0,0,0,0,20.44
+2020,13,Indianapolis ColtsVHouston Texans,IND,Philip Rivers,QB,2,285,0,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19.2
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Keke Coutee,WR,0,0,0,0,8,0,141,0,0,0,0,0,0,0,0,0,0,0,18.1
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Chad Hansen,WR,0,0,0,0,5,0,101,0,0,0,0,0,0,0,0,0,0,0,12.6
+2020,13,Indianapolis ColtsVHouston Texans,IND,Nyheim Hines,RB,0,0,1,10,3,0,22,0,0,0,0,0,0,0,0,0,0,0,10.7
+2020,13,Indianapolis ColtsVHouston Texans,HOU,David Johnson,RB,0,0,1,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10.4
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Ka'imi Fairbairn,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,1,0,10.0
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Brandin Cooks,WR,0,0,0,0,5,0,65,0,0,0,0,0,0,0,0,0,0,0,9.0
+2020,13,Indianapolis ColtsVHouston Texans,IND,Michael Pittman Jr.,WR,0,0,0,0,5,0,46,0,0,0,0,0,0,0,0,0,0,0,7.1
+2020,13,Indianapolis ColtsVHouston Texans,IND,Rodrigo Blankenship,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,7.0
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Duke Johnson,RB,0,0,0,8,6,0,24,0,0,0,0,0,0,0,0,0,0,0,6.2
+2020,13,Indianapolis ColtsVHouston Texans,IND,Mo Alie-Cox,TE,0,0,0,0,3,0,23,0,0,0,0,0,0,0,0,0,0,0,3.8
+2020,13,Indianapolis ColtsVHouston Texans,IND,Jordan Wilkins,RB,0,0,0,12,2,0,6,0,0,0,0,0,0,0,0,0,0,0,2.8
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Jordan Akins,TE,0,0,0,0,2,0,10,0,0,0,0,0,0,0,0,0,0,0,2.0
+2020,13,Indianapolis ColtsVHouston Texans,IND,Jack Doyle,TE,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
+2020,13,Indianapolis ColtsVHouston Texans,IND,Zach Pascal,WR,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,13,Indianapolis ColtsVHouston Texans,IND,Trey Burton,TE,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,13,Indianapolis ColtsVHouston Texans,IND,Jacoby Brissett,QB,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1
+2020,13,Indianapolis ColtsVHouston Texans,IND,Ashton Dulin,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Darren Fells,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Indianapolis ColtsVHouston Texans,HOU,Kahale Warring,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Indianapolis ColtsVHouston Texans,IND,Isaiah Rodgers,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,13,Indianapolis ColtsVHouston Texans,IND,De'Michael Harris,WR,0,0,0,-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.3

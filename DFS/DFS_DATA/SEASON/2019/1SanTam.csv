@@ -1,6 +1,6 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Chris Godwin,WR,0,0,0,0,3,1,53,0,0,0,0,0,0,0,0,0,0,0,12.8
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Jimmy Garoppolo,error,1,166,0,-2,0,0,0,1,0,0,0,0,0,0,0,0,0,1,11.44
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Jimmy Garoppolo,QB,1,166,0,-2,0,0,0,1,0,0,0,0,0,0,0,0,0,1,11.44
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Richie James,WR,0,0,0,0,1,1,39,0,0,0,0,0,0,0,0,0,0,0,10.4
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Jameis Winston,QB,1,194,0,13,0,0,0,3,0,0,0,0,0,0,0,0,0,0,10.06
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Ronald Jones II,RB,0,0,0,75,1,0,18,0,0,0,0,0,0,0,0,0,0,0,9.8
@@ -8,17 +8,17 @@ Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Tevin Coleman,RB,0,0,0,23,2,0,33,0,0,0,0,0,0,0,0,0,0,0,6.6
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Peyton Barber,RB,0,0,0,33,2,0,12,0,0,0,0,0,0,0,0,0,0,0,5.5
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Dare Ogunbowale,RB,0,0,0,0,4,0,33,0,0,0,0,0,0,0,0,0,0,0,5.3
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Matt Gay,error,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,5.0
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Matt Gay,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,5.0
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Raheem Mostert,RB,0,0,0,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,4.5
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Mike Evans,WR,0,0,0,0,2,0,28,0,0,0,0,0,0,0,0,0,0,0,3.8
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Matt Breida,RB,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.7
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Deebo Samuel,error,0,0,0,0,3,0,17,0,1,0,0,0,0,0,0,0,0,1,3.2
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Deebo Samuel,WR,0,0,0,0,3,0,17,0,1,0,0,0,0,0,0,0,0,1,3.2
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,O.J. Howard,TE,0,0,0,0,4,0,32,0,1,0,0,0,0,0,0,0,0,0,3.2
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Breshad Perriman,WR,0,0,0,0,2,0,10,0,0,0,0,0,0,0,0,0,0,0,2.0
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Robbie Gould\g,error,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Robbie Gould\g,,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Cameron Brate,TE,0,0,0,0,2,0,8,0,0,0,0,0,0,0,0,0,0,0,1.8
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Kendrick Bourne,error,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Kendrick Bourne,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
 2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Dante Pettis,WR,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Marquise Goodwin,error,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Bobo Wilson,error,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,T.J. Logan,error,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,SFO,Marquise Goodwin,WR,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,Bobo Wilson,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2019,1,San Francisco 49ersVTampa Bay Buccaneers,TAM,T.J. Logan,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

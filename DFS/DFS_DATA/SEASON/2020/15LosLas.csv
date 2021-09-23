@@ -1,25 +1,28 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,15,Buffalo BillsVDenver Broncos,BUF,Josh Allen,QB,2,359,2,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37.66
-2020,15,Buffalo BillsVDenver Broncos,DEN,Melvin Gordon,RB1,0,0,2,61,4,0,20,0,0,0,0,0,0,0,0,0,0,0,22.1
-2020,15,Buffalo BillsVDenver Broncos,BUF,Stefon Diggs,WR1,0,0,0,0,11,0,147,0,0,0,0,0,0,0,0,0,0,0,20.2
-2020,15,Buffalo BillsVDenver Broncos,DEN,Noah Fant,TE1,0,0,0,0,8,1,68,0,0,0,0,0,0,0,0,0,0,0,16.8
-2020,15,Buffalo BillsVDenver Broncos,BUF,Devin Singletary,RB1,0,0,1,68,3,0,16,0,0,0,0,0,0,0,0,0,0,0,15.9
-2020,15,Buffalo BillsVDenver Broncos,BUF,Cole Beasley,WR2,0,0,0,0,8,0,112,0,0,0,0,0,0,0,0,0,0,0,15.2
-2020,15,Buffalo BillsVDenver Broncos,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,6,0,2,0,0,0,0,12.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Drew Lock,QB,1,132,0,37,0,0,0,0,1,0,0,0,0,0,0,0,0,0,10.98
-2020,15,Buffalo BillsVDenver Broncos,BUF,Dawson Knox,TE1,0,0,0,0,2,1,36,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,15,Buffalo BillsVDenver Broncos,BUF,Jake Kumerow,,0,0,0,0,1,1,22,0,0,0,0,0,0,0,0,0,0,0,8.7
-2020,15,Buffalo BillsVDenver Broncos,BUF,Zack Moss,RB2,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8.1
-2020,15,Buffalo BillsVDenver Broncos,DEN,Phillip Lindsay,RB2,0,0,0,38,3,0,7,0,0,0,0,0,0,0,0,0,0,0,6.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Tim Patrick,WR2,0,0,0,0,3,0,14,0,0,0,0,0,0,0,0,0,0,0,2.9
-2020,15,Buffalo BillsVDenver Broncos,BUF,Gabriel Davis,WR3,0,0,0,0,2,0,18,0,0,0,0,0,0,0,0,0,0,0,2.8
-2020,15,Buffalo BillsVDenver Broncos,DEN,Jerry Jeudy,WR1,0,0,0,0,1,0,19,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,15,Buffalo BillsVDenver Broncos,BUF,Isaiah McKenzie,WR4,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.3
-2020,15,Buffalo BillsVDenver Broncos,DEN,Taylor Russolino,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,KJ Hamler,,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0.9
-2020,15,Buffalo BillsVDenver Broncos,DEN,Royce Freeman,,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4
-2020,15,Buffalo BillsVDenver Broncos,BUF,Lee Smith,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Nick Vannett,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,BUF,Andre Roberts,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,BUF,Micah Hyde,S1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Diontae Spencer,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Justin Herbert,QB,2,314,1,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27.96
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Marcus Mariota,QB,1,226,1,88,0,0,0,1,0,0,0,0,0,0,0,0,0,0,26.84
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Darren Waller,TE,0,0,0,0,9,1,150,0,0,0,0,0,0,0,0,0,0,0,25.5
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Josh Jacobs,RB,0,0,1,76,3,0,38,0,0,0,0,0,0,0,0,0,0,0,18.9
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Hunter Henry,TE,0,0,0,0,5,1,65,0,0,0,0,0,0,0,0,0,0,0,15.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Tyron Johnson,WR,0,0,0,0,3,1,61,0,0,0,0,0,0,0,0,0,0,0,13.6
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Jalen Guyton,WR,0,0,0,4,4,0,91,0,0,0,0,0,0,0,0,0,0,0,11.5
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Austin Ekeler,RB,0,0,0,60,4,0,19,0,0,0,0,0,0,0,0,0,0,0,9.9
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Kalen Ballage,RB,0,0,1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7.1
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Nelson Agholor,WR,0,0,0,0,4,0,49,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Michael Badgley,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,6.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Daniel Carlson,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,6.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,K.J. Hill,WR,0,0,0,0,3,0,39,0,0,0,0,0,0,0,0,0,0,0,5.4
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Mike Williams,WR,0,0,0,0,2,0,22,0,0,0,0,0,0,0,0,0,0,0,3.2
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Foster Moreau,TE,0,0,0,0,1,0,22,0,0,0,0,0,0,0,0,0,0,0,2.7
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Derek Carr,QB,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.12
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Keenan Allen,WR,0,0,0,-1,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Zay Jones,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Devontae Booker,RB,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.2
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Jalen Richard,RB,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Hunter Renfrow,WR,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0.9
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Joshua Kelley,RB,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Alec Ingold,,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Gabe Nabers,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LAC,Donald Parham,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,AJ Cole III,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,15,Los Angeles ChargersVLas Vegas Raiders,LVR,Theo Riddick,RB,0,0,0,-5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.5

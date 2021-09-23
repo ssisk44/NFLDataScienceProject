@@ -1,23 +1,25 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,14,Arizona CardinalsVNew York Giants,ARI,Kyler Murray,QB,1,244,0,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18.46
-2020,14,Arizona CardinalsVNew York Giants,ARI,DeAndre Hopkins,WR1,0,0,0,0,9,0,136,0,0,0,0,0,0,0,0,0,0,0,18.1
-2020,14,Arizona CardinalsVNew York Giants,ARI,Kenyan Drake,RB1,0,0,1,80,1,0,10,0,0,0,0,0,0,0,0,0,0,0,15.5
-2020,14,Arizona CardinalsVNew York Giants,ARI,Dan Arnold,TE2,0,0,0,0,2,1,27,0,0,0,0,0,0,0,0,0,0,0,9.7
-2020,14,Arizona CardinalsVNew York Giants,NYG,Wayne Gallman,RB1,0,0,0,57,3,0,16,0,0,0,0,0,0,0,0,0,0,0,8.8
-2020,14,Arizona CardinalsVNew York Giants,ARI,Chase Edmonds,RB2,0,0,0,32,4,0,21,0,0,0,0,0,0,0,0,0,0,0,7.3
-2020,14,Arizona CardinalsVNew York Giants,NYG,Dion Lewis,RB2,0,0,1,14,0,0,0,0,1,0,0,0,0,0,0,0,0,0,5.4
-2020,14,Arizona CardinalsVNew York Giants,NYG,Sterling Shepard,WR1,0,0,0,0,3,0,35,0,0,0,0,0,0,0,0,0,0,0,5.0
-2020,14,Arizona CardinalsVNew York Giants,NYG,Darius Slayton,WR2,0,0,0,0,3,0,31,0,0,0,0,0,0,0,0,0,0,0,4.6
-2020,14,Arizona CardinalsVNew York Giants,NYG,Golden Tate,WR3,0,0,0,0,1,0,39,0,0,0,0,0,0,0,0,0,0,0,4.4
-2020,14,Arizona CardinalsVNew York Giants,NYG,Daniel Jones,QB,0,127,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,3.08
-2020,14,Arizona CardinalsVNew York Giants,ARI,Christian Kirk,WR2,0,0,0,0,3,0,14,0,0,0,0,0,0,0,0,0,0,0,2.9
-2020,14,Arizona CardinalsVNew York Giants,NYG,Evan Engram,TE1,0,0,0,0,2,0,18,0,0,0,0,0,0,0,0,0,0,0,2.8
-2020,14,Arizona CardinalsVNew York Giants,ARI,Maxx Williams,TE1,0,0,0,0,2,0,17,0,0,0,0,0,0,0,0,0,0,0,2.7
-2020,14,Arizona CardinalsVNew York Giants,ARI,Larry Fitzgerald,WR3,0,0,0,0,2,0,10,0,0,0,0,0,0,0,0,0,0,0,2.0
-2020,14,Arizona CardinalsVNew York Giants,ARI,Mike Nugent\n,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
-2020,14,Arizona CardinalsVNew York Giants,ARI,KeeSean Johnson,S1,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,14,Arizona CardinalsVNew York Giants,NYG,Kaden Smith,TE2,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
-2020,14,Arizona CardinalsVNew York Giants,NYG,Graham Gano,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1.0
-2020,14,Arizona CardinalsVNew York Giants,NYG,Alfred Morris,,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.7
-2020,14,Arizona CardinalsVNew York Giants,NYG,C.J. Board,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,14,Arizona CardinalsVNew York Giants,NYG,Colt McCoy,,0,18,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,-1.28
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Brandon Aiyuk,WR,0,0,0,0,10,0,119,0,0,0,0,0,0,0,0,0,0,0,16.9
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Nick Mullens,QB,1,260,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,13.4
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Dustin Hopkins,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,1,0,1,0,13.0
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,J.D. McKissic,WR,0,0,0,68,2,0,18,0,0,0,0,0,0,0,0,0,0,0,9.6
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Jeff Wilson,RB,0,0,1,31,1,0,13,0,1,0,0,0,0,0,0,0,0,0,8.9
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Kyle Juszczyk,,0,0,0,3,2,1,15,0,0,0,0,0,0,0,0,0,0,0,8.8
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Raheem Mostert,RB,0,0,0,65,2,0,5,0,0,0,0,0,0,0,0,0,0,0,8.0
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Kendrick Bourne,WR,0,0,0,0,3,0,42,0,0,0,0,0,0,0,0,0,0,1,7.7
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Logan Thomas,,0,0,0,0,6,0,43,0,0,0,0,0,0,0,0,0,0,0,7.3
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Peyton Barber,RB,0,0,0,37,2,0,1,0,0,0,0,0,0,0,0,0,0,0,4.8
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Richie James,WR,0,0,0,0,3,0,33,0,0,0,0,0,0,0,0,0,0,0,4.8
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Terry McLaurin,WR,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Ross Dwelley,TE,0,0,0,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,3.0
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Jordan Reed,TE,0,0,0,0,2,0,13,0,0,0,0,0,0,0,0,0,0,0,2.3
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Cam Sims,WR,0,0,0,5,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.8
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Isaiah Wright,WR,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Alex Smith,QB,0,57,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1.28
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Steven Sims,WR,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Robbie Gould\g,,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1.0
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Deebo Samuel,WR,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.9
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Dwayne Haskins,QB,0,51,0,-12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.84
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Jeremy Sprinkle,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,14,Washington Football TeamVSan Francisco 49ers,WAS,Robert Foster,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,14,Washington Football TeamVSan Francisco 49ers,SFO,Charlie Woerner,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

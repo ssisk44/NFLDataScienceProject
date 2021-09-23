@@ -1,23 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Kyler Murray,QB,2,269,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.26
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Russell Wilson,QB,2,197,0,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.08
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Tyler Lockett,WR1,0,0,0,0,9,1,67,0,0,0,0,0,0,0,0,0,0,0,17.2
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Carlos Hyde,RB1,0,0,1,79,2,0,16,0,0,0,0,0,0,0,0,0,0,0,16.5
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Kenyan Drake,RB1,0,0,1,29,4,0,31,0,0,0,0,0,0,0,0,0,0,0,14.0
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Chase Edmonds,RB2,0,0,0,13,4,1,36,0,0,0,0,0,0,0,0,0,0,0,12.9
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,D.K. Metcalf,WR2,0,0,0,0,3,1,46,0,0,0,0,0,0,0,0,0,0,0,12.1
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Larry Fitzgerald,WR3,0,0,0,0,8,0,62,0,0,0,0,0,0,0,0,0,0,0,10.2
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Jason Myers,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0,0,9.0
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,DeAndre Hopkins,WR1,0,0,0,0,5,0,51,0,0,0,0,0,0,0,0,0,0,0,7.6
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Christian Kirk,WR2,0,0,0,0,4,0,50,0,0,0,0,0,0,0,0,0,0,0,7.0
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Dan Arnold,TE2,0,0,0,0,1,1,4,0,0,0,0,0,0,0,0,0,0,0,6.9
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,DeeJay Dallas,RB2,0,0,0,13,2,0,19,0,0,0,0,0,0,0,0,0,0,0,4.2
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Maxx Williams,TE1,0,0,0,0,2,0,29,0,0,0,0,0,0,0,0,0,0,0,3.9
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Bo Scarbrough,,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.1
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Greg Olsen,TE1,0,0,0,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,3.0
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Jacob Hollister,,0,0,0,0,2,0,14,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,Will Dissly,TE2,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,David Moore,WR3,0,0,0,0,2,0,5,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,11,Arizona CardinalsVSeattle Seahawks,ARI,Andy Isabella,WR4,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
-2020,11,Arizona CardinalsVSeattle Seahawks,SEA,D.J. Reed,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Jared Goff,QB,3,376,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,25.04
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Robert Woods,WR,0,0,0,-4,12,1,130,0,0,0,0,0,0,0,0,0,0,0,24.6
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Cooper Kupp,WR,0,0,0,0,11,0,145,0,0,0,0,0,0,0,0,0,0,0,20.0
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Chris Godwin,WR,0,0,0,0,7,1,53,0,0,0,0,0,0,0,0,0,0,0,14.8
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Tom Brady,QB,2,216,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,14.64
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Mike Evans,WR,0,0,0,0,5,1,49,0,0,0,0,0,0,0,0,0,0,0,13.4
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Matt Gay,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,1,0,0,10.0
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Antonio Brown,WR,0,0,0,1,8,0,57,0,0,0,0,0,0,0,0,0,0,0,9.8
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Leonard Fournette,RB,0,0,1,17,1,0,9,0,0,0,0,0,0,0,0,0,0,0,9.1
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Cam Akers,RB,0,0,0,15,1,1,4,0,0,0,0,0,0,0,0,0,0,0,8.4
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Van Jefferson,WR,0,0,0,0,1,1,7,0,0,0,0,0,0,0,0,0,0,0,7.2
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Ryan Succop,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0,0,6.0
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Gerald Everett,TE,0,0,0,0,4,0,27,0,0,0,0,0,0,0,0,0,0,0,4.7
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Josh Reynolds,WR,0,0,0,0,3,0,32,0,0,0,0,0,0,0,0,0,0,0,4.7
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Tyler Higbee,TE,0,0,0,1,4,0,19,0,0,0,0,0,0,0,0,0,0,0,4.0
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Cameron Brate,TE,0,0,0,0,3,0,23,0,0,0,0,0,0,0,0,0,0,0,3.8
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Rob Gronkowski,TE,0,0,0,0,2,0,25,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Malcolm Brown,RB,0,0,0,20,1,0,8,0,0,0,0,0,0,0,0,0,0,0,3.3
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Ronald Jones II,RB,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.4
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Darrell Henderson,RB,0,0,0,5,2,0,4,0,0,0,0,0,0,0,0,0,0,0,1.9
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,LAR,Nsimba Webster,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,11,Los Angeles RamsVTampa Bay Buccaneers,TAM,Kenjon Barner,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

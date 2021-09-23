@@ -1,24 +1,21 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Curtis Samuel,WR3,0,0,1,23,4,1,31,0,0,0,0,0,0,0,0,0,0,0,19.4
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Matt Ryan,QB,0,281,1,27,0,0,0,1,0,0,0,0,0,0,0,0,0,0,18.94
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Julio Jones,WR1,0,0,0,0,7,0,137,0,0,0,0,0,0,0,0,0,0,0,17.2
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Teddy Bridgewater,QB,1,176,0,30,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13.04
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Younghoe Koo,K,0,0,0,0,0,0,0,0,0,0,0,1,0,2,2,0,0,0,13.0
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Todd Gurley,RB1,0,0,1,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Mike Davis,RB1,0,0,0,66,1,0,11,0,0,0,0,0,0,0,0,0,0,0,8.2
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Hayden Hurst,TE1,0,0,0,0,5,0,54,0,0,0,0,0,0,0,0,0,0,0,7.9
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Brian Hill,RB2,0,0,0,55,2,0,9,0,0,0,0,0,0,0,0,0,0,0,7.4
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Robby Anderson,WR2,0,0,0,0,5,0,48,0,0,0,0,0,0,0,0,0,0,0,7.3
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,D.J. Moore,WR1,0,0,0,0,2,0,55,0,0,0,0,0,0,0,0,0,0,0,6.5
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Calvin Ridley,WR2,0,0,0,0,3,0,42,0,0,0,0,0,0,0,0,0,0,0,5.7
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,5.0
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Ian Thomas,TE1,0,0,0,0,3,0,28,0,0,0,0,0,0,0,0,0,0,0,4.3
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Russell Gage,WR3,0,0,0,0,2,0,25,0,0,0,0,0,0,0,0,0,0,0,3.5
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Jeremy Chinn,LB1,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.8
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Christian Blake,,0,0,0,0,2,0,14,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Chris Manhertz,TE2,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Qadree Ollison,,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Phillip Walker,,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.12
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Keith Smith,FB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Colin Thompson,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,8,New England PatriotsVBuffalo Bills,BUF,Zack Moss,RB,0,0,2,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.1
+2020,8,New England PatriotsVBuffalo Bills,NWE,Cam Newton,QB,0,174,1,54,0,0,0,0,1,0,0,0,0,0,0,0,0,1,18.36
+2020,8,New England PatriotsVBuffalo Bills,NWE,Damien Harris,RB,0,0,1,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16.2
+2020,8,New England PatriotsVBuffalo Bills,BUF,Josh Allen,QB,0,154,1,23,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13.46
+2020,8,New England PatriotsVBuffalo Bills,BUF,Stefon Diggs,WR,0,0,0,0,6,0,92,0,0,0,0,0,0,0,0,0,0,0,12.2
+2020,8,New England PatriotsVBuffalo Bills,NWE,Jakobi Meyers,WR,0,0,0,0,6,0,58,0,0,0,0,0,0,0,0,0,0,1,10.8
+2020,8,New England PatriotsVBuffalo Bills,BUF,Devin Singletary,RB,0,0,0,86,1,0,6,0,0,0,0,0,0,0,0,0,0,0,9.7
+2020,8,New England PatriotsVBuffalo Bills,NWE,Nick Folk,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,8.0
+2020,8,New England PatriotsVBuffalo Bills,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,6.0
+2020,8,New England PatriotsVBuffalo Bills,NWE,Damiere Byrd,WR,0,0,0,0,3,0,39,0,0,0,0,0,0,0,0,0,0,0,5.4
+2020,8,New England PatriotsVBuffalo Bills,NWE,James White,RB,0,0,0,0,2,0,35,0,0,0,0,0,0,0,0,0,0,0,4.5
+2020,8,New England PatriotsVBuffalo Bills,NWE,Rex Burkhead,RB,0,0,0,26,1,0,5,0,0,0,0,0,0,0,0,0,0,0,3.6
+2020,8,New England PatriotsVBuffalo Bills,NWE,Ryan Izzo,TE,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,8,New England PatriotsVBuffalo Bills,BUF,Cole Beasley,WR,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,8,New England PatriotsVBuffalo Bills,BUF,John Brown,WR,0,0,0,0,1,0,21,0,0,0,0,0,0,0,0,0,0,0,2.6
+2020,8,New England PatriotsVBuffalo Bills,NWE,Isaiah Zuber,WR,0,0,0,0,1,0,13,0,0,0,0,0,0,0,0,0,0,0,1.8
+2020,8,New England PatriotsVBuffalo Bills,BUF,Tyler Kroft,TE,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,8,New England PatriotsVBuffalo Bills,NWE,Gunner Olszewski,WR,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.6
+2020,8,New England PatriotsVBuffalo Bills,BUF,Gabriel Davis,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,8,New England PatriotsVBuffalo Bills,BUF,Andre Roberts,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

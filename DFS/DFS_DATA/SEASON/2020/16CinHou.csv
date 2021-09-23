@@ -1,23 +1,27 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Patrick Mahomes,QB,2,278,0,21,0,0,0,1,0,0,0,0,0,0,0,0,0,0,20.22
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Matt Ryan,QB,2,300,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19.9
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Travis Kelce,TE1,0,0,0,0,7,1,98,0,0,0,0,0,0,0,0,0,0,0,19.3
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Calvin Ridley,WR1,0,0,0,-7,5,0,130,0,0,0,0,0,0,0,0,0,0,0,14.8
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Hayden Hurst,TE1,0,0,0,0,5,1,47,0,0,0,0,0,0,0,0,0,0,0,13.2
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Demarcus Robinson,WR3,0,0,0,0,2,1,29,0,0,0,0,0,0,0,0,0,0,0,9.9
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Darrel Williams,RB1,0,0,0,46,4,0,27,0,0,0,0,0,0,0,0,0,0,0,9.3
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Tyreek Hill,WR1,0,0,0,0,4,0,65,0,0,0,0,0,0,0,0,0,0,0,8.5
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Laquon Treadwell,,0,0,0,0,2,1,11,0,0,0,0,0,0,0,0,0,0,0,8.1
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Brian Hill,,0,0,0,36,3,0,25,0,0,0,0,0,0,0,0,0,0,0,7.6
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Harrison Butker,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,7.0
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Todd Gurley,RB2,0,0,0,16,3,0,34,0,0,0,0,0,0,0,0,0,0,0,6.5
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Mecole Hardman,WR4,0,0,0,20,3,0,24,0,0,0,0,0,0,0,0,0,0,0,5.9
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Ito Smith,RB1,0,0,0,46,1,0,5,0,0,0,0,0,0,0,0,0,0,0,5.6
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Le'Veon Bell,RB2,0,0,0,30,1,0,9,0,0,0,0,0,0,0,0,0,0,0,4.4
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Russell Gage,WR2,0,0,0,0,4,0,23,0,0,0,0,0,0,0,0,0,0,0,4.3
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Keith Smith,FB,0,0,0,0,2,0,14,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Younghoe Koo,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Deon Yelder,,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Luke Stocker,,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,16,Atlanta FalconsVKansas City Chiefs,KAN,Sammy Watkins,WR2,0,0,0,0,2,0,14,1,0,0,0,0,0,0,0,0,0,0,1.4
-2020,16,Atlanta FalconsVKansas City Chiefs,ATL,Brandon Powell,WR3,0,0,0,0,1,0,2,0,1,0,0,0,0,0,0,0,0,0,-1.3
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Samaje Perine,RB,0,0,2,95,4,0,41,0,0,0,0,0,0,0,0,0,0,0,27.6
+2020,16,Cincinnati BengalsVHouston Texans,HOU,David Johnson,RB,0,0,1,128,3,1,11,0,0,0,0,0,0,0,0,0,0,0,27.4
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Deshaun Watson,QB,3,324,0,38,0,0,0,0,1,0,0,0,0,0,0,0,0,0,26.76
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Brandin Cooks,WR,0,0,0,0,7,1,141,0,0,0,0,0,0,0,0,0,0,0,23.6
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Brandon Allen,QB,2,371,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23.14
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Tee Higgins,WR,0,0,0,0,6,1,99,0,0,0,0,0,0,0,0,0,0,0,18.9
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Giovani Bernard,RB,0,0,0,65,7,0,66,0,0,0,0,0,0,0,0,0,0,0,16.6
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Austin Seibert,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,2,1,0,0,14.0
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Alex Erickson,WR,0,0,0,0,6,0,88,0,0,0,0,0,0,0,0,0,0,0,11.8
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Darren Fells,TE,0,0,0,0,1,1,22,0,0,0,0,0,0,0,0,0,0,0,8.7
+2020,16,Cincinnati BengalsVHouston Texans,CIN,A.J. Green,WR,0,0,0,0,4,0,64,0,0,0,0,0,0,0,0,0,0,0,8.4
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Keke Coutee,WR,0,0,0,0,5,0,54,0,0,0,0,0,0,0,0,0,0,0,7.9
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Drew Sample,TE,0,0,0,0,1,1,8,0,0,0,0,0,0,0,0,0,0,0,7.3
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Ka'imi Fairbairn,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,7.0
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Jordan Akins,TE,0,0,0,0,4,0,39,0,0,0,0,0,0,0,0,0,0,0,5.9
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Pharaoh Brown,TE,0,0,0,0,1,0,29,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Chad Hansen,WR,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Trenton Irwin,WR,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Charlie Heck,,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0.8
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Kahale Warring,TE,0,0,0,0,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0.8
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Max Scharping,,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0.7
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Steven Mitchell,WR,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0.7
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Trayveon Williams,RB,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.6
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Mike Thomas,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,16,Cincinnati BengalsVHouston Texans,CIN,Brandon Wilson,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,16,Cincinnati BengalsVHouston Texans,HOU,Dontrell Hilliard,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

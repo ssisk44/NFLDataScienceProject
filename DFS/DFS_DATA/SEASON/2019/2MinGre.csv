@@ -7,17 +7,17 @@ Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Kirk Cousins,QB,1,230,0,17,0,0,0,2,1,0,0,0,0,0,0,0,0,0,10.9
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Adam Thielen,WR,0,0,0,0,5,0,75,0,0,0,0,0,0,0,0,0,0,0,10.0
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Stefon Diggs,WR,0,0,0,0,1,1,49,0,1,0,0,0,0,0,0,0,0,0,9.4
-2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Geronimo Allison,error,0,0,0,0,4,1,25,0,1,0,0,0,0,0,0,0,0,0,8.5
+2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Geronimo Allison,WR,0,0,0,0,4,1,25,0,1,0,0,0,0,0,0,0,0,0,8.5
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Chad Beebe,WR,0,0,0,0,1,0,61,0,0,0,0,0,0,0,0,0,0,0,6.6
-2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Dan Bailey,error,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,4.0
+2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Dan Bailey,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,4.0
 2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Marquez Valdes-Scantling,WR,0,0,0,0,3,0,19,0,0,0,0,0,0,0,0,0,0,0,3.4
-2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Mason Crosby,error,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Mason Crosby,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Alexander Mattison,RB,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Kyle Rudolph,TE,0,0,0,0,3,0,9,0,0,0,0,0,0,0,0,0,0,0,2.4
 2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Jake Kumerow,WR,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
-2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Irv Smith Jr.,error,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0.4
+2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Irv Smith Jr.,TE,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0.4
 2019,2,Minnesota VikingsVGreen Bay Packers,MIN,Ameer Abdullah,RB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
-2019,2,Minnesota VikingsVGreen Bay Packers,MIN,C.J. Ham,error,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2019,2,Minnesota VikingsVGreen Bay Packers,MIN,C.J. Ham,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
 2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Marcedes Lewis,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
 2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Jimmy Graham,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Trevor Davis,error,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2019,2,Minnesota VikingsVGreen Bay Packers,GNB,Trevor Davis,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

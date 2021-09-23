@@ -1,22 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,7,Buffalo BillsVNew York Jets,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,3,1,0,23.0
-2020,7,Buffalo BillsVNew York Jets,BUF,Cole Beasley,WR2,0,0,0,0,11,0,112,0,0,0,0,0,0,0,0,0,0,0,16.7
-2020,7,Buffalo BillsVNew York Jets,BUF,Josh Allen,QB,0,307,0,61,0,0,0,0,1,0,0,0,0,0,0,0,0,0,16.38
-2020,7,Buffalo BillsVNew York Jets,NYJ,La'Mical Perine,RB2,0,0,1,40,2,0,16,0,0,0,0,0,0,0,0,0,0,0,12.6
-2020,7,Buffalo BillsVNew York Jets,BUF,Zack Moss,RB2,0,0,0,47,3,0,25,0,0,0,0,0,0,0,0,0,0,0,8.7
-2020,7,Buffalo BillsVNew York Jets,BUF,Tyler Kroft,TE1,0,0,0,0,4,0,64,0,0,0,0,0,0,0,0,0,0,0,8.4
-2020,7,Buffalo BillsVNew York Jets,BUF,Stefon Diggs,WR1,0,0,0,0,6,0,48,0,0,0,0,0,0,0,0,0,0,0,7.8
-2020,7,Buffalo BillsVNew York Jets,NYJ,Denzel Mims,WR1,0,0,0,0,4,0,42,0,0,0,0,0,0,0,0,0,0,0,6.2
-2020,7,Buffalo BillsVNew York Jets,NYJ,Frank Gore,RB1,0,0,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.0
-2020,7,Buffalo BillsVNew York Jets,BUF,Devin Singletary,RB1,0,0,0,29,2,0,18,0,0,0,0,0,0,0,0,0,0,0,5.7
-2020,7,Buffalo BillsVNew York Jets,NYJ,Braxton Berrios,WR2,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
-2020,7,Buffalo BillsVNew York Jets,NYJ,Sergio Castillo,K,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,4.0
-2020,7,Buffalo BillsVNew York Jets,NYJ,Breshad Perriman,,0,0,0,0,2,0,27,0,0,0,0,0,0,0,0,0,0,0,3.7
-2020,7,Buffalo BillsVNew York Jets,NYJ,Sam Darnold,QB,0,120,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,2.8
-2020,7,Buffalo BillsVNew York Jets,BUF,Reggie Gilliam,TE2,0,0,0,0,1,0,15,0,0,0,0,0,0,0,0,0,0,0,2.0
-2020,7,Buffalo BillsVNew York Jets,BUF,Gabriel Davis,WR4,0,0,0,0,1,0,11,0,0,0,0,0,0,0,0,0,0,0,1.6
-2020,7,Buffalo BillsVNew York Jets,BUF,Isaiah McKenzie,WR3,0,0,0,-11,2,0,14,0,0,0,0,0,0,0,0,0,0,0,1.3
-2020,7,Buffalo BillsVNew York Jets,NYJ,Jeff Smith,WR3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,7,Buffalo BillsVNew York Jets,NYJ,Trevon Wesco,FB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,7,Buffalo BillsVNew York Jets,BUF,Andre Roberts,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,7,Buffalo BillsVNew York Jets,NYJ,Ty Johnson,S1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Joe Burrow,QB,3,406,1,34,0,0,0,1,1,0,0,0,0,0,0,0,0,0,34.64
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Baker Mayfield,QB,5,297,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,30.78
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Tyler Boyd,WR,0,16,0,0,11,1,101,0,0,0,0,0,0,0,0,0,0,0,22.24
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Harrison Bryant,TE,0,0,0,0,4,2,56,0,0,0,0,0,0,0,0,0,0,0,19.6
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Giovani Bernard,RB,0,0,0,37,5,1,59,0,0,0,0,0,0,0,0,0,0,0,18.1
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Kareem Hunt,RB,0,0,0,76,3,1,26,0,0,0,0,0,0,0,0,0,0,0,17.7
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Tee Higgins,WR,0,0,0,7,5,1,71,0,0,0,0,0,0,0,0,0,0,0,16.3
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Rashard Higgins,WR,0,0,0,0,6,0,110,0,0,0,0,0,0,0,0,0,0,0,14.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Donovan Peoples-Jones,WR,0,0,0,0,3,1,56,0,0,0,0,0,0,0,0,0,0,0,13.1
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,A.J. Green,WR,0,0,0,0,7,0,82,0,0,0,0,0,0,0,0,0,0,0,11.7
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Randy Bullock,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,1,0,0,0,10.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,David Njoku,TE,0,0,0,0,2,1,20,0,0,0,0,0,0,0,0,0,0,0,9.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Jarvis Landry,WR,0,19,0,4,5,0,48,0,0,0,0,0,0,0,0,0,0,0,8.46
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Cody Parkey,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,8.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Drew Sample,TE,0,0,0,0,5,0,52,0,0,0,0,0,0,0,0,0,0,0,7.7
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Mike Thomas,WR,0,0,0,0,2,0,54,0,0,0,0,0,0,0,0,0,0,0,6.4
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Samaje Perine,RB,0,0,0,3,1,0,3,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,D'Ernest Johnson,RB,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
+2020,7,Cleveland BrownsVCincinnati Bengals,CLE,Odell Beckham Jr.,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Auden Tate,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Alex Erickson,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,7,Cleveland BrownsVCincinnati Bengals,CIN,Brandon Wilson,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

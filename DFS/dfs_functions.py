@@ -1,3 +1,5 @@
+import math
+import re
 from itertools import permutations, combinations
 import os
 import sqlite3
@@ -8,8 +10,9 @@ from selenium.webdriver import ActionChains
 import pandas as pd
 import numpy as np
 import time, os
-
-file = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/09202021DETGB_reduced_players.csv'
+directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/'
+game = '09232021CARHOU'
+file = directory+game+'_reduced_players.csv'
 
 team_abbrev_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 'Buffalo Bills', 'Carolina Panthers',
                     'Chicago Bears', 'Cincinnati Bengals', 'Cleveland Browns', 'Dallas Cowboys', 'Denver Broncos',
@@ -20,7 +23,23 @@ team_abbrev_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 
                     'Pittsburgh Steelers', 'San Francisco 49ers', 'Seattle Seahawks', 'Tampa Bay Buccaneers',
                     'Tennessee Titans', 'Washington Football Team', 'Oakland Raiders', 'Washington Redskins']
 
-bbref_team_abbrev_dict_2019 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
+bbref_team_abbrev_dict_2016_to_2017 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
+                    'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
+                    'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
+                    'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
+                    'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
+                    'Indianapolis Colts': 'clt',
+                    'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan',
+                    'San Diego Chargers': 'sdg',
+                    'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
+                    'New England Patriots': 'nwe',
+                    'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
+                                       'Philadelphia Eagles': 'phi',
+                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
+                                       'Tampa Bay Buccaneers': 'tam',
+                                       'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai', 'Washington Redskins': 'was'}
+
+bbref_team_abbrev_dict_2017_to_2019 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
                     'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
                     'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
                     'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
@@ -31,12 +50,12 @@ bbref_team_abbrev_dict_2019 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'a
                     'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
                     'New England Patriots': 'nwe',
                     'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
-                               'Philadelphia Eagles': 'phi',
-                               'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
-                               'Tampa Bay Buccaneers': 'tam',
-                               'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai', 'Washington Redskins': 'was'}
+                                       'Philadelphia Eagles': 'phi',
+                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
+                                       'Tampa Bay Buccaneers': 'tam',
+                                       'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai', 'Washington Redskins': 'was'}
 
-bbref_team_abbrev_dict_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
+bbref_team_abbrev_dict_2020_to_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
                     'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
                     'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
                     'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
@@ -47,35 +66,50 @@ bbref_team_abbrev_dict_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'a
                     'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
                     'New England Patriots': 'nwe',
                     'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
-                               'Philadelphia Eagles': 'phi',
-                               'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
-                               'Tampa Bay Buccaneers': 'tam',
-                               'Tennessee Titans': 'oti', 'Washington Football Team': 'was'}
+                                          'Philadelphia Eagles': 'phi',
+                                          'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
+                                          'Tampa Bay Buccaneers': 'tam',
+                                          'Tennessee Titans': 'oti', 'Washington Football Team': 'was'}
 
 
 def main(season):
-    None
-    # create_Combos(0, 2021, 2, '09202021DETGB')
-    # count_CSV_Permutations(filter_Combos_Combos(2021, 2, '09202021DETGB'))
+    ###CONTESTS###
+    # create_Combos(0, 2021, 3, game)
+    # count_CSV_Permutations(filter_Combos_Combos(2021, 3, 'game'))
     # return_CSV_Entries()
-    # create_Analysis_Tables()
-    # count_Lineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv', 'all')
-    # count_Lineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/winner_top_5_positions_per_contest.csv', 'winner')
-    # count_Lineups('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/loser_top_5_positions_per_contest.csv', 'loser')
 
 
+    ###DATA PIPELINE###
+    # get_Box_Scores(2016)
+    # getSimplePositions(2016)
+    for i in range(2016, 2022):
+        updateGameHistoryWithSimplePlayerPositions(i)
+    # updateGameHistoryWithDepthChartPositions(2016)
 
+
+    ###DATA ANALYSIS###
+    # create_Analysis_Table(2020) *****DANGER RESETS MANUAL CSV ENTRIES*****
+    # analyze_Table()
 
 
 ##### CONTEST PERMUTATION CREATION #####
 def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
     array = pd.read_csv(file).to_numpy()
+    sorted(array, key=lambda x: x[5], reverse=True)
+    found = False
+    for files in os.listdir(directory + str(season) + '/Week' + str(
+            week) + '/'):
+        if str(file[-32:-19]) in files:
+            found = True
+            break
+    if found == False:
+
+        pd.DataFrame(array).to_csv(
+            directory + str(season) + '/Week' + str(
+                week) + '/' + dateteams + '_BEFORE_GAME_reduced_players.csv', index=False)
 
     # sorts by predicted FPPG
-    sorted(array, key=lambda x: x[5], reverse=True)
-    pd.DataFrame(array).to_csv(
-        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
-            week) + '/' + dateteams + '_BEFORE_GAME_reduced_players.csv', index=False)
+
 
     # creates all permutations of first player, with all combinations of the next four
     newcombos = []
@@ -167,52 +201,6 @@ def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
     pd.DataFrame(permutationsarr).to_csv(
          'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
             week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv', index=False, header=headers)
-def filter_Combos_Contests():
-    array = pd.read_csv(
-        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv').to_numpy()
-    print("Initial Length: " + str(len(array)))
-    list = []
-    for i in range(0, len(array)):
-        qb_counter = 0
-        rb_counter = 0
-        wr_counter = 0
-        te_counter = 0
-        kicker_counter = 0
-        add_to = True
-        for j in range(0,5):
-            # COUNTS QBS
-            if str(array[i][j]) == 'QB':
-                qb_counter += 1
-            # COUNTS RBS
-            if str(array[i][j]) == 'RB':
-                rb_counter += 1
-            # COUNTS RBS
-            if str(array[i][j]) == 'WR':
-                wr_counter += 1
-            # COUNTS RBS
-            if str(array[i][j]) == 'TE':
-                te_counter += 1
-            # COUNTS KICKERS
-            if str(array[i][j]) == 'K':
-                kicker_counter+=1
-
-            # REMOVES MVP TE
-            if j == 10 and str(array[i][j]) == 'TE':
-                add_to = False
-
-            # REMOVES MVP K
-            if j == 10 and str(array[i][j]) == 'K':
-                add_to = False
-
-        if rb_counter == 0 and wr_counter < 2:
-            add_to = False
-
-        if qb_counter == 0 or kicker_counter > 1 or te_counter > 1:
-            add_to = False
-
-        if add_to == True:
-            list.append(array[i])
-    print("Length after removal: " + str(len(list)) + " *******Deprecated*******")
 def filter_Combos_Combos(season, week, dateteams):
     array = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
         week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv')
@@ -229,8 +217,17 @@ def filter_Combos_Combos(season, week, dateteams):
         team2 = ''
         qb_counter = 0
         rb_counter = 0
+        rb1_counter = 0
+        rb2_counter = 0
+        rb3_counter = 0
         wr_counter = 0
+        wr1_counter = 0
+        wr2_counter = 0
+        wr3_counter = 0
+        wr4_counter = 0
         te_counter = 0
+        te1_counter = 0
+        te2_counter = 0
         kicker_counter = 0
         add_to = True
         for j in range(10,15):
@@ -242,35 +239,52 @@ def filter_Combos_Combos(season, week, dateteams):
             lineup_teams.append(str(array[i][j-5]))
             lineup_names.append(str(array[i][j-10]))
             # COUNTS QBS
-            if str(array[i][j]) == 'QB':
+            if 'QB' in str(array[i][j]):
                 qb_counter += 1
             # COUNTS RBS
-            if str(array[i][j]) == 'RB':
+            elif 'RB' in str(array[i][j]):
                 rb_counter += 1
+                if 'RB1' in str(array[i][j]):
+                    rb1_counter += 1
+                if 'RB2' in str(array[i][j]):
+                    rb2_counter += 1
+                if 'RB3' in str(array[i][j]):
+                    rb3_counter += 1
             # COUNTS WRS
-            if str(array[i][j]) == 'WR':
+            elif 'WR' in str(array[i][j]):
                 wr_counter += 1
+                if 'WR1' in str(array[i][j]):
+                    wr1_counter += 1
+                if 'WR2' in str(array[i][j]):
+                    wr2_counter += 1
+                if 'WR3' in str(array[i][j]):
+                    wr3_counter += 1
+                if 'WR4' in str(array[i][j]):
+                    wr4_counter += 1
             # COUNTS TES
-            if str(array[i][j]) == 'TE':
+            elif 'TE' in str(array[i][j]):
                 te_counter += 1
+                if 'TE1' in str(array[i][j]):
+                    te1_counter += 1
+                if 'TE2' in str(array[i][j]):
+                    te2_counter += 1
+
             # COUNTS KICKERS
-            if str(array[i][j]) == 'K':
+            elif 'K' in str(array[i][j]) :
                 kicker_counter+=1
 
             # # REMOVES MVP TE
             # if j == 10 and str(array[i][j]) == 'TE':
             #     add_to = False
+            #
+            # # REMOVES MVP K
+            # if j == 10 and str(array[i][j]) == 'K':
+            #     add_to = False
 
-            # REMOVES MVP K
-            if j == 10 and str(array[i][j]) == 'K':
-                add_to = False
-
-#POSSIBLE ENTRY ADDITIONS
-#
-#64108-80299,RB,Patrick,Patrick Ricard,Ricard,2.5,1,5000,KC@BAL,BAL,KC,,,,,,MVP - 1.5X Points/AnyFLEX
-#64108-63186,WR,James,James Proche,Proche,0.15833333134651184,12,5500,KC@BAL,BAL,KC,,,,,,MVP - 1.5X Points/AnyFLEX
 
         #GAME SPECIFIC FILTERS
+        if 'Christian McCaffrey' not in lineup_names:
+            add_to = False
 
 
         #REMOVE NON MVP CHOICES
@@ -278,10 +292,13 @@ def filter_Combos_Combos(season, week, dateteams):
         #     add_to = False
 
         #GENERAL SINGLE GAME DFS FILTERS
-        if qb_counter==0 and te_counter>0:
+        # depth chart positions
+        if rb3_counter >= 1 or rb2_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2 or kicker_counter >= 2:
             add_to = False
 
-        if qb_counter==0 or rb_counter >=3 or kicker_counter>=2 or te_counter>=3:
+
+        # simple positions
+        if qb_counter == 0 or rb_counter >=3 or wr_counter>=4 or te_counter>=2:
             add_to = False
 
         if add_to == True:
@@ -289,8 +306,8 @@ def filter_Combos_Combos(season, week, dateteams):
 
 
     print("Length after removal: " + str(len(list)))
-    list = sorted(list, key=lambda x: (x[0], -x[-6], x[1], [2], x[3], x[4]))
-    pd.DataFrame(list).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv', index=False,
+    this_list = sorted(list, key=lambda x: (x[0], -x[-6], x[1], [2], x[3], x[4]))
+    pd.DataFrame(this_list).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv', index=False,
                                                           header=col)  # ,'Count])
     return list
 def count_CSV_Permutations(list):
@@ -324,15 +341,27 @@ def return_CSV_Entries():
 
 ##### DATA PIPELINE #####
 def get_Box_Scores(season):
-    get_Season_Schedule(season)
     schedule = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/'+str(season)+'NFLScheduleAndResults.csv').to_numpy()
     game_count = 0
+
+    # sets team dictionairy to the right years values
+    def get_Teams_Dictionairy_For_Year(season):
+        if season==2016:
+            this_dict = bbref_team_abbrev_dict_2016_to_2017
+        elif 2017<=season<=2019:
+            this_dict = bbref_team_abbrev_dict_2017_to_2019
+        elif 2020<=season<=2021:
+            this_dict = bbref_team_abbrev_dict_2020_to_2021
+        return this_dict
+    this_dict = get_Teams_Dictionairy_For_Year(season)
+
     for game in range(0, len(schedule)):
-        if game_count <= 255 and 1 <= int(schedule[game][0]) <= 17: ############CHANGE BACK TO 17
+        if game_count <= 255 and 1 <= int(schedule[game][0]) <= 18:
             game_count += 1
 
-            index = list(bbref_team_abbrev_dict_2021.keys()).index(define_Home_Team(schedule[game][4], schedule[game][6], schedule[game][5]))
-            teamcode = list(bbref_team_abbrev_dict_2021.values())[index]
+            #gets index of game for link
+            index = list(this_dict.keys()).index(define_Home_Team(schedule[game][4], schedule[game][6], schedule[game][5]))
+            teamcode = list(this_dict.values())[index]
 
             #make game links and get stats with them
             date = str(schedule[game][2])
@@ -348,13 +377,7 @@ def get_Box_Scores(season):
                     break
 
             if file_found == False:
-                try:
-                    game_stats = get_Game_Stats(link)
-                    #uses tables of one game to write all player stats, includes total fantasy points
-                    get_Player_Stats(game_stats[0], game_stats[1], game_stats[2], game_stats[3], game, season)
-                except:
-                    game_stats = get_Game_Stats(link)
-                    get_Player_Stats(game_stats[0], game_stats[1], game_stats[2], game_stats[3], game, season)
+                get_Game_Stats(link, game, season)
 def get_Season_Schedule(season):
     try:
         # get season schedule
@@ -384,256 +407,185 @@ def get_Season_Schedule(season):
         return newarr[1:]
     except:
         get_Season_Schedule(season)
-def get_Game_Stats(link):
-    try:
-        chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
-        os.environ["webdriver.chrome.driver"] = chromedriver
-        driver = webdriver.Chrome(chromedriver)
+def get_Game_Stats(link, game, season):
+    chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
+    os.environ["webdriver.chrome.driver"] = chromedriver
+    driver = webdriver.Chrome(chromedriver)
+    driver.get(link)
+    df = pd.read_html(driver.page_source)
+    driver.close()
 
-        def clean_Scrape(crude):
-            arr = crude[0][2].split('\n')
-            arr.remove('')
-            newarr = []
-            for i in range(0, len(arr)):
-                if arr[i][0] != '':
-                    newarr.append(arr[i].split(','))
-            header = newarr[0]
-            return newarr[1:]
+    def cleanReturnDF(df):
+        col = df.columns
+        arr = df.to_numpy()
+        index = 0
+        for entry in range(0, len(arr)):
+            if type(arr[entry][0]) == float:
+                index = entry
+        new_arr = []
+        for entry in range(0, index):
+            new_arr.append(arr[entry])
+        for entry in range(index + 2, len(arr)):
+            new_arr.append(arr[entry])
+        return pd.DataFrame(new_arr, columns=col)
 
-        def getPRR():
-            driver.maximize_window()
-            driver.get(link)
-            action = ActionChains(driver)
-            # pass,rush,rec table
-            prr_t_span = driver.find_element_by_xpath('/html/body/div[2]/div[4]/div[12]/div[1]/div/ul/li[1]/span')
-            driver.execute_script("arguments[0].scrollIntoView();", prr_t_span)
-            prr_t_button = driver.find_element_by_xpath(
-                '/html/body/div[2]/div[4]/div[12]/div[1]/div/ul/li[1]/div/ul/li[4]/button')
-            time.sleep(2)
-            action.move_to_element(prr_t_span).perform()
-            action.move_to_element(prr_t_button).click().perform()
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            Pass_Rush_Rec = clean_Scrape(pd.DataFrame([soup.find('pre', id='csv_player_offense')]).to_numpy())
-            return Pass_Rush_Rec
+    # print(cleanReturnDF(df[-20]))  # k
+    # print(cleanReturnDF(df[-15]))  # prr
+    # print(cleanReturnDF(df[-13]))  # krpr
+    # print(cleanReturnDF(df[-12]))  # kp
+    def get_start_index():
+        for i in range(0, len(df)):
+            c = len(df[i].columns)
+            if c != 3:
+                return i + 1
 
-        def getKRPR():
-            driver.maximize_window()
-            driver.get(link)
-            action = ActionChains(driver)
-            # KR/PR retrieval
-            krpr_t_span = driver.find_element_by_xpath('/html/body/div[2]/div[4]/div[14]/div[1]/div/ul/li[1]/span')
-            driver.execute_script("arguments[0].scrollIntoView();", krpr_t_span)
-            krpr_t_button = driver.find_element_by_xpath(
-                '/html/body/div[2]/div[4]/div[14]/div[1]/div/ul/li[1]/div/ul/li[4]/button')
-            time.sleep(2)
-            action.move_to_element(krpr_t_span).perform()
-            action.move_to_element(krpr_t_button).click().perform()
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            KR_PR = clean_Scrape(pd.DataFrame([soup.find('pre', id='csv_returns')]).to_numpy())
-            return KR_PR
+    PRR = cleanReturnDF(df[get_start_index() - len(df) + 5]).to_numpy()  # prr
+    PR_KR = cleanReturnDF(df[get_start_index() - len(df) + 7]).to_numpy()  # krpr
+    K = cleanReturnDF(df[get_start_index() - len(df) + 8]).to_numpy()  # kp
+    TWOPC_FG = cleanReturnDF(df[get_start_index() - len(df)]).to_numpy()
 
-        def getK():
-            driver.maximize_window()
-            driver.get(link)
-            action = ActionChains(driver)
-            # K retrieval
-            k_t_span = driver.find_element_by_xpath('/html/body/div[2]/div[4]/div[16]/div[1]/div/ul/li[1]/span')
-            driver.execute_script("arguments[0].scrollIntoView();", k_t_span)
-            k_t_button = driver.find_element_by_xpath('/html/body/div[2]/div[4]/div[16]/div[1]/div/ul/li[1]/div/ul/li[4]/button')
-            time.sleep(2)
-            action.move_to_element(k_t_span).perform()
-            action.move_to_element(k_t_button).click().perform()
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            K = clean_Scrape(pd.DataFrame([soup.find('pre', id='csv_kicking')]).to_numpy())
-            return K
-
-        def getTWOPC_FG():
-            time.sleep(2)
-            elements = driver.find_elements_by_xpath('//tr')
-            begin, end = None, None
-            TWOPC_FG = []
-            for i in range(0, len(elements)):
-                if end != None:
-                    break
-                t = elements[i].text
-                if 'Quarter Time Tm Detail' in elements[i].text:
-                    begin = i + 1
-                elif 'Game Info' in elements[i].text:
-                    end = i
-                elif begin != None and end == None:
-                    if elements[i].text[1]==' ':
-                        TWOPC_FG.append((elements[i].text)[2:]) #split?
-                    else:
-                        TWOPC_FG.append(elements[i].text)
-            driver.close()
-            return TWOPC_FG
-
-        return getPRR(),getKRPR(),getK(),getTWOPC_FG()
-
-    except:
-        get_Game_Stats(link)
-def get_Player_Stats(PRR, PR_KR, K, TWOPC_FG, game, season):
-    #calculate number of unqiue players for iteration
+    # GET ALL THE NAMES
     names = []
     stats = []
-    codes = []
-    PRR_stats = []
-    KR_PR_stats = []
-    K_stats = []
-    for player in range(1,len(PRR)):
-        this_name = str(str(PRR[player][0]).split('\\')[0].replace('+', ''))
-        this_name = str(this_name.replace('*', ''))
-        code = str(str(PRR[player][0]).split('\\')[1])
-        PRR_stats.append(PRR[player])
+    for player in range(0, len(PRR)):
+        this_name = str(PRR[player][0])
         if this_name not in names:
             names.append(this_name)
             stats.append(PRR[player])
-            codes.append(code)
 
-    for player in range(1, len(PR_KR)):
-        name = PR_KR[player][0][:-9]
-        KR_PR_stats.append(PR_KR[player])
-        if name not in names:
-            names.append(name)
+    for player in range(0, len(PR_KR)):
+        this_name = str(PR_KR[player][0])
+        if this_name not in names:
+            names.append(this_name)
             stats.append(PR_KR[player])
-            code = str(str(PR_KR[player][0]).split('\\')[1])
-            codes.append(code)
 
-    for player in range(1, len(K)):
-        name = K[player][0][:-9]
-        stats.append(K[player])
-        if name not in names and (K[player][6] == '0' or K[player][7] == '0'):
-            names.append(name)
+    for player in range(0, len(K)):
+        this_name = str(K[player][0])
+        if this_name not in names:
+            names.append(this_name)
             stats.append(K[player])
-            code = str(str(K[player][0]).split('\\')[1])
-            codes.append(code)
 
+    def getPRRStats(name):
+        for i in range(0, len(PRR)):
+            if str(PRR[i][0]) == name:
+                return PRR[i]
+        return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-    col = ['Season', 'Week', 'Game', 'Team', 'Name','Code', 'Position', 'PassTD', 'PassYD', 'RushTD', 'RushYD','Receptions', 'RecTD',
-               'RecYD', 'INT', 'FUM/L', 'KRTD', 'PRTD', 'XP', 'FG0-19', 'FG20-29', 'FG30-39', 'FG40-49', 'FG50+', '2PC',
-               'Fantasy Points']
+    def getPRKRStats(name):
+        for i in range(0, len(PR_KR)):
+            if str(PRR[i][0]) == name:
+                return [int(PR_KR[i][5]), int(PR_KR[i][10])]
+        return [0, 0]
 
-    def get_team(stats,name):
-        for i in range(0,len(stats)):
-            this_name = str(str(stats[i][0]).split('\\')[0].replace('+', ''))
-            this_name = str(this_name.replace('*', ''))
-            if this_name == name:
-                return stats[i][1]
+    def getKStats(K, TWOPC_FG, name):
+        # get kicker names
+        arr = [0, 0, 0, 0, 0, 0, 0]
 
-    def getPRRStats(stats,name):
-        arr = []
-        for i in range(0,len(stats)):
-            if stats[i][0][:-9] == name:
-
-                arr.append(int(stats[i][5]))
-                arr.append(int(stats[i][4]))
-                arr.append(int(stats[i][13]))
-                arr.append(int(stats[i][12]))
-                arr.append(int(stats[i][16]))
-                arr.append(int(stats[i][18]))
-                arr.append(int(stats[i][17]))
-                arr.append(int(stats[i][6]))
-                arr.append(int(stats[i][21]))
-        if arr == []:
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-            arr.append(0)
-        return arr
-
-    def getPRKRStats(stats,name):
-        arr = [0,0]
-        for i in range(0, len(stats)):
-            if str(stats[i][0][:-9]) == str(name):
-                arr[0] += int(stats[i][5])
-                arr[1] += int(stats[i][10])
-        return arr
-
-    def getKStats(K,TWOPC_FG,name):
-        #get kicker names
-        arr = [0,0,0,0,0,0,0]
-
-        #get kicker names
+        # get kicker names
         kicker_names = []
-        for player in range(1, len(K)):
-            this_name = K[player][0][:-9]
+        for player in range(0, len(K)):
+            this_name = K[player][0]
             if this_name not in kicker_names and (K[player][6] == '0' or K[player][7] == '0'):
                 kicker_names.append(this_name)
 
-        #score field goals ONLY for kickers
+        # score field goals ONLY for kickers
         for scoring_play in range(0, len(TWOPC_FG)):
             if name not in kicker_names:
                 break
-            array = TWOPC_FG[scoring_play].split(' ')
-            if 'field goal' in TWOPC_FG[scoring_play] and str(name) == str(str(array[2])+' '+ str(array[3])):
+            array = TWOPC_FG[scoring_play][3].split(' ')
+
+            if 'field goal' in str(TWOPC_FG[scoring_play][3]) and str(name) == str(str(array[0]) + ' ' + str(array[1])):
                 i1 = array.index('yard')
-                FG_Yards = int(array[i1-1])
+                FG_Yards = int(array[i1 - 1])
                 if FG_Yards <= 19:
                     arr[1] += 1
-                elif 20<=FG_Yards<=29:
+                elif 20 <= FG_Yards <= 29:
                     arr[2] += 1
-                elif 30<=FG_Yards<=39:
+                elif 30 <= FG_Yards <= 39:
                     arr[3] += 1
-                elif 40<=FG_Yards<=49:
+                elif 40 <= FG_Yards <= 49:
                     arr[4] += 1
-                elif 50<=FG_Yards:
+                elif 50 <= FG_Yards:
                     arr[5] += 1
 
-        #record XP
-        for kicker in range(1,len(K)):
-            this_name = K[kicker][0][:-9]
-            if this_name == str(name) and K[kicker][2]!='':
-                arr[0] += int(K[kicker][2])
+        # record XP
+        for kicker in range(0, len(K)):
+            this_name = K[kicker][0]
+            if math.isnan(float(K[kicker][2])):
+                continue
+            elif this_name == str(name):
+                arr[0] = int(K[kicker][2])
 
-        #record 2PC
+        # record 2PC
         for scoring_play in range(0, len(TWOPC_FG)):
-            if '(' in TWOPC_FG[scoring_play]:
-                i1 = TWOPC_FG[scoring_play].index('(')
-                i2 = TWOPC_FG[scoring_play].index(')')
-                after_TD = str(TWOPC_FG[scoring_play][i1 + 1:i2])
+            if '(' in str(TWOPC_FG[scoring_play][3]):
+                i1 = str(TWOPC_FG[scoring_play][3]).index('(')
+                i2 = str(TWOPC_FG[scoring_play][3]).index(')')
+                after_TD = str(TWOPC_FG[scoring_play][3][i1 + 1:i2])
                 if name in after_TD and 'pass from' in after_TD:
                     arr[6] += 1
                 elif name in after_TD and 'run' in after_TD and 'run failed' not in after_TD:
                     arr[6] += 1
         return arr
 
+    def get_team(name):
+        for i in range(0, len(names)):
+            if str(names[i]) == str(name):
+                return str(stats[i][1])
+
     def lineup_scoring(entry):
-        score = (entry[7] * 4) + (entry[8] * .04) + (entry[9] * 6) + (entry[10] * .1) + (entry[11] * .5)+ (entry[12] * 6) + (entry[13] * .1) + (entry[14] * -1) + (entry[15] * -2) + (entry[16] * 6) + (entry[17] * 6) + (entry[18] * 1) + (entry[19] * 3) + (entry[20] * 3) + (entry[21] * 3) + (entry[22] * 4) + (entry[23] * 5) + (entry[24] * 2)
+        score = (int(entry[6]) * 4) + (int(entry[7]) * .04) + (int(entry[8]) * 6) + (int(entry[9]) * .1) + (
+                    int(entry[10]) * .5) + (
+                        int(entry[11]) * 6) + (int(entry[12]) * .1) + (int(entry[13]) * -1) + (int(entry[14]) * -2) + (
+                            int(entry[15]) * 6) + (
+                        int(entry[16]) * 6) + (int(entry[17]) * 1) + (int(entry[18]) * 3) + (int(entry[19]) * 3) + (
+                            int(entry[20]) * 3) + (
+                        int(entry[21]) * 4) + (int(entry[22]) * 5) + (int(entry[23]) * 2)
         score = round(score, 2)
         return score
 
+    def define_Home_Team(winner, loser, value):  # value = @ of matchup, returns home team
+        if str(value) == '@':
+            return loser
+        else:
+            return winner
+
+    def define_Away_Team(winner, loser, value):  # value = @ of matchup, returns away team
+        if str(value) == '@':
+            return winner
+        else:
+            return loser
+
+    col = ['Season', 'Week', 'Game', 'Team', 'Name', 'Position', 'PassTD', 'PassYD', 'RushTD', 'RushYD',
+           'Receptions', 'RecTD',
+           'RecYD', 'INT', 'FUM/L', 'KRTD', 'PRTD', 'XP', 'FG0-19', 'FG20-29', 'FG30-39', 'FG40-49', 'FG50+', '2PC',
+           'Fantasy Points']
     player_data = pd.DataFrame(columns=col).to_numpy()
-    for player in range(0,len(names)):
+    for player in range(0, len(names)):
         entry = []
         entry.append(season)
         entry.append(game[0])
         entry.append(str(define_Away_Team(game[4], game[6], game[5])) + 'V' + str(define_Home_Team(game[4], game[6], game[5])))
-        entry.append(get_team(stats,names[player]))
+        entry.append(get_team(names[player]))
         entry.append(names[player])
-        entry.append(codes[player])
         entry.append('')
 
-        P = getPRRStats(PRR_stats,names[player])
-        entry.append(P[0])
-        entry.append(P[1])
-        entry.append(P[2])
-        entry.append(P[3])
-        entry.append(P[4])
+        P = getPRRStats(names[player])
         entry.append(P[5])
+        entry.append(P[4])
+        entry.append(P[13])
+        entry.append(P[12])
+        entry.append(P[16])
+        entry.append(P[18])
+        entry.append(P[17])
         entry.append(P[6])
-        entry.append(P[7])
-        entry.append(P[8])
+        entry.append(P[21])
 
-        KR = getPRKRStats(KR_PR_stats,names[player])
+        KR = getPRKRStats(names[player])
         entry.append(KR[0])
         entry.append(KR[1])
 
-        FG = getKStats(K,TWOPC_FG,names[player])
+        FG = getKStats(K, TWOPC_FG, names[player])
         entry.append(FG[0])
         entry.append(FG[1])
         entry.append(FG[2])
@@ -645,6 +597,7 @@ def get_Player_Stats(PRR, PR_KR, K, TWOPC_FG, game, season):
         points = lineup_scoring(entry)
         entry.append(points)
         player_data = np.vstack([player_data, entry])
+    player_data = sorted(player_data, key=lambda x: float(x[-1]), reverse=True)
     pd.DataFrame(player_data).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) +'/' + str(game[0]) + str(define_Away_Team(game[4], game[6], game[5]))[0:3] + str(define_Home_Team(game[4], game[6], game[5]))[0:3] + '.csv', index=False, header=col)
 def define_Home_Team(winner, loser, value):  # value = @ of matchup, returns home team
     if str(value) == '@':
@@ -656,327 +609,348 @@ def define_Away_Team(winner, loser, value):  # value = @ of matchup, returns awa
         return winner
     else:
         return loser
+
+def getSimplePositions(season):
+    directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SIMPLEPOSITIONROSTERS/' + str(season) + '/'
+
+    def cleanReturnDF(df):
+        col = df.columns
+        arr = df.to_numpy()
+        index = 0
+        for entry in range(0, len(arr)):
+            if type(arr[entry][0]) == float:
+                index = entry
+        new_arr = []
+        for entry in range(0, index):
+            new_arr.append(arr[entry])
+        for entry in range(index + 2, len(arr)):
+            new_arr.append(arr[entry])
+        return pd.DataFrame(new_arr, columns=col)
+
+    def get_Teams_Dictionairy_For_Year(season):
+        if season == 2016:
+            return bbref_team_abbrev_dict_2016_to_2017
+        elif 2017 <= season <= 2019:
+            return bbref_team_abbrev_dict_2017_to_2019
+        elif 2020 <= season <= 2021:
+            return bbref_team_abbrev_dict_2020_to_2021
+
+    this_dict = get_Teams_Dictionairy_For_Year(season)
+
+    for team in range(0, 32):
+        chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
+        os.environ["webdriver.chrome.driver"] = chromedriver
+        driver = webdriver.Chrome(chromedriver)
+        teamname = list(this_dict.keys())[team]
+        teamcode = list(this_dict.values())[team]
+        found = False
+        for files in os.listdir(directory):
+             if str(teamname) in files:
+                found = True
+                break
+
+        if found == False:
+            url = 'https://www.pro-football-reference.com/teams/' + str(teamcode) + '/' + str(season) + '_roster.htm'
+            driver.get(url)
+            df = pd.read_html(driver.page_source)
+            driver.close()
+            df = cleanReturnDF(df[0])  #### if current season this is 0, else 1
+            col = df.columns
+            arr = df.to_numpy()
+            new_arr = []
+            for entry in range(0, len(arr)):
+                if arr[entry][3] in ('QB', 'RB', 'WR', 'TE', 'K'):
+                    new_arr.append(arr[entry])
+            pd.DataFrame(new_arr, columns=col).to_csv(str(directory) + str(teamname) + str(season) + 'Roster.csv',
+                                                      index=False)
+            print(teamcode)
+def getSimplePositionsFilesForALLSeasons():
+    None
+def updateGameHistoryWithSimplePlayerPositions(season):
+    #puts all files into one giant player database per season
+    directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SIMPLEPOSITIONROSTERS/' + str(season) + '/'
+    roster_array = []
+    col = []
+    for files in os.listdir(directory):
+        if 'ALL_PLAYERS' in files:
+            continue
+        team = str(files[0:files.index('2')])
+        df = pd.read_csv(directory+files)
+        df["Team"] = team
+        col = df.columns
+        arr = df.to_numpy()
+        for entry in range(0,len(arr)):
+            roster_array.append(arr[entry])
+    pd.DataFrame(roster_array, columns=col).to_csv(str(directory) + '0' + str(season) + '_ALL_PLAYERS_ROSTER.csv', index=False)
+
+    def getPositionFromName(name,team):
+        for entry in range(0,len(roster_array)):
+            if str(roster_array[entry][1]) == str(name) and str(roster_array[entry][-1]) == str(team):
+                return str(roster_array[entry][3])
+
+    def getTeam(teamnames,teamabbrev):
+        teams_dict = {'Arizona Cardinals': 'ARI', 'Atlanta Falcons': 'ATL', 'Baltimore Ravens': 'BAL',
+                                'Buffalo Bills': 'BUF', 'Carolina Panthers': 'CAR',
+                                'Chicago Bears': 'CHI', 'Cincinnati Bengals': 'CIN', 'Cleveland Browns': 'CLE',
+                                'Dallas Cowboys': 'DAL', 'Denver Broncos': 'DEN',
+                                'Detroit Lions': 'DET', 'Green Bay Packers': 'GNB', 'Houston Texans': 'HOU',
+                                'Indianapolis Colts': 'IND',
+                                'Jacksonville Jaguars': 'JAX', 'Kansas City Chiefs': 'KAN', 'Las Vegas Raiders': 'LVR',
+                                'Los Angeles Chargers': 'LAC',
+                                'Los Angeles Rams': 'LAR', 'Miami Dolphins': 'MIA', 'Minnesota Vikings': 'MIN',
+                                'New England Patriots': 'NWE',
+                                'New Orleans Saints': 'NOR', 'New York Giants': 'NYG', 'New York Jets': 'NYJ',
+                                'Philadelphia Eagles': 'PHI',
+                                'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
+                                'Tampa Bay Buccaneers': 'TAM',
+                                'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS', 'San Diego Chargers': 'SDG', 'Oakland Raiders': 'OAK', 'Washington Redskins': 'WAS'}
+        t_keys = list(teams_dict.keys())
+        t_values = list(teams_dict.values())
+        index = str(teamnames).index('V')
+        if str(teamnames)[index + 1] == 'e' or str(teamnames)[index + 1] == 'i':
+            index2 = str(teamnames)[index + 1:].index('V')
+            index = index + index2 + 1
+        team1 = str(teamnames)[index + 1:]
+        if t_values[t_keys.index(team1)] == teamabbrev:
+            return team1
+        else:
+            team2 = str(teamnames)[:index]
+            return team2
+
+
+
+    #edits all games from the season with positions
+    games_directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'
+    for files in os.listdir(games_directory):
+        df = pd.read_csv(games_directory + files)
+        col = df.columns
+        arr = df.to_numpy()
+        for entry in range(0,len(arr)):
+            teamnames = arr[entry][2]
+            teamabbrev = arr[entry][3]
+            this_team = getTeam(teamnames,teamabbrev)
+            name = arr[entry][4]
+            position = getPositionFromName(name, this_team)
+            arr[entry][5] = position
+        pd.DataFrame(arr, columns=col).to_csv(games_directory+files, index=False)
+        print(files)
+def updateGameHistoryWithDepthChartPositions(season):
+    directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'
+    week_counter = 0
+    weekly_depth_chart_arr = []
+
+    for file in os.listdir(directory):
+        week = re.sub(r"[A-Z]|[a-z]|[.]", '', file)
+        game = pd.read_csv(directory + file)
+        col = game.columns
+        game_arr = game.to_numpy()
+
+        #prevent reacquiring weekly depth chart for each game
+        if week != week_counter:
+            week_counter = week
+            df_list = []
+            df = pd.read_html('https://www.spotrac.com/nfl/depth-charts/'+str(season)+'/week-'+week+'/')
+            for i in range(0, len(df)):
+                if df[i].columns[1] == 'Pos.':
+                    df_list.append(df[i][:-1])
+            weekly_depth_chart = pd.concat(df_list)
+            weekly_depth_chart_arr = weekly_depth_chart.to_numpy()
+
+        for player in range(0,len(game_arr)):
+            for entry in range(0,len(weekly_depth_chart_arr)):
+                name = str(weekly_depth_chart_arr[entry][0])
+                if name[-2:] == 'IR':
+                    name = name[:-3]
+                if name.split(" ")[0] in str(game_arr[player][4]) and name.split(" ")[1] in str(game_arr[player][4]):
+                    game_arr[player][5] = weekly_depth_chart_arr[entry][1]
+                    break
+                else:
+                    game_arr[player][5] = ''
+        print(file)
+        pd.DataFrame(game_arr).to_csv(directory+file,header=col,index=False)
 ##############################
 
 
 ##### DATA ANALYSIS #####
-def create_Analysis_Tables():
+def create_Analysis_Table():
     game_teams_dict_2020 = {'Arizona Cardinals': 'ARI', 'Atlanta Falcons': 'ATL', 'Baltimore Ravens': 'BAL',
-                    'Buffalo Bills': 'BUF', 'Carolina Panthers': 'CAR',
-                    'Chicago Bears': 'CHI', 'Cincinnati Bengals': 'CIN', 'Cleveland Browns': 'CLE',
-                    'Dallas Cowboys': 'DAL', 'Denver Broncos': 'DEN',
-                    'Detroit Lions': 'DET', 'Green Bay Packers': 'GNB', 'Houston Texans': 'HOU',
-                    'Indianapolis Colts': 'IND',
-                    'Jacksonville Jaguars': 'JAX', 'Kansas City Chiefs': 'KAN', 'Las Vegas Raiders': 'LVR',
-                    'Los Angeles Chargers': 'LAC',
-                    'Los Angeles Rams': 'LAR', 'Miami Dolphins': 'MIA', 'Minnesota Vikings': 'MIN',
-                    'New England Patriots': 'NWE',
-                    'New Orleans Saints': 'NOR', 'New York Giants': 'NYG', 'New York Jets': 'NYJ',
-                               'Philadelphia Eagles': 'PHI',
-                               'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
-                               'Tampa Bay Buccaneers': 'TAM',
-                               'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS'}
+                            'Buffalo Bills': 'BUF', 'Carolina Panthers': 'CAR',
+                            'Chicago Bears': 'CHI', 'Cincinnati Bengals': 'CIN', 'Cleveland Browns': 'CLE',
+                            'Dallas Cowboys': 'DAL', 'Denver Broncos': 'DEN',
+                            'Detroit Lions': 'DET', 'Green Bay Packers': 'GNB', 'Houston Texans': 'HOU',
+                            'Indianapolis Colts': 'IND',
+                            'Jacksonville Jaguars': 'JAX', 'Kansas City Chiefs': 'KAN', 'Las Vegas Raiders': 'LVR',
+                            'Los Angeles Chargers': 'LAC',
+                            'Los Angeles Rams': 'LAR', 'Miami Dolphins': 'MIA', 'Minnesota Vikings': 'MIN',
+                            'New England Patriots': 'NWE',
+                            'New Orleans Saints': 'NOR', 'New York Giants': 'NYG', 'New York Jets': 'NYJ',
+                            'Philadelphia Eagles': 'PHI',
+                            'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
+                            'Tampa Bay Buccaneers': 'TAM',
+                            'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS'}
     t_keys = game_teams_dict_2020.keys()
     t_values = game_teams_dict_2020.values()
-    # Season Totals for Top 5 Contest Outcomes
-    distinct_positional_combinations = []
-    WINNER_distinct_positional_combinations = []
-    LOSER_distinct_positional_combinations = []
-    qb_position_counter = [0, 0, 0, 0, 0]
-    rb_position_counter = [0, 0, 0, 0, 0]
-    wr_position_counter = [0, 0, 0, 0, 0]
-    te_position_counter = [0, 0, 0, 0, 0]
-    k_position_counter = [0, 0, 0, 0, 0]
-    other_position_counter = [0, 0, 0, 0, 0]
 
-    winner_qb_position_counter = [0, 0, 0, 0, 0]
-    winner_rb_position_counter = [0, 0, 0, 0, 0]
-    winner_wr_position_counter = [0, 0, 0, 0, 0]
-    winner_te_position_counter = [0, 0, 0, 0, 0]
-    winner_k_position_counter = [0, 0, 0, 0, 0]
-    winner_other_position_counter = [0, 0, 0, 0, 0]
+    # ASSIGN WINNER AND LOSER
+    all_contest_results_array = []
+    col = ['Season', 'Week', 'Game', 'Team', 'Name', 'Position', 'PassTD',
+     'PassYD', 'RushTD', 'RushYD', 'Receptions', 'RecTD', 'RecYD', 'INT',
+     'FUM/L', 'KRTD', 'PRTD', 'XP', 'FG0-19', 'FG20-29', 'FG30-39',
+     'FG40-49', 'FG50+', '2PC', 'Fantasy Points','Rank','Winner','Simple_Position']
+    for season in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'):
+        for game_file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'):
+            arr = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'+game_file).to_numpy()
+            def getWinner():
+                index = str(arr[0][2]).index('V')
+                if str(arr[0][2])[index + 1] == 'e' or str(arr[0][2])[index + 1] == 'i':
+                    index2 = str(arr[0][2])[index + 1:].index('V')
+                    index = index + index2 + 1
 
-    loser_qb_position_counter = [0, 0, 0, 0, 0]
-    loser_rb_position_counter = [0, 0, 0, 0, 0]
-    loser_wr_position_counter = [0, 0, 0, 0, 0]
-    loser_te_position_counter = [0, 0, 0, 0, 0]
-    loser_k_position_counter = [0, 0, 0, 0, 0]
-    loser_other_position_counter = [0, 0, 0, 0, 0]
+                year = str(arr[0][0])
+                week = str(arr[0][1])
+                team1 = str(arr[0][2])[index + 1:]
+                team2 = str(arr[0][2])[:index]
+                schedule = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/' + str(
+                    year) + 'NFLScheduleAndResults.csv').to_numpy()
+                for entry in range(0, len(schedule)):
+                    if schedule[entry][0] == week and (schedule[entry][4] == team1 or schedule[entry][4] == team2):
+                        return list(t_values)[list(t_keys).index(schedule[entry][4])]
+            def getSimplePosition(position_dc):
+                if position_dc == 'nan':
+                    return ''
+                position = re.sub(r"[0-9]", '', position_dc)
+                return position
 
-
-    for file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/2020/'):
-
-
-        lineup = ['','','','','']
-        w_lineup = ['','','','','']
-        l_lineup = ['', '', '', '', '']
-        df = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/2020/' + file)
-        col = df.columns
-        arr = df.to_numpy()
-
-        #ASSIGN WINNER AND LOSER
-        index = str(arr[0][2]).index('V')
-        if str(arr[0][2])[index+1] == 'e' or str(arr[0][2])[index+1] == 'i':
-            index2 = str(arr[0][2])[index+1:].index('V')
-            index = index+index2+1
-
-        def getWinner(year,week,team1,team2):
-            schedule = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/' + str(
-                year) + 'NFLScheduleAndResults.csv').to_numpy()
-            for entry in range(0,len(schedule)):
-                if schedule[entry][0] == week and (schedule[entry][4] == team1 or schedule[entry][4] == team2):
-                    return schedule[entry][4]
-        w = list(t_keys).index(getWinner(str(arr[0][0]),str(arr[0][1]),str(arr[0][2])[index+1:],str(arr[0][2])[:index]))
-        winner = list(t_values)[w]
-
-        for entry in range(0, 5):
-            is_winner = True
-            if str(arr[entry][3]) != winner:
-                l_lineup[entry] = arr[entry][5].upper()
-                is_winner = False
-            if is_winner == True:
-                w_lineup[entry] = arr[entry][5].upper()
-
-            lineup[entry] = arr[entry][5].upper()
-            if str(arr[entry][5]).upper() == 'QB':
-                qb_position_counter[entry] += 1
-                if is_winner == True:
-                    winner_qb_position_counter[entry]+=1
+            winner = getWinner()
+            game_list = []
+            for entry in range(0,len(arr)):
+                player_list = list(arr[entry])
+                player_list.append(entry+1)
+                if str(arr[entry][3]) == winner:
+                    player_list.append(True)
                 else:
-                    loser_qb_position_counter[entry]+=1
-            elif str(arr[entry][5]).upper() == 'RB':
-                rb_position_counter[entry] += 1
-                if is_winner == True:
-                    winner_rb_position_counter[entry]+=1
-                else:
-                    loser_rb_position_counter[entry]+=1
-            elif str(arr[entry][5]).upper() == 'WR':
-                wr_position_counter[entry] += 1
-                if is_winner == True:
-                    winner_wr_position_counter[entry]+=1
-                else:
-                    loser_wr_position_counter[entry]+=1
-            elif str(arr[entry][5]).upper() == 'TE':
-                te_position_counter[entry] += 1
-                if is_winner == True:
-                    winner_te_position_counter[entry]+=1
-                else:
-                    loser_te_position_counter[entry]+=1
-            elif str(arr[entry][5]).upper() == 'K':
-                k_position_counter[entry] += 1
-                if is_winner == True:
-                    winner_k_position_counter[entry]+=1
-                else:
-                    loser_k_position_counter[entry]+=1
-            else:
-                other_position_counter[entry] += 1
-                if is_winner == True:
-                    winner_other_position_counter[entry]+=1
-                else:
-                    loser_other_position_counter[entry]+=1
-        distinct_positional_combinations.append(lineup)
-        WINNER_distinct_positional_combinations.append(w_lineup)
-        LOSER_distinct_positional_combinations.append(l_lineup)
+                    player_list.append(False)
+                player_list.append(getSimplePosition(str(arr[entry][5])))
+                game_list.append(player_list)
 
-    print("All 2020 Lineups DFS Contests Breakdown")
-    print("QBs: " + '\t' + str(qb_position_counter) + '\t' + str(sum(qb_position_counter)/256) + ' per lineup')
-    print("RBs: " + '\t' + str(rb_position_counter) + '\t' + str(sum(rb_position_counter)/256) + ' per lineup')
-    print("WRs: " + '\t' + str(wr_position_counter) + '\t' + str(sum(wr_position_counter)/256) + ' per lineup')
-    print("TEs: " + '\t' + str(te_position_counter) + '\t' + str(sum(te_position_counter)/256) + ' per lineup')
-    print("Ks: " + '\t' + str(k_position_counter) + '\t    ' + str(sum(k_position_counter)/256) + ' per lineup')
-    print("Other: " + '\t' + str(other_position_counter) + '\t        ' + str(sum(other_position_counter)/256) + ' per lineup')
-    total_players = sum(qb_position_counter) + sum(rb_position_counter) + sum(wr_position_counter) + sum(te_position_counter) + sum(
-        k_position_counter) + sum(other_position_counter)
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players/256))
-    print('\n')
+            for player in game_list:
+                all_contest_results_array.append(player)
+    pd.DataFrame(all_contest_results_array).to_csv('all_contests_array_analysis.csv', index=False, header=col)
+def analyze_Table():
+    def print_Analysis(array, title):
+        total_num_entries = 0
+        for entry in range(0, len(array)):
+            total_num_entries += array[entry][0]
+        print(title)
+        array = sorted(array, key=lambda x: x[1], reverse=True)
+        for entry in range(0, len(array)):
+            print(str(array[entry][1]) + '\t' + str(array[entry][0]) + '\t' + str(
+                (array[entry][0] / total_num_entries) * 100) + '%')
+        print('TOTAL' + '\t' + str(total_num_entries))
+        print('\n\n\n')
+    all_contest_results_array = pd.read_csv('all_contests_array_analysis.csv').to_numpy()
 
-    print("Place: ALL 2020 MVP ***percent of mvps")
-    print("QBs: " + '\t' + str(qb_position_counter[0]) + '\t' + str((qb_position_counter[0] / 256) * 100) + '%')
-    print("RBs: " + '\t' + str(rb_position_counter[0]) + '\t' + str((rb_position_counter[0] / 256) * 100) + '%')
-    print("WRs: " + '\t' + str(wr_position_counter[0]) + '\t' + str((wr_position_counter[0] / 256) * 100) + '%')
-    print("TEs: " + '\t' + str(te_position_counter[0]) + '\t' + str((te_position_counter[0] / 256) * 100) + '%')
-    print("Ks: " + '\t' + str(k_position_counter[0]) + '\t' + str((k_position_counter[0] / 256) * 100) + '%')
-    print("Other: " + '\t' + str(other_position_counter[0]) + '\t' + str((other_position_counter[0] / 256) * 100) + '%')
-    total_players = qb_position_counter[0] + rb_position_counter[0] + wr_position_counter[0] + te_position_counter[0] + k_position_counter[0] + other_position_counter[0]
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n')
+    MVP_Position_DC_Counter = []
+    retlist = []
+    for i in range(0, len(all_contest_results_array)):
+        rank = all_contest_results_array[i][-3]
+        position_dc = str(all_contest_results_array[i][5])
+        if rank == 1:
+            MVP_Position_DC_Counter.append(position_dc)
+    myset = set(MVP_Position_DC_Counter)
+    for i in myset:
+        retlist.append([MVP_Position_DC_Counter.count(i), i])
+    count = 0
+    for i in range(0, len(retlist)):
+        count += retlist[i][0]
+    print_Analysis(retlist, "Depth Chart Positions MVPs")
 
-    print("Place: ALL 2020 UTIL ***percent of utils")
-    qb_position_counter_util = qb_position_counter[1] + qb_position_counter[2] + qb_position_counter[3] + qb_position_counter[4]
-    rb_position_counter_util = rb_position_counter[1] + rb_position_counter[2] + rb_position_counter[3] + rb_position_counter[4]
-    wr_position_counter_util = wr_position_counter[1] + wr_position_counter[2] + wr_position_counter[3] + wr_position_counter[4]
-    te_position_counter_util = te_position_counter[1] + te_position_counter[2] + te_position_counter[3] + te_position_counter[4]
-    k_position_counter_util = k_position_counter[1] + k_position_counter[2] + k_position_counter[3] + k_position_counter[4]
-    other_position_counter_util = other_position_counter[1] + other_position_counter[2] + other_position_counter[3] + other_position_counter[4]
-    print("QBs: " + '\t' + str(qb_position_counter_util) + '\t' + str((qb_position_counter_util / 256) * 100/4) + '%')
-    print("RBs: " + '\t' + str(rb_position_counter_util) + '\t' + str((rb_position_counter_util / 256) * 100/4) + '%')
-    print("WRs: " + '\t' + str(wr_position_counter_util) + '\t' + str((wr_position_counter_util / 256) * 100/4) + '%')
-    print("TEs: " + '\t' + str(te_position_counter_util) + '\t' + str((te_position_counter_util / 256) * 100/4) + '%')
-    print("Ks: " + '\t' + str(k_position_counter_util) + '\t' + str((k_position_counter_util / 256) * 100/4) + '%')
-    print("Other: " + '\t' + str(other_position_counter_util) + '\t' + str((other_position_counter_util / 256) * 100/4) + '%')
-    total_players = qb_position_counter_util + rb_position_counter_util + wr_position_counter_util + te_position_counter_util + \
-                    k_position_counter_util + other_position_counter_util
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n\n\n')
+    UTIL_Position_DC_Counter = []
+    retlist = []
+    for i in range(0, len(all_contest_results_array)):
+        rank = all_contest_results_array[i][-3]
+        position_dc = str(all_contest_results_array[i][5])
+        if rank in (1, 2, 3, 4, 5):
+            UTIL_Position_DC_Counter.append(position_dc)
+    myset = set(UTIL_Position_DC_Counter)
+    for i in myset:
+        retlist.append([UTIL_Position_DC_Counter.count(i), i])
+    count = 0
+    for i in range(0, len(retlist)):
+        count += retlist[i][0]
+    print_Analysis(retlist, "Depth Chart Positions Top 5")
 
+    def print_simple_position_count(position):
+        # counts positions per lineup
+        count = [0, 0, 0, 0, 0, 0]
+        top_5_list = []
+        for entry in range(0, len(all_contest_results_array)):
+            if all_contest_results_array[entry][-3] in (1, 2, 3, 4, 5):
+                top_5_list.append(str(all_contest_results_array[entry][-1]))
+                if all_contest_results_array[entry][-3] == 5:
+                    this_count = top_5_list.count(str(position))
+                    count[this_count] = count[this_count] + 1
+                    top_5_list = []
+        print(str(position) + ' Count List: ', count)
 
+    print_simple_position_count('QB')
+    print_simple_position_count('RB')
+    print_simple_position_count('WR')
+    print_simple_position_count('TE')
+    print_simple_position_count('K')
 
-    print("WINNING TEAMS DFS Contests Breakdown")
-    print("QBs: " + '\t' + str(winner_qb_position_counter) + '\t' + str(sum(winner_qb_position_counter) / 256) + ' per lineup')
-    print("RBs: " + '\t' + str(winner_rb_position_counter) + '\t' + str(sum(winner_rb_position_counter) / 256) + ' per lineup')
-    print("WRs: " + '\t' + str(winner_wr_position_counter) + '\t' + str(sum(winner_wr_position_counter) / 256) + ' per lineup')
-    print("TEs: " + '\t' + str(winner_te_position_counter) + '\t    ' + str(sum(winner_te_position_counter) / 256) + ' per lineup')
-    print("Ks: " + '\t' + str(winner_k_position_counter) + '\t    ' + str(sum(winner_k_position_counter) / 256) + ' per lineup')
-    print(
-        "Other: " + '\t' + str(winner_other_position_counter) + '\t        ' + str(sum(winner_other_position_counter) / 256) + ' per lineup')
-    total_players = sum(winner_qb_position_counter) + sum(winner_rb_position_counter) + sum(winner_wr_position_counter) + sum(
-        winner_te_position_counter) + sum(
-        winner_k_position_counter) + sum(winner_other_position_counter)
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n')
+    def print_dc_position_count(position):
+        # counts positions per lineup
+        count = [0, 0, 0, 0, 0, 0]
+        top_5_list = []
+        for entry in range(0, len(all_contest_results_array)):
+            if all_contest_results_array[entry][-3] in (1, 2, 3, 4, 5):
+                top_5_list.append(str(all_contest_results_array[entry][5]))
+                if all_contest_results_array[entry][-3] == 5:
+                    this_count = top_5_list.count(str(position))
+                    count[this_count] = count[this_count] + 1
+                    top_5_list = []
+        print(str(position) + ' Count List: ', count)
 
-    print("Place: WINNING TEAMS 2020 MVP ***percent of total mvps")
-    print("QBs: " + '\t' + str(winner_qb_position_counter[0]) + '\t' + str((winner_qb_position_counter[0] / 256) * 100) + '%')
-    print("RBs: " + '\t' + str(winner_rb_position_counter[0]) + '\t' + str((winner_rb_position_counter[0] / 256) * 100) + '%')
-    print("WRs: " + '\t' + str(winner_wr_position_counter[0]) + '\t' + str((winner_wr_position_counter[0] / 256) * 100) + '%')
-    print("TEs: " + '\t' + str(winner_te_position_counter[0]) + '\t' + str((winner_te_position_counter[0] / 256) * 100) + '%')
-    print("Ks: " + '\t' + str(winner_k_position_counter[0]) + '\t' + str((winner_k_position_counter[0] / 256) * 100) + '%')
-    print("Other: " + '\t' + str(winner_other_position_counter[0]) + '\t' + str((winner_other_position_counter[0] / 256) * 100) + '%')
-    total_players = winner_qb_position_counter[0] + winner_rb_position_counter[0] + winner_wr_position_counter[0] + winner_te_position_counter[0] + \
-                    winner_k_position_counter[0] + winner_other_position_counter[0]
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n')
+    print_dc_position_count('QB')
+    print_dc_position_count('RB1')
+    print_dc_position_count('RB2')
+    print_dc_position_count('RB3')
+    print_dc_position_count('RB4')
+    print_dc_position_count('WR1')
+    print_dc_position_count('WR2')
+    print_dc_position_count('WR3')
+    print_dc_position_count('WR4')
+    print_dc_position_count('WR5')
+    print_dc_position_count('TE1')
+    print_dc_position_count('TE2')
+    print_dc_position_count('TE3')
+    print_dc_position_count('K')
 
-
-    print("Place: WINNING TEAMS 2020 UTIL ***percent of total utils")
-    winner_qb_position_counter_util = winner_qb_position_counter[1] + winner_qb_position_counter[2] + winner_qb_position_counter[3] + \
-                          winner_qb_position_counter[4]
-    winner_rb_position_counter_util = winner_rb_position_counter[1] + winner_rb_position_counter[2] + winner_rb_position_counter[3] + \
-                          winner_rb_position_counter[4]
-    winner_wr_position_counter_util = winner_wr_position_counter[1] + winner_wr_position_counter[2] + winner_wr_position_counter[3] + \
-                          winner_wr_position_counter[4]
-    winner_te_position_counter_util = winner_te_position_counter[1] + winner_te_position_counter[2] + winner_te_position_counter[3] + \
-                          winner_te_position_counter[4]
-    winner_k_position_counter_util = winner_k_position_counter[1] + winner_k_position_counter[2] + winner_k_position_counter[3] + winner_k_position_counter[4]
-    winner_other_position_counter_util = winner_other_position_counter[1] + winner_other_position_counter[2] + winner_other_position_counter[3] + \
-                             winner_other_position_counter[4]
-    print("QBs: " + '\t' + str(winner_qb_position_counter_util) + '\t' + str((winner_qb_position_counter_util / 256) * 100/4) + '%')
-    print("RBs: " + '\t' + str(winner_rb_position_counter_util) + '\t' + str((winner_rb_position_counter_util / 256) * 100/4) + '%')
-    print("WRs: " + '\t' + str(winner_wr_position_counter_util) + '\t' + str((winner_wr_position_counter_util / 256) * 100/4) + '%')
-    print("TEs: " + '\t' + str(winner_te_position_counter_util) + '\t' + str((winner_te_position_counter_util / 256) * 100/4) + '%')
-    print("Ks: " + '\t' + str(winner_k_position_counter_util) + '\t' + str((winner_k_position_counter_util / 256) * 100/4) + '%')
-    print("Other: " + '\t' + str(winner_other_position_counter_util) + '\t' + str((winner_other_position_counter_util / 256) * 100/4) + '%')
-    total_players = winner_qb_position_counter_util + winner_rb_position_counter_util + winner_wr_position_counter_util + winner_te_position_counter_util + \
-                    winner_k_position_counter_util + winner_other_position_counter_util
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n\n\n')
-
-
-
-
-    print("LOSING TEAMS DFS Contests Breakdown")
-    print("QBs: " + '\t' + str(loser_qb_position_counter) + '\t' + str(sum(loser_qb_position_counter) / 256) + ' per lineup')
-    print("RBs: " + '\t' + str(loser_rb_position_counter) + '\t' + str(sum(loser_rb_position_counter) / 256) + ' per lineup')
-    print("WRs: " + '\t' + str(loser_wr_position_counter) + '\t' + str(sum(loser_wr_position_counter) / 256) + ' per lineup')
-    print("TEs: " + '\t' + str(loser_te_position_counter) + '\t    ' + str(sum(loser_te_position_counter) / 256) + ' per lineup')
-    print("Ks: " + '\t' + str(loser_k_position_counter) + '\t    ' + str(sum(loser_k_position_counter) / 256) + ' per lineup')
-    print(
-        "Other: " + '\t' + str(loser_other_position_counter) + '\t        ' + str(sum(loser_other_position_counter) / 256) + ' per lineup')
-    total_players = sum(loser_qb_position_counter) + sum(loser_rb_position_counter) + sum(loser_wr_position_counter) + sum(
-        loser_te_position_counter) + sum(
-        loser_k_position_counter) + sum(loser_other_position_counter)
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n')
-
-    print("Place: LOSING TEAMS 2020 MVP ***percent of total mvps")
-    print("QBs: " + '\t' + str(loser_qb_position_counter[0]) + '\t' + str((loser_qb_position_counter[0] / 256) * 100) + '%')
-    print("RBs: " + '\t' + str(loser_rb_position_counter[0]) + '\t' + str((loser_rb_position_counter[0] / 256) * 100) + '%')
-    print("WRs: " + '\t' + str(loser_wr_position_counter[0]) + '\t' + str((loser_wr_position_counter[0] / 256) * 100) + '%')
-    print("TEs: " + '\t' + str(loser_te_position_counter[0]) + '\t' + str((loser_te_position_counter[0] / 256) * 100) + '%')
-    print("Ks: " + '\t' + str(loser_k_position_counter[0]) + '\t' + str((loser_k_position_counter[0] / 256) * 100) + '%')
-    print("Other: " + '\t' + str(loser_other_position_counter[0]) + '\t' + str((loser_other_position_counter[0] / 256) * 100) + '%')
-    total_players = loser_qb_position_counter[0] + loser_rb_position_counter[0] + loser_wr_position_counter[0] + loser_te_position_counter[0] + \
-                    loser_k_position_counter[0] + loser_other_position_counter[0]
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n')
-
-    print("Place: LOSING TEAMS 2020 UTIL ***percent of total utils")
-    loser_qb_position_counter_util = loser_qb_position_counter[1] + loser_qb_position_counter[2] + loser_qb_position_counter[3] + \
-                          loser_qb_position_counter[4]
-    loser_rb_position_counter_util = loser_rb_position_counter[1] + loser_rb_position_counter[2] + loser_rb_position_counter[3] + \
-                          loser_rb_position_counter[4]
-    loser_wr_position_counter_util = loser_wr_position_counter[1] + loser_wr_position_counter[2] + loser_wr_position_counter[3] + \
-                          loser_wr_position_counter[4]
-    loser_te_position_counter_util = loser_te_position_counter[1] + loser_te_position_counter[2] + loser_te_position_counter[3] + \
-                          loser_te_position_counter[4]
-    loser_k_position_counter_util = loser_k_position_counter[1] + loser_k_position_counter[2] + loser_k_position_counter[3] + loser_k_position_counter[4]
-    loser_other_position_counter_util = loser_other_position_counter[1] + loser_other_position_counter[2] + loser_other_position_counter[3] + \
-                             loser_other_position_counter[4]
-    print("QBs: " + '\t' + str(loser_qb_position_counter_util) + '\t' + str((loser_qb_position_counter_util / 256) * 100/4) + '%')
-    print("RBs: " + '\t' + str(loser_rb_position_counter_util) + '\t' + str((loser_rb_position_counter_util / 256) * 100/4) + '%')
-    print("WRs: " + '\t' + str(loser_wr_position_counter_util) + '\t' + str((loser_wr_position_counter_util / 256) * 100/4) + '%')
-    print("TEs: " + '\t' + str(loser_te_position_counter_util) + '\t' + str((loser_te_position_counter_util / 256) * 100/4) + '%')
-    print("Ks: " + '\t' + str(loser_k_position_counter_util) + '\t' + str((loser_k_position_counter_util / 256) * 100/4) + '%')
-    print("Other: " + '\t' + str(loser_other_position_counter_util) + '\t' + str((loser_other_position_counter_util / 256) * 100/4) + '%')
-    total_players = loser_qb_position_counter_util + loser_rb_position_counter_util + loser_wr_position_counter_util + loser_te_position_counter_util + \
-                    loser_k_position_counter_util + loser_other_position_counter_util
-    print("Total Players: " + str(total_players) + '\t' + "Total Players per Contest: " + str(total_players / 256))
-    print('\n\n\n')
-
-
-
-    pd.DataFrame(distinct_positional_combinations).to_csv('DFS_DATA/ANALYSIS/all_top_5_positions_per_contest.csv', index=False, header=['1st', '2nd', '3rd', '4th', '5th'])
-    pd.DataFrame(WINNER_distinct_positional_combinations).to_csv(
-        'DFS_DATA/ANALYSIS/winner_top_5_positions_per_contest.csv', index=False,
-        header=['1st', '2nd', '3rd', '4th', '5th'])
-    pd.DataFrame(LOSER_distinct_positional_combinations).to_csv(
-        'DFS_DATA/ANALYSIS/loser_top_5_positions_per_contest.csv', index=False,
-        header=['1st', '2nd', '3rd', '4th', '5th'])
-def count_Lineups(file,type):
-    df = pd.read_csv(file)
-    table = df.to_numpy()
-    lineups = []
-
-    for entry in range(0,len(table)):
-        this = []
-        q = np.count_nonzero(table[entry] == 'QB')
-        r = np.count_nonzero(table[entry] == 'RB')
-        w = np.count_nonzero(table[entry] == 'WR')
-        t = np.count_nonzero(table[entry] == 'TE')
-        k = np.count_nonzero(table[entry] == 'K')
-        o = 0
-        n = np.count_nonzero(table[entry] == 'nan')
-        if q+r+w+t+k != 5:
-            o = 5 - (q+r+w+t+k)
-
-        this.append(q)
-        this.append(r)
-        this.append(w)
-        this.append(t)
-        this.append(k)
-        this.append(o)
-        this.append(n)
-        this.append(0)
-
-        lineups.append(this)
-
-    if [0,0,0,0,1,4,0] in lineups:
-        print('found')
-
-    new_lineups = []
-    logs = []
-    for entry in range(0,len(lineups)):
-        if lineups[entry][0:-1] in logs:
-            pass
-        else:
-            logs.append(lineups[entry][0:-1])
-            c = lineups.count(lineups[entry])
-            lineups[entry][-1] = c
-            new_lineups.append(lineups[entry])
-
-    new_lineups = sorted(new_lineups, key=lambda x: x[-1])[::-1]
-    pd.DataFrame(new_lineups).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/' + type + '_lineups_position_count.csv',index=False,header=['QB_count','RB_count','WR_count','TE_count','K_count','OTHER_count','nan_count','count'])
-
+    # all_list = []
+    # contest_list = []
+    # for entry in range(0,len(all_contest_results_array)):
+    #     if all_contest_results_array[entry][-3] in (1,2,3,4,5):
+    #         contest_list.append(all_contest_results_array[entry][5])
+    #         if all_contest_results_array[entry][-3] == 5:
+    #             all_list.append(contest_list)
+    #             contest_list = []
+    #
+    # myset = [set(ele) for ele in all_list]
+    # for i in myset:
+    #     print(i)
+    # for i in myset:
+    #     print(list(i))
+    #
+    # count_list = []
+    # for i in range(0,len(myset)):
+    #     count_list.append(all_list.count(mylist[i]))
+    #
+    # retlist = []
+    # for i in range(0,len(mylist)):
+    #     retlist.append([mylist[i],count_list[i]])
+    # retlist = sorted(retlist, key=lambda x: x[1], reverse=True)
+    # pd.DataFrame(retlist).to_csv('contest_output.csv',index=False)
 
 
 main(2020)

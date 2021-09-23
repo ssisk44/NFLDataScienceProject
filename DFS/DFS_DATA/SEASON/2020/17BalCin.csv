@@ -1,24 +1,24 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,John Wolford,QB,0,231,0,56,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13.84
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Matt Gay,K,0,0,0,0,0,0,0,0,0,0,0,1,0,2,1,0,0,0,10.0
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Cam Akers,RB1,0,0,0,34,4,0,52,0,1,0,0,0,0,0,0,0,0,0,8.6
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Chris Streveler,,1,105,0,12,0,0,0,1,0,0,0,0,0,0,0,0,0,0,8.4
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Jonathan Ward,,0,0,0,0,1,1,11,0,0,0,0,0,0,0,0,0,0,0,7.6
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Van Jefferson,WR3,0,0,0,0,4,0,50,0,0,0,0,0,0,0,0,0,0,0,7.0
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Kenyan Drake,RB1,0,0,0,36,3,0,15,0,0,0,0,0,0,0,0,0,0,0,6.6
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Trent Sherfield,WR4,0,0,0,0,4,0,44,0,0,0,0,0,0,0,0,0,0,0,6.4
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Dan Arnold,TE1,0,0,0,0,3,0,46,0,0,0,0,0,0,0,0,0,0,0,6.1
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Robert Woods,WR1,0,0,0,0,4,0,36,0,0,0,0,0,0,0,0,0,0,0,5.6
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Tyler Higbee,TE1,0,0,0,0,3,0,41,0,0,0,0,0,0,0,0,0,0,0,5.6
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,DeAndre Hopkins,WR1,0,0,0,0,4,0,35,0,0,0,0,0,0,0,0,0,0,0,5.5
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Josh Reynolds,WR2,0,0,0,0,4,0,29,0,0,0,0,0,0,0,0,0,0,0,4.9
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Kyler Murray,QB,0,87,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.78
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Chase Edmonds,RB2,0,0,0,-3,2,0,28,0,0,0,0,0,0,0,0,0,0,0,3.5
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Gerald Everett,TE2,0,0,0,0,2,0,25,0,0,0,0,0,0,0,0,0,0,0,3.5
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,KeeSean Johnson,S1,0,0,0,0,2,0,13,0,0,0,0,0,0,0,0,0,0,0,2.3
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Malcolm Brown,RB2,0,0,0,20,1,0,-2,0,0,0,0,0,0,0,0,0,0,0,2.3
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Mike Nugent\n,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1.0
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,Byron Murphy,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,17,Arizona CardinalsVLos Angeles Rams,ARI,D.J. Foster,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Raymond Calais,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,17,Arizona CardinalsVLos Angeles Rams,LAR,Nsimba Webster,WR4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,J.K. Dobbins,RB,0,0,2,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28.0
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Lamar Jackson,QB,3,113,0,97,0,0,0,1,0,0,0,0,0,0,0,0,0,0,25.22
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Marquise Brown,WR,0,0,0,0,5,2,41,0,0,0,0,0,0,0,0,0,0,0,18.6
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Miles Boykin,WR,0,0,0,0,1,1,43,0,0,0,0,0,0,0,0,0,0,0,10.8
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Trayveon Williams,RB,0,0,0,74,1,0,3,0,0,0,0,0,0,0,0,0,0,0,8.2
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Justin Tucker,K,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,0,0,0,8.0
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Gus Edwards,RB,0,0,0,60,1,0,10,0,0,0,0,0,0,0,0,0,0,0,7.5
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Samaje Perine,RB,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5.1
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Mark Andrews,TE,0,0,0,0,4,0,27,0,0,0,0,0,0,0,0,0,0,0,4.7
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Mark Ingram,RB,0,0,0,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.9
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Austin Seibert,K,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,3.0
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Cethan Carter,TE,0,0,0,0,1,0,21,0,0,0,0,0,0,0,0,0,0,0,2.6
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Drew Sample,TE,0,0,0,0,2,0,15,0,0,0,0,0,0,0,0,0,0,0,2.5
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Devin Duvernay,WR,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Justice Hill,RB,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Tyler Boyd,WR,0,0,0,11,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1.7
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Alex Erickson,WR,0,0,0,2,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,17,Baltimore RavensVCincinnati Bengals,BAL,Tyler Huntley,QB,0,8,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.82
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Giovani Bernard,RB,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.7
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Brandon Allen,QB,0,48,0,2,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0.12
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Tee Higgins,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,A.J. Green,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,17,Baltimore RavensVCincinnati Bengals,CIN,Brandon Wilson,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

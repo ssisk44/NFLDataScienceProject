@@ -1,20 +1,23 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Kenyan Drake,RB1,0,0,2,78,3,0,15,0,0,0,0,0,0,0,0,0,0,0,22.8
-2020,12,Arizona CardinalsVNew England Patriots,NWE,James White,RB2,0,0,2,18,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,14.2
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Nick Folk,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,0,1,0,10.0
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Kyler Murray,QB,0,170,0,31,0,0,0,1,0,0,0,0,0,0,0,0,0,0,8.9
-2020,12,Arizona CardinalsVNew England Patriots,ARI,DeAndre Hopkins,WR1,0,0,0,0,5,0,55,0,0,0,0,0,0,0,0,0,0,0,8.0
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Jakobi Meyers,WR1,0,0,0,0,5,0,52,0,0,0,0,0,0,0,0,0,0,0,7.7
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Chase Edmonds,RB2,0,0,0,29,4,0,14,0,0,0,0,0,0,0,0,0,0,0,6.3
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,6.0
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Cam Newton,QB,0,84,0,46,0,0,0,2,0,0,0,0,0,0,0,0,0,0,5.96
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Andy Isabella,WR3,0,0,0,0,4,0,33,0,0,0,0,0,0,0,0,0,0,0,5.3
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Damiere Byrd,WR3,0,0,0,0,3,0,33,0,0,0,0,0,0,0,0,0,0,0,4.8
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Damien Harris,RB1,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.7
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Christian Kirk,WR2,0,0,0,0,3,0,19,0,0,0,0,0,0,0,0,0,0,0,3.4
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Dan Arnold,TE2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
-2020,12,Arizona CardinalsVNew England Patriots,ARI,Maxx Williams,TE1,0,0,0,0,2,0,10,0,0,0,0,0,0,0,0,0,0,0,2.0
-2020,12,Arizona CardinalsVNew England Patriots,ARI,KeeSean Johnson,S1,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Gunner Olszewski,,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.1
-2020,12,Arizona CardinalsVNew England Patriots,NWE,Donte Moncrief,WR4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,12,Arizona CardinalsVNew England Patriots,NWE,N'Keal Harry,WR2,0,0,0,-2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.2
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Tyreek Hill,WR,0,0,0,0,13,3,269,0,0,0,0,0,0,0,0,0,0,0,51.4
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Patrick Mahomes,QB,3,462,0,28,0,0,0,0,1,0,0,0,0,0,0,0,0,0,31.28
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Tom Brady,QB,3,345,0,-1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,23.7
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Mike Evans,WR,0,0,0,0,3,2,50,0,0,0,0,0,0,0,0,0,0,0,18.5
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Ronald Jones II,RB,0,0,0,66,1,1,37,0,0,0,0,0,0,0,0,0,0,0,16.8
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Chris Godwin,WR,0,0,0,0,8,0,97,0,0,0,0,0,0,0,0,0,0,0,13.7
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Rob Gronkowski,TE,0,0,0,0,6,0,106,0,0,0,0,0,0,0,0,0,0,0,13.6
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Travis Kelce,TE,0,0,0,0,8,0,82,0,0,0,0,0,0,0,0,0,0,0,12.2
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Harrison Butker,K,0,0,0,0,0,0,0,0,0,0,0,3,1,1,0,0,0,0,9.0
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Demarcus Robinson,WR,0,0,0,0,5,0,36,0,0,0,0,0,0,0,0,0,0,0,6.1
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Ryan Succop,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,6.0
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Sammy Watkins,WR,0,0,0,0,4,0,38,0,0,0,0,0,0,0,0,0,0,0,5.8
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Cameron Brate,TE,0,0,0,0,4,0,34,0,0,0,0,0,0,0,0,0,0,0,5.4
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Clyde Edwards-Helaire,RB,0,0,0,37,1,0,2,0,0,0,0,0,0,0,0,0,0,0,4.4
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Le'Veon Bell,RB,0,0,0,22,2,0,10,0,0,0,0,0,0,0,0,0,0,0,4.2
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Mecole Hardman,WR,0,0,0,0,3,0,23,0,0,0,0,0,0,0,0,0,0,0,3.8
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Leonard Fournette,RB,0,0,0,10,3,0,10,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Antonio Brown,WR,0,0,0,0,2,0,11,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,KAN,Deon Yelder,TE,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0.7
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Tyler Johnson,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Scott Miller,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,12,Kansas City ChiefsVTampa Bay Buccaneers,TAM,Justin Watson,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

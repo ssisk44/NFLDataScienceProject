@@ -1,25 +1,27 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,15,Buffalo BillsVDenver Broncos,BUF,Josh Allen,QB,2,359,2,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,37.66
-2020,15,Buffalo BillsVDenver Broncos,DEN,Melvin Gordon,RB1,0,0,2,61,4,0,20,0,0,0,0,0,0,0,0,0,0,0,22.1
-2020,15,Buffalo BillsVDenver Broncos,BUF,Stefon Diggs,WR1,0,0,0,0,11,0,147,0,0,0,0,0,0,0,0,0,0,0,20.2
-2020,15,Buffalo BillsVDenver Broncos,DEN,Noah Fant,TE1,0,0,0,0,8,1,68,0,0,0,0,0,0,0,0,0,0,0,16.8
-2020,15,Buffalo BillsVDenver Broncos,BUF,Devin Singletary,RB1,0,0,1,68,3,0,16,0,0,0,0,0,0,0,0,0,0,0,15.9
-2020,15,Buffalo BillsVDenver Broncos,BUF,Cole Beasley,WR2,0,0,0,0,8,0,112,0,0,0,0,0,0,0,0,0,0,0,15.2
-2020,15,Buffalo BillsVDenver Broncos,BUF,Tyler Bass,K,0,0,0,0,0,0,0,0,0,0,0,6,0,2,0,0,0,0,12.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Drew Lock,QB,1,132,0,37,0,0,0,0,1,0,0,0,0,0,0,0,0,0,10.98
-2020,15,Buffalo BillsVDenver Broncos,BUF,Dawson Knox,TE1,0,0,0,0,2,1,36,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,15,Buffalo BillsVDenver Broncos,BUF,Jake Kumerow,,0,0,0,0,1,1,22,0,0,0,0,0,0,0,0,0,0,0,8.7
-2020,15,Buffalo BillsVDenver Broncos,BUF,Zack Moss,RB2,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8.1
-2020,15,Buffalo BillsVDenver Broncos,DEN,Phillip Lindsay,RB2,0,0,0,38,3,0,7,0,0,0,0,0,0,0,0,0,0,0,6.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Tim Patrick,WR2,0,0,0,0,3,0,14,0,0,0,0,0,0,0,0,0,0,0,2.9
-2020,15,Buffalo BillsVDenver Broncos,BUF,Gabriel Davis,WR3,0,0,0,0,2,0,18,0,0,0,0,0,0,0,0,0,0,0,2.8
-2020,15,Buffalo BillsVDenver Broncos,DEN,Jerry Jeudy,WR1,0,0,0,0,1,0,19,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,15,Buffalo BillsVDenver Broncos,BUF,Isaiah McKenzie,WR4,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.3
-2020,15,Buffalo BillsVDenver Broncos,DEN,Taylor Russolino,K,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,KJ Hamler,,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0.9
-2020,15,Buffalo BillsVDenver Broncos,DEN,Royce Freeman,,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4
-2020,15,Buffalo BillsVDenver Broncos,BUF,Lee Smith,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Nick Vannett,TE2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,BUF,Andre Roberts,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,BUF,Micah Hyde,S1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,15,Buffalo BillsVDenver Broncos,DEN,Diontae Spencer,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Tony Pollard,RB,0,0,2,69,6,0,63,0,0,0,0,0,0,0,0,0,0,0,28.2
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Brandon Aiyuk,WR,0,0,0,0,9,1,73,0,0,0,0,0,0,0,0,0,0,0,17.8
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Andy Dalton,QB,2,209,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,17.16
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,CeeDee Lamb,WR,0,0,0,0,5,0,85,0,0,1,0,0,0,0,0,0,0,0,17.0
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Kendrick Bourne,WR,0,0,0,0,4,1,86,0,0,0,0,0,0,0,0,0,0,0,16.6
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Nick Mullens,QB,2,219,0,7,0,0,0,2,1,0,0,0,0,0,0,0,0,0,13.46
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Greg Zuerlein,K,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,2,0,0,13.0
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Jeff Wilson,RB,0,0,1,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,12.0
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Michael Gallup,WR,0,0,0,0,3,1,26,0,0,0,0,0,0,0,0,0,0,0,10.1
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Jordan Reed,TE,0,0,0,0,2,1,18,0,0,0,0,0,0,0,0,0,0,0,8.8
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Dalton Schultz,TE,0,0,0,0,2,1,14,0,0,0,0,0,0,0,0,0,0,0,8.4
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,C.J. Beathard,QB,1,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8.0
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Raheem Mostert,RB,0,0,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.8
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Richie James,WR,0,0,0,0,4,0,56,0,1,0,0,0,0,0,0,0,0,0,5.6
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Ross Dwelley,TE,0,0,0,0,2,0,28,0,0,0,0,0,0,0,0,0,0,0,3.8
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Kyle Juszczyk,,0,0,0,4,1,0,25,0,0,0,0,0,0,0,0,0,0,0,3.4
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Jerick McKinnon,RB,0,0,0,0,2,0,22,0,0,0,0,0,0,0,0,0,0,0,3.2
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Robbie Gould\g,,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Noah Brown,WR,0,0,0,4,1,0,13,0,0,0,0,0,0,0,0,0,0,0,2.2
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,River Cracraft,WR,0,0,0,0,2,0,11,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Blake Bell,TE,0,0,0,2,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.7
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Amari Cooper,WR,0,0,0,-7,2,0,10,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Tevin Coleman,RB,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Rico Dowdle,RB,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,15,San Francisco 49ersVDallas Cowboys,DAL,Cedrick Wilson Jr.,WR,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.48
+2020,15,San Francisco 49ersVDallas Cowboys,SFO,Trent Taylor,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

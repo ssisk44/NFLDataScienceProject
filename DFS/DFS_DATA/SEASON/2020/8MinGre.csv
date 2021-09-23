@@ -1,24 +1,26 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Curtis Samuel,WR3,0,0,1,23,4,1,31,0,0,0,0,0,0,0,0,0,0,0,19.4
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Matt Ryan,QB,0,281,1,27,0,0,0,1,0,0,0,0,0,0,0,0,0,0,18.94
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Julio Jones,WR1,0,0,0,0,7,0,137,0,0,0,0,0,0,0,0,0,0,0,17.2
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Teddy Bridgewater,QB,1,176,0,30,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13.04
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Younghoe Koo,K,0,0,0,0,0,0,0,0,0,0,0,1,0,2,2,0,0,0,13.0
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Todd Gurley,RB1,0,0,1,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10.6
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Mike Davis,RB1,0,0,0,66,1,0,11,0,0,0,0,0,0,0,0,0,0,0,8.2
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Hayden Hurst,TE1,0,0,0,0,5,0,54,0,0,0,0,0,0,0,0,0,0,0,7.9
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Brian Hill,RB2,0,0,0,55,2,0,9,0,0,0,0,0,0,0,0,0,0,0,7.4
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Robby Anderson,WR2,0,0,0,0,5,0,48,0,0,0,0,0,0,0,0,0,0,0,7.3
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,D.J. Moore,WR1,0,0,0,0,2,0,55,0,0,0,0,0,0,0,0,0,0,0,6.5
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Calvin Ridley,WR2,0,0,0,0,3,0,42,0,0,0,0,0,0,0,0,0,0,0,5.7
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,5.0
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Ian Thomas,TE1,0,0,0,0,3,0,28,0,0,0,0,0,0,0,0,0,0,0,4.3
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Russell Gage,WR3,0,0,0,0,2,0,25,0,0,0,0,0,0,0,0,0,0,0,3.5
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Jeremy Chinn,LB1,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.8
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Christian Blake,,0,0,0,0,2,0,14,0,0,0,0,0,0,0,0,0,0,0,2.4
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Chris Manhertz,TE2,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Qadree Ollison,,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Phillip Walker,,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.12
-2020,8,Atlanta FalconsVCarolina Panthers,ATL,Keith Smith,FB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Colin Thompson,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,8,Atlanta FalconsVCarolina Panthers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Dalvin Cook,RB,0,0,3,163,2,1,63,0,0,0,0,0,0,0,0,0,0,0,47.6
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Davante Adams,WR,0,0,0,0,7,3,53,0,0,0,0,0,0,0,0,0,0,0,26.8
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Aaron Rodgers,QB,3,291,0,9,0,0,0,0,1,0,0,0,0,0,0,0,0,0,22.54
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Jamaal Williams,RB,0,0,0,75,6,0,27,0,0,0,0,0,0,0,0,0,0,1,15.2
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Kirk Cousins,QB,1,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10.4
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Robert Tonyan,TE,0,0,0,0,5,0,79,0,0,0,0,0,0,0,0,0,0,0,10.4
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Jace Sternberger,TE,0,0,0,0,3,0,46,0,0,0,0,0,0,0,0,0,0,0,6.1
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Adam Thielen,WR,0,0,0,0,3,0,27,0,0,0,0,0,0,0,0,0,0,0,4.2
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,AJ Dillon,RB,0,0,0,21,1,0,16,0,0,0,0,0,0,0,0,0,0,0,4.2
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Justin Jefferson,WR,0,0,0,0,3,0,26,0,0,0,0,0,0,0,0,0,0,0,4.1
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Dan Bailey,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,4.0
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Malik Taylor,WR,0,0,0,0,1,0,26,0,0,0,0,0,0,0,0,0,0,0,3.1
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Marquez Valdes-Scantling,WR,0,0,0,4,1,0,19,0,0,0,0,0,0,0,0,0,0,0,2.8
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Irv Smith Jr.,TE,0,0,0,0,1,0,16,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Chad Beebe,WR,0,0,0,0,1,0,16,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Mason Crosby,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Kyle Rudolph,TE,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Equanimeous St. Brown,WR,0,0,0,0,1,0,12,0,0,0,0,0,0,0,0,0,0,0,1.7
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Tyler Ervin,RB,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
+2020,8,Minnesota VikingsVGreen Bay Packers,GNB,Darrius Shepherd,WR,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Alexander Mattison,RB,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.8
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,C.J. Ham,RB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,K.J. Osborn,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Ameer Abdullah,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,8,Minnesota VikingsVGreen Bay Packers,MIN,Mike Boone,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

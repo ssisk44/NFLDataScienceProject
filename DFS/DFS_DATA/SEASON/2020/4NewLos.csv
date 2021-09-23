@@ -1,23 +1,25 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Teddy Bridgewater,QB,2,276,1,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.24
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kyler Murray,QB,3,133,0,78,0,0,0,0,1,0,0,0,0,0,0,0,0,0,23.12
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Mike Davis,RB1,0,0,1,84,5,0,27,0,0,0,0,0,0,0,0,0,0,0,19.6
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Reggie Bonnafon,RB2,0,0,0,53,2,1,18,0,0,0,0,0,0,0,0,0,0,0,14.1
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Robby Anderson,WR2,0,0,0,0,8,0,99,0,0,0,0,0,0,0,0,0,0,0,13.9
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Chase Edmonds,RB2,0,0,0,16,5,1,24,0,0,0,0,0,0,0,0,0,0,0,12.5
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Christian Kirk,WR2,0,0,0,0,3,1,19,0,0,0,0,0,0,0,0,0,0,0,9.4
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,DeAndre Hopkins,WR1,0,0,0,0,7,0,41,0,0,0,0,0,0,0,0,0,0,0,7.6
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Ian Thomas,TE1,0,0,0,0,2,1,5,0,0,0,0,0,0,0,0,0,0,0,7.5
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Joey Slye,K,0,0,0,0,0,0,0,0,0,0,0,4,0,1,0,0,0,0,7.0
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,D.J. Moore,WR1,0,0,0,0,4,0,49,0,0,0,0,0,0,0,0,0,0,0,6.9
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Jordan Thomas,,0,0,0,0,1,1,3,0,0,0,0,0,0,0,0,0,0,0,6.8
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Curtis Samuel,WR3,0,0,0,-3,3,0,51,0,0,0,0,0,0,0,0,0,0,0,6.3
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Dan Arnold,TE2,0,0,0,0,4,0,39,0,0,0,0,0,0,0,0,0,0,0,5.9
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Kenyan Drake,RB1,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3.5
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,3.0
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Chris Manhertz,TE2,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Seth Roberts,WR4,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Larry Fitzgerald,WR3,0,0,0,0,2,0,4,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,4,Arizona CardinalsVCarolina Panthers,ARI,Andy Isabella,WR4,0,0,0,0,2,0,3,0,0,0,0,0,0,0,0,0,0,0,1.3
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Alex Armah,FB,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.2
-2020,4,Arizona CardinalsVCarolina Panthers,CAR,Pharoh Cooper,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,4,New York GiantsVLos Angeles Rams,LAR,Cooper Kupp,WR,0,0,0,-2,5,1,69,0,0,0,0,0,0,0,0,0,0,0,15.2
+2020,4,New York GiantsVLos Angeles Rams,LAR,Jared Goff,QB,1,200,0,-3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,11.7
+2020,4,New York GiantsVLos Angeles Rams,NYG,Daniel Jones,QB,0,190,0,45,0,0,0,1,0,0,0,0,0,0,0,0,0,0,11.1
+2020,4,New York GiantsVLos Angeles Rams,NYG,Graham Gano,K,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,9.0
+2020,4,New York GiantsVLos Angeles Rams,NYG,Devonta Freeman,RB,0,0,0,33,4,0,35,0,0,0,0,0,0,0,0,0,0,0,8.8
+2020,4,New York GiantsVLos Angeles Rams,LAR,Malcolm Brown,RB,0,0,0,38,5,0,19,0,0,0,0,0,0,0,0,0,0,0,8.2
+2020,4,New York GiantsVLos Angeles Rams,LAR,Robert Woods,WR,0,0,0,2,6,0,36,0,0,0,0,0,0,0,0,0,0,0,6.8
+2020,4,New York GiantsVLos Angeles Rams,NYG,Evan Engram,TE,0,0,0,0,6,0,35,0,0,0,0,0,0,0,0,0,0,0,6.5
+2020,4,New York GiantsVLos Angeles Rams,NYG,Darius Slayton,WR,0,0,0,0,3,0,48,0,0,0,0,0,0,0,0,0,0,0,6.3
+2020,4,New York GiantsVLos Angeles Rams,LAR,Gerald Everett,TE,0,0,1,2,1,0,10,0,1,0,0,0,0,0,0,0,0,0,5.7
+2020,4,New York GiantsVLos Angeles Rams,LAR,Sam Sloman,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,5.0
+2020,4,New York GiantsVLos Angeles Rams,NYG,Damion Ratley,WR,0,0,0,0,3,0,34,0,0,0,0,0,0,0,0,0,0,0,4.9
+2020,4,New York GiantsVLos Angeles Rams,NYG,Wayne Gallman,RB,0,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4.5
+2020,4,New York GiantsVLos Angeles Rams,LAR,Darrell Henderson,RB,0,0,0,21,1,0,16,0,0,0,0,0,0,0,0,0,0,0,4.2
+2020,4,New York GiantsVLos Angeles Rams,NYG,Golden Tate,WR,0,0,0,0,4,0,20,0,0,0,0,0,0,0,0,0,0,0,4.0
+2020,4,New York GiantsVLos Angeles Rams,LAR,Josh Reynolds,WR,0,0,0,0,3,0,25,0,0,0,0,0,0,0,0,0,0,0,4.0
+2020,4,New York GiantsVLos Angeles Rams,LAR,Tyler Higbee,TE,0,0,0,0,3,0,20,0,0,0,0,0,0,0,0,0,0,0,3.5
+2020,4,New York GiantsVLos Angeles Rams,NYG,Dion Lewis,RB,0,0,0,10,2,0,8,0,0,0,0,0,0,0,0,0,0,0,2.8
+2020,4,New York GiantsVLos Angeles Rams,NYG,Kaden Smith,TE,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
+2020,4,New York GiantsVLos Angeles Rams,LAR,Johnny Mundt,TE,0,0,0,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,1.0
+2020,4,New York GiantsVLos Angeles Rams,NYG,C.J. Board,WR,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
+2020,4,New York GiantsVLos Angeles Rams,LAR,Van Jefferson,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,4,New York GiantsVLos Angeles Rams,NYG,Corey Ballentine,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,4,New York GiantsVLos Angeles Rams,LAR,Raymond Calais,RB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

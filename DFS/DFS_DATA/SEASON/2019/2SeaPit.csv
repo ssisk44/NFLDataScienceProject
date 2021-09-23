@@ -8,10 +8,10 @@ Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Mason Rudolph,QB,2,112,0,7,0,0,0,1,0,0,0,0,0,0,0,0,0,0,12.18
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,James Conner,RB,0,0,1,33,3,0,12,0,0,0,0,0,0,0,0,0,0,0,12.0
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,JuJu Smith-Schuster,WR,0,0,0,0,5,0,84,0,0,0,0,0,0,0,0,0,0,0,10.9
-2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Chris Boswell,error,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0,0,9.0
+2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Chris Boswell,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,1,0,0,9.0
 2019,2,Seattle SeahawksVPittsburgh Steelers,SEA,Chris Carson,RB,0,0,0,60,3,0,27,0,1,0,0,0,0,0,0,0,0,0,8.2
 2019,2,Seattle SeahawksVPittsburgh Steelers,SEA,Malik Turner,WR,0,0,0,0,3,0,54,0,0,0,0,0,0,0,0,0,0,0,6.9
-2019,2,Seattle SeahawksVPittsburgh Steelers,SEA,Jason Myers,error,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,4.0
+2019,2,Seattle SeahawksVPittsburgh Steelers,SEA,Jason Myers,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,4.0
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Jaylen Samuels,RB,0,0,0,18,1,0,13,0,0,0,0,0,0,0,0,0,0,0,3.6
 2019,2,Seattle SeahawksVPittsburgh Steelers,SEA,C.J. Prosise,RB,0,0,0,7,3,0,13,0,0,0,0,0,0,0,0,0,0,0,3.5
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,James Washington,WR,0,0,0,0,2,0,23,0,0,0,0,0,0,0,0,0,0,0,3.3
@@ -19,7 +19,7 @@ Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Benny Snell Jr.,RB,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.3
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Diontae Johnson,WR,0,0,0,0,1,0,17,0,0,0,0,0,0,0,0,0,0,0,2.2
 2019,2,Seattle SeahawksVPittsburgh Steelers,SEA,Nick Vannett,TE,0,0,0,0,1,0,13,0,0,0,0,0,0,0,0,0,0,0,1.8
-2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Ryan Switzer,error,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5
-2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Xavier Grimble,error,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Ryan Switzer,WR,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5
+2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Xavier Grimble,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Donte Moncrief,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
 2019,2,Seattle SeahawksVPittsburgh Steelers,PIT,Johnny Holton,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

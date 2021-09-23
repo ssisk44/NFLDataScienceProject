@@ -1,22 +1,27 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Kyler Murray,QB,1,230,1,91,0,0,0,1,0,0,0,0,0,0,0,0,0,0,27.3
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Raheem Mostert,RB1,0,0,0,56,4,1,95,0,0,0,0,0,0,0,0,0,0,0,23.1
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,DeAndre Hopkins,WR1,0,0,0,0,14,0,151,0,0,0,0,0,0,0,0,0,0,0,22.1
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Jimmy Garoppolo,QB,2,259,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19.26
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Kenyan Drake,RB1,0,0,1,60,2,0,5,0,0,0,0,0,0,0,0,0,0,0,13.5
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Chase Edmonds,RB2,0,0,0,26,3,1,19,0,0,0,0,0,0,0,0,0,0,0,12.0
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Jerick McKinnon,,0,0,0,24,3,1,20,0,0,0,0,0,0,0,0,0,0,0,11.9
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Zane Gonzalez,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,8.0
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,George Kittle,TE1,0,0,0,9,4,0,44,0,0,0,0,0,0,0,0,0,0,0,7.3
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Larry Fitzgerald,WR2,0,0,0,0,4,0,34,0,0,0,0,0,0,0,0,0,0,0,5.4
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Kyle Juszczyk,FB,0,0,0,7,1,0,41,0,0,0,0,0,0,0,0,0,0,0,5.3
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Kendrick Bourne,WR1,0,0,0,0,2,0,34,0,0,0,0,0,0,0,0,0,0,0,4.4
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Dan Arnold,,0,0,0,0,2,0,21,0,0,0,0,0,0,0,0,0,0,0,3.1
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Tevin Coleman,RB2,0,0,0,18,1,0,6,0,0,0,0,0,0,0,0,0,0,0,2.9
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Jordan Reed,TE2,0,0,0,0,2,0,12,0,0,0,0,0,0,0,0,0,0,0,2.2
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Robbie Gould\g,K,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,2.0
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Trent Taylor,WR2,0,0,0,0,2,0,7,0,0,0,0,0,0,0,0,0,0,0,1.7
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Christian Kirk,WR3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Chris Streveler,,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
-2020,1,Arizona CardinalsVSan Francisco 49ers,ARI,Maxx Williams,TE1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,1,Arizona CardinalsVSan Francisco 49ers,SFO,Dante Pettis,WR3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Nyheim Hines,RB,0,0,1,28,8,1,45,0,0,0,0,0,0,0,0,0,0,0,23.3
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Gardner Minshew II,QB,3,173,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20.82
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Philip Rivers,QB,1,363,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,16.82
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Keelan Cole,WR,0,0,0,0,5,1,47,0,0,0,0,0,0,0,0,0,0,0,13.2
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Laviska Shenault Jr.,WR,0,0,0,10,3,1,37,0,0,0,0,0,0,0,0,0,0,0,12.2
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Josh Lambo,K,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,1,0,12.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Jonathan Taylor,RB,0,0,0,22,6,0,67,0,0,0,0,0,0,0,0,0,0,0,11.9
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Parris Campbell,WR,0,0,0,9,6,0,71,0,0,0,0,0,0,0,0,0,0,0,11.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,DJ Chark,WR,0,0,0,0,3,1,25,0,0,0,0,0,0,0,0,0,0,0,10.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,James Robinson,RB,0,0,0,62,1,0,28,0,0,0,0,0,0,0,0,0,0,0,9.5
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Rodrigo Blankenship,K,0,0,0,0,0,0,0,0,0,0,0,2,0,1,1,0,0,0,8.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,T.Y. Hilton,WR,0,0,0,0,4,0,53,0,0,0,0,0,0,0,0,0,0,0,7.3
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Marlon Mack,RB,0,0,0,26,3,0,30,0,0,0,0,0,0,0,0,0,0,0,7.1
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Jack Doyle,TE,0,0,0,0,3,0,49,0,0,0,0,0,0,0,0,0,0,0,6.4
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Mo Alie-Cox,TE,0,0,0,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,3.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Zach Pascal,WR,0,0,0,0,2,0,18,0,0,0,0,0,0,0,0,0,0,0,2.8
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Michael Pittman Jr.,WR,0,0,0,0,2,0,10,0,0,0,0,0,0,0,0,0,0,0,2.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Collin Johnson,WR,0,0,0,0,1,0,14,0,0,0,0,0,0,0,0,0,0,0,1.9
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Chris Thompson,RB,0,0,0,0,2,0,6,0,0,0,0,0,0,0,0,0,0,0,1.6
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Tyler Eifert,TE,0,0,0,0,1,0,8,0,0,0,0,0,0,0,0,0,0,0,1.3
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Chris Conley,WR,0,0,0,0,1,0,6,0,0,0,0,0,0,0,0,0,0,0,1.1
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Bruce Miller,,0,0,0,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0.7
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,James O'Shaughnessy,TE,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0.5
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Jacoby Brissett,QB,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,IND,Ashton Dulin,WR,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,1,Indianapolis ColtsVJacksonville Jaguars,JAX,Chris Claybrooks,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0

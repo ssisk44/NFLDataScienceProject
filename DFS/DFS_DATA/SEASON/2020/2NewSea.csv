@@ -1,27 +1,24 @@
 Season,Week,Game,Team,Name,Position,PassTD,PassYD,RushTD,RushYD,Receptions,RecTD,RecYD,INT,FUM/L,KRTD,PRTD,XP,FG0-19,FG20-29,FG30-39,FG40-49,FG50+,2PC,Fantasy Points
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Dak Prescott,QB,1,450,3,18,0,0,0,0,1,0,0,0,0,0,0,0,0,0,39.8
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Matt Ryan,QB,4,273,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28.52
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Calvin Ridley,WR2,0,0,0,0,7,2,109,0,0,0,0,0,0,0,0,0,0,0,26.4
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Ezekiel Elliott,RB1,0,0,1,89,6,0,33,0,1,0,0,0,0,0,0,0,0,0,19.2
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Dalton Schultz,TE1,0,0,0,0,9,1,88,0,1,0,0,0,0,0,0,0,0,0,17.3
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Younghoe Koo,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,1,2,0,0,17.0
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Hayden Hurst,TE1,0,0,0,0,5,1,72,0,0,0,0,0,0,0,0,0,0,0,15.7
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,CeeDee Lamb,WR3,0,0,0,9,6,0,106,0,0,0,0,0,0,0,0,0,0,0,14.5
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Russell Gage,WR3,0,0,0,0,6,1,46,0,0,0,0,0,0,0,0,0,0,0,13.6
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Amari Cooper,WR1,0,0,0,0,6,0,100,0,0,0,0,0,0,0,0,0,0,0,13.0
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Greg Zuerlein,K,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,1,0,0,11.0
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Michael Gallup,WR2,0,0,0,0,2,0,58,0,0,0,0,0,0,0,0,0,0,0,6.8
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Todd Gurley,RB1,0,0,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6.1
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Blake Bell,TE2,0,0,0,0,2,0,34,0,0,0,0,0,0,0,0,0,0,0,4.4
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Noah Brown,WR4,0,0,0,0,2,0,28,0,0,0,0,0,0,0,0,0,0,0,3.8
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Brian Hill,RB2,0,0,0,14,2,0,11,0,0,0,0,0,0,0,0,0,0,0,3.5
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Julio Jones,WR1,0,0,0,0,2,0,24,0,0,0,0,0,0,0,0,0,0,0,3.4
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Ito Smith,,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.0
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Olamide Zaccheaus,,0,0,0,0,1,0,10,0,0,0,0,0,0,0,0,0,0,0,1.5
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Tony Pollard,RB2,0,0,0,6,1,0,3,0,0,0,0,0,0,0,0,0,0,0,1.4
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Keith Smith,FB,0,0,0,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0.8
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Darian Thompson,S2,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.3
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Andy Dalton,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,Chris Jones,P,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,2,Atlanta FalconsVDallas Cowboys,DAL,C.J. Goodwin,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
-2020,2,Atlanta FalconsVDallas Cowboys,ATL,Brandon Powell,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Cam Newton,QB,1,397,2,47,0,0,0,1,0,0,0,0,0,0,0,0,0,0,35.58
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Russell Wilson,QB,5,288,0,39,0,0,0,1,0,0,0,0,0,0,0,0,0,0,34.42
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Julian Edelman,WR,0,0,0,0,8,0,179,0,0,0,0,0,0,0,0,0,0,0,21.9
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Chris Carson,RB,0,0,0,72,3,1,36,0,0,0,0,0,0,0,0,0,0,0,18.3
+2020,2,New England PatriotsVSeattle Seahawks,SEA,D.K. Metcalf,WR,0,0,0,0,4,1,92,0,0,0,0,0,0,0,0,0,0,0,17.2
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Tyler Lockett,WR,0,0,0,0,7,1,67,0,0,0,0,0,0,0,0,0,0,0,16.2
+2020,2,New England PatriotsVSeattle Seahawks,SEA,David Moore,WR,0,0,0,0,3,1,48,0,0,0,0,0,0,0,0,0,0,0,12.3
+2020,2,New England PatriotsVSeattle Seahawks,NWE,N'Keal Harry,WR,0,0,0,0,8,0,72,0,0,0,0,0,0,0,0,0,0,0,11.2
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Damiere Byrd,WR,0,0,0,0,6,0,72,0,0,0,0,0,0,0,0,0,0,0,10.2
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Freddie Swain,WR,0,0,0,0,1,1,21,0,0,0,0,0,0,0,0,0,0,0,8.6
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Rex Burkhead,RB,0,0,0,2,4,0,47,0,0,0,0,0,0,0,0,0,0,0,6.9
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Jakob Johnson,,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,6.6
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Nick Folk,K,0,0,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,0,6.0
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Jason Myers,K,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,5.0
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Carlos Hyde,RB,0,0,0,22,2,0,15,0,0,0,0,0,0,0,0,0,0,0,4.7
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Ryan Izzo,TE,0,0,0,0,2,0,19,0,0,0,0,0,0,0,0,0,0,0,2.9
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Travis Homer,RB,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.1
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Sony Michel,RB,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.9
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Will Dissly,TE,0,0,0,0,1,0,9,0,0,0,0,0,0,0,0,0,0,0,1.4
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Jakobi Meyers,WR,0,0,0,0,1,0,7,0,0,0,0,0,0,0,0,0,0,0,1.2
+2020,2,New England PatriotsVSeattle Seahawks,SEA,Greg Olsen,TE,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,2,New England PatriotsVSeattle Seahawks,NWE,Kyle Dugger,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0
+2020,2,New England PatriotsVSeattle Seahawks,NWE,J.J. Taylor,RB,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.1
