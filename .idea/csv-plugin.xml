@@ -17,21 +17,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\ANALYSIS\all_top_5_positions_per_contest.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\09092021DALTB_BEFORE_GAME_reduced_players.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\09122021LARCHI_reduced_players.csv">
+        <entry key="\DFS\DFS_DATA\ANALYSIS\Historical_Position_Combinations_Count.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -52,21 +38,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\09162021NYGWAS_reduced_players.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\09192021KCBAL.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\DFS_FILES\09192021KCBAL_reduced_players.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -137,13 +109,6 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\SCHEDULES\2016NFLScheduleAndResults.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SCHEDULES\2016NFLScheduleAndResultsNEW.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -801,28 +766,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\2021\3CarHou.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SEASON\all_seasons_player_database.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\DFS\DFS_DATA\SIMPLEPOSITIONROSTERS\2016\02016_ALL_PLAYERS_ROSTER.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\DFS_DATA\SIMPLEPOSITIONROSTERS\2016\1BufBal.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -865,13 +809,6 @@
           </value>
         </entry>
         <entry key="\DFS\all_contests_array.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\DFS\all_contests_array_analysis.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

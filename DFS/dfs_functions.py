@@ -74,9 +74,9 @@ bbref_team_abbrev_dict_2020_to_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falc
 
 def main():
     ###CONTESTS###
-    # create_Combos(0, 2021, 3, game)
-    # count_CSV_Permutations(filter_Combos_Combos(2021, 3, game))
-    # return_CSV_Entries()
+    create_Combos(0, 2021, 3, game)
+    count_CSV_Permutations(filter_Combos_Combos(2021, 3, game))
+    return_CSV_Entries()
 
 
     ###DATA PIPELINE###
@@ -89,6 +89,7 @@ def main():
     ###DATA ANALYSIS###
     # create_Analysis_Table()
     # print_Analysis_Table()
+    # top_5_pattern_counter()
     None
 
 
@@ -97,14 +98,14 @@ def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
     array = pd.read_csv(file).to_numpy()
     sorted(array, key=lambda x: x[5], reverse=True)
     found = False
-    for files in os.listdir(directory + str(season) + '/Week' + str(
-            week) + '/'):
-        if str(file[-32:-19]) in files:
-            found = True
-            break
-    if found == False:
+    # for files in os.listdir(directory + str(season) + '/Week' + str(
+    #         week) + '/'):
+    #     if str(file[-32:-19]) in files:
+    #         found = True
+    #         break
+    # if found == False:
 
-        pd.DataFrame(array).to_csv(
+    pd.DataFrame(array).to_csv(
             directory + str(season) + '/Week' + str(
                 week) + '/' + dateteams + '_BEFORE_GAME_reduced_players.csv', index=False)
 
@@ -212,7 +213,6 @@ def filter_Combos_Combos(season, week, dateteams):
     for i in range(0,len(array)):
         lineup_names = []
         lineup_teams = []
-        salary = int(array[i][15])
         team1 = ''
         team2 = ''
         qb_counter = 0
@@ -270,31 +270,43 @@ def filter_Combos_Combos(season, week, dateteams):
                     te2_counter += 1
 
             # COUNTS KICKERS
-            elif 'K' in str(array[i][j]) :
+            elif 'K' in str(array[i][j]):
                 kicker_counter+=1
 
-            # # REMOVES MVP TE
-            if j == 10 and str(array[i][j]) == 'TE':
-                add_to = False
-
-            # # REMOVES MVP K
-            if j == 10 and str(array[i][j]) == 'K':
-                add_to = False
+            # # # REMOVES MVP TE
+            # if j == 10 and str(array[i][j]) == 'TE':
+            #     add_to = False
+            #
+            # # # REMOVES MVP K
+            # if j == 10 and str(array[i][j]) == 'K':
+            #     add_to = False
 
 
         #GAME SPECIFIC FILTERS
         if 'Christian McCaffrey' not in lineup_names:
             add_to = False
+        if lineup_teams.count('HOU') >= 3:
+            add_to = False
+        if 'Brandin Cooks' in lineup_names and ('Chris Conley' in lineup_names or 'Anthony Miller' in lineup_names):
+            add_to = False
+        # no car wr3 and wr4
+        if 'Terrace Marshall Jr.' in lineup_names and 'Brandon Zylstra' in lineup_names:
+            add_to = False
+        #dan arnold w/ no wrs
+        if 'Dan Arnold' in lineup_names and ('Terrace Marshall Jr.' not in lineup_names and 'Brandon Zylstra' not in lineup_names and 'DJ Moore' not in lineup_names and 'Robby Anderson' not in lineup_names):
+            add_to = False
+        #no chubba if 1 panthers wr in (plus CMC, maybe Darnold)
+        if 'Chuba Hubbard' in lineup_names and ('Terrace Marshall Jr.' in lineup_names or 'Brandon Zylstra' in lineup_names or 'DJ Moore' in lineup_names or 'Robby Anderson' in lineup_names):
+            add_to = False
 
         #REMOVE NON MVP CHOICES
-        # if lineup_names[0] not in ():
-        #     add_to = False
+        if lineup_names[0] not in ('Sam Darnold','Christian McCaffrey','DJ Moore','Brandin Cooks'):
+            add_to = False
 
         #GENERAL SINGLE GAME DFS FILTERS
         # depth chart positions
-        if rb3_counter >= 1 or rb2_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2:
+        if rb2_counter >= 2 or rb3_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2 or te1_counter >= 2 or te2_counter >= 2:
             add_to = False
-
 
         # EVERY COMPETITION BASIC FILTERS
         if qb_counter == 0 or qb_counter >= 3 or rb_counter >= 3 or wr_counter >= 4 or te_counter >= 3 or kicker_counter >= 2:
@@ -959,6 +971,40 @@ def print_Analysis_Table():
     #     retlist.append([mylist[i],count_list[i]])
     # retlist = sorted(retlist, key=lambda x: x[1], reverse=True)
     # pd.DataFrame(retlist).to_csv('contest_output.csv',index=False)
+def top_5_pattern_counter():
+    all_contest_results_array = pd.read_csv('all_contests_array.csv').to_numpy()
+    # PRINTS TOP 5 PER CONTEST BY SIMPLE POSITION
+    positions = []
+    all = []
+    for i in range(0, len(all_contest_results_array)):
+        rank = all_contest_results_array[i][-3]
+        position = str(all_contest_results_array[i][5])
+        if rank in (1, 2, 3, 4, 5):
+            positions.append(position)
+            if rank == 5:
+                positions.append(0)
+                all.append(positions)
+                positions = []
+
+    count_all = []
+    previously_used = []
+    for entry in range(0,len(all)):
+        if all[entry] in previously_used:
+            continue
+        else:
+            previously_used.append(all[entry])
+            e = all[entry].copy()
+            count = all.count(e)
+            e[-1] += count
+            e.append(e.count('QB'))
+            e.append(e.count('RB'))
+            e.append(e.count('WR'))
+            e.append(e.count('TE'))
+            e.append(e.count('K'))
+            e.append(e.count('nan'))
+            count_all.append(e)
+    count_all = sorted(count_all, key=lambda x: (x[5], x[1], x[2], x[3], x[4]), reverse=True)
+    pd.DataFrame(count_all, columns=['MVP','UTIL1','UTIL2','UTIL3','UTIL4','Lineup Frequency Count','QB Count','RB Count','WR Count','TE Count','K Count','nan Count']).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/Historical_Position_Combinations_Count.csv', index=False)
 
 
 main()
