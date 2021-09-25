@@ -1,0 +1,52 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+64341-6589,QB,Ben,Ben Roethlisberger,Roethlisberger,13.40999984741211,2,15000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-63336,QB,Joe,Joe Burrow,Burrow,15.960000038146973,2,15000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-52442,RB,Joe,Joe Mixon,Mixon,15.300000190734863,2,14000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-90575,RB,Najee,Najee Harris,Harris,11,2,13000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-66008,WR,Diontae,Diontae Johnson,Johnson,13.550000190734863,2,12500,CIN@PIT,PIT,CIN,O,Knee,,,,MVP - 1.5X Points/AnyFLEX
+64341-55987,WR,JuJu,JuJu Smith-Schuster,Smith-Schuster,10.300000190734863,2,11500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-89981,WR,Tee,Tee Higgins,Higgins,13.399999618530273,2,11000,CIN@PIT,CIN,PIT,D,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+64341-73111,WR,Chase,Chase Claypool,Claypool,8.350000381469727,2,10500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-85701,WR,Ja'Marr,Ja'Marr Chase,Chase,15.399999618530273,2,10500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-40669,WR,Tyler,Tyler Boyd,Boyd,7.75,2,10000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-70546,K,Sam,Sam Sloman,Sloman,6.875,8,9000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-32058,K,Chris,Chris Boswell,Boswell,9.5,2,9000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-86092,K,Evan,Evan McPherson,McPherson,9,2,8500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-31207,TE,C.J.,C.J. Uzomah,Uzomah,2.950000047683716,2,8000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-25272,TE,Eric,Eric Ebron,Ebron,1.2000000476837158,2,7500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-52451,RB,Samaje,Samaje Perine,Perine,1.7000000476837158,2,7000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-86244,TE,Pat,Pat Freiermuth,Freiermuth,4.25,2,7000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-55748,WR,James,James Washington,Washington,1,2,6500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-64339,WR,Auden,Auden Tate,Tate,2.4444444444444446,9,6000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-70889,RB,Benny,Benny Snell Jr.,Snell Jr.,0.10000000149011612,1,6000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-55694,WR,Mike,Mike Thomas,Thomas,1,1,5500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-52371,RB,Kalen,Kalen Ballage,Ballage,6.616666793823242,12,5500,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-73130,RB,Chris,Chris Evans,Evans,1.899999976158142,1,5500,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-88277,RB,Anthony,Anthony McFarland Jr.,McFarland Jr.,1.790909160267223,11,5500,CIN@PIT,PIT,CIN,IR,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+64341-72961,WR,Anthony,Anthony Johnson,Johnson,0,1,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-56711,TE,Drew,Drew Sample,Sample,3.6812500953674316,16,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-64905,WR,Trenton,Trenton Irwin,Irwin,0.5,2,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-71048,TE,Thaddeus,Thaddeus Moss,Moss,0,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-26384,RB,Trey,Trey Edmunds,Edmunds,0,1,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-61072,WR,Stanley,Stanley Morgan,Morgan,0,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-62994,WR,Steven,Steven Sims Jr.,Sims Jr.,3.9285714285714284,14,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-38805,TE,Marcus,Marcus Baugh,Baugh,0.3499999940395355,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-43416,WR,Trent,Trent Taylor,Taylor,1.2363636710427024,11,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-55323,RB,Jaylen,Jaylen Samuels,Samuels,1.322222179836697,9,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-83226,TE,Kevin,Kevin Rader,Rader,0,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-55964,RB,Tony,Tony Brooks-James,Brooks-James,0.4000000059604645,1,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-65182,TE,Mitchell,Mitchell Wilcox,Wilcox,0,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-60840,QB,Jake,Jake Browning,Browning,,,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-139438,RB,Pete,Pete Guerriero,Guerriero,0,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-47551,TE,Mason,Mason Schreck,Schreck,0,2,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-71360,WR,Tyler,Tyler Simmons,Simmons,,,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-31170,QB,Brandon,Brandon Allen,Allen,8.950000127156576,6,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-40407,QB,Josh,Josh Dobbs,Dobbs,1.0399999618530273,2,5000,CIN@PIT,PIT,CIN,IR,Toe,,,,MVP - 1.5X Points/AnyFLEX
+64341-28890,RB,Derek,Derek Watt,Watt,0.06666666766007741,3,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-92890,WR,Cody,Cody White,White,0,1,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-64221,TE,Zach,Zach Gentry,Gentry,0.30000001192092896,1,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-73183,QB,Dwayne,Dwayne Haskins Jr.,Haskins Jr.,9.395000457763672,8,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-53729,QB,Mason,Mason Rudolph,Rudolph,4.840000152587891,4,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-69860,RB,Trayveon,Trayveon Williams,Williams,2.7428572518484935,7,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-62055,WR,Ray-Ray,Ray-Ray McCloud III,McCloud III,0,2,5000,CIN@PIT,PIT,CIN,,,,,,MVP - 1.5X Points/AnyFLEX
+64341-64627,WR,Scotty,Scotty Washington,Washington,0,1,5000,CIN@PIT,CIN,PIT,,,,,,MVP - 1.5X Points/AnyFLEX

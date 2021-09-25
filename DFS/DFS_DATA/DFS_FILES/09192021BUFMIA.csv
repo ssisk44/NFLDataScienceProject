@@ -1,0 +1,51 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+64090-62239,QB,Josh,Josh Allen,Allen,17.200000762939453,1,17000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-90572,QB,Tua,Tua Tagovailoa,Tagovailoa,17.18000030517578,1,15500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-25079,WR,Stefon,Stefon Diggs,Diggs,11.399999618530273,1,14000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-60930,RB,Myles,Myles Gaskin,Gaskin,10.100000381469727,1,12000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-33260,WR,DeVante,DeVante Parker,Parker,10.100000381469727,1,11500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-90573,WR,Jaylen,Jaylen Waddle,Waddle,14.100000381469727,1,11000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-56265,TE,Mike,Mike Gesicki,Gesicki,0,1,10500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-22288,WR,Cole,Cole Beasley,Beasley,10,1,10000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-42028,WR,Will,Will Fuller V,Fuller V,14.763635808771307,11,10000,BUF@MIA,MIA,BUF,O,Personal,,,,MVP - 1.5X Points/AnyFLEX
+64090-70603,RB,Devin,Devin Singletary,Singletary,9.5,1,9500,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-65128,K,Tyler,Tyler Bass,Bass,11,1,9000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-52767,K,Jason,Jason Sanders,Sanders,6,1,8500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-70027,RB,Zack,Zack Moss,Moss,7.235714503696987,14,8000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-32234,RB,Malcolm,Malcolm Brown,Brown,1.600000023841858,1,8000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-11505,WR,Emmanuel,Emmanuel Sanders,Sanders,7.199999809265137,1,8000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-64585,TE,Dawson,Dawson Knox,Knox,6.099999904632568,1,7500,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-30231,QB,Jacoby,Jacoby Brissett,Brissett,0.4000000059604645,1,7000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-94534,WR,Gabriel,Gabriel Davis,Davis,11,1,7000,BUF@MIA,BUF,MIA,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+64090-62967,WR,Preston,Preston Williams,Williams,8.225000381469727,8,7000,BUF@MIA,MIA,BUF,Q,Foot,,,,MVP - 1.5X Points/AnyFLEX
+64090-53303,RB,Matt,Matt Breida,Breida,0.4000000059604645,1,6500,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-48344,WR,Albert,Albert Wilson,Wilson,0,1,6500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-86780,RB,Salvon,Salvon Ahmed,Ahmed,3.799999952316284,1,6500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-53639,WR,Isaiah,Isaiah McKenzie,McKenzie,-0.30000001192092896,1,6000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-32703,WR,Jakeem,Jakeem Grant,Grant,0,1,6000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-93075,TE,Hunter,Hunter Long,Long,,,5500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-56212,TE,Tommy,Tommy Sweeney,Sweeney,,,5500,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-25267,WR,Mack,Mack Hollins,Hollins,2.6909091255881568,11,5500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-42046,TE,Durham,Durham Smythe,Smythe,1.399999976158142,1,5500,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-55941,RB,Patrick,Patrick Laird,Laird,1.8888888888888888,9,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-54280,WR,Duke,Duke Williams,Williams,,,5000,BUF@MIA,BUF,MIA,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+64090-27671,WR,Jake,Jake Kumerow,Kumerow,8.699999809265137,1,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-63383,RB,Jordan,Jordan Scarlett,Scarlett,0,2,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-70426,TE,Reggie,Reggie Gilliam,Gilliam,4.300000190734863,2,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-25760,WR,Allen,Allen Hurns,Hurns,0,1,5000,BUF@MIA,MIA,BUF,IR,Wrist,,,,MVP - 1.5X Points/AnyFLEX
+64090-56356,WR,Isaiah,Isaiah Ford,Ford,4.159999847412109,10,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-55209,TE,Nate,Nate Becker,Becker,,,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-65839,TE,Kahale,Kahale Warring,Warring,1.25,4,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-103352,RB,Christian,Christian Wade,Wade,,,5000,BUF@MIA,BUF,MIA,O,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+64090-38722,TE,Cethan,Cethan Carter,Carter,1.1142857415335519,7,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-61379,RB,Kerrith,Kerrith Whyte Jr.,Whyte Jr.,0,1,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-87122,WR,Lynn,Lynn Bowden Jr.,Bowden Jr.,3.9580001831054688,10,5000,BUF@MIA,MIA,BUF,IR,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
+64090-63576,WR,Kirk,Kirk Merritt,Merritt,0,1,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-130269,QB,Reid,Reid Sinnett,Sinnett,0,1,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-79967,TE,Adam,Adam Shaheen,Shaheen,3,13,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-38628,QB,Mitchell,Mitchell Trubisky,Trubisky,13.435384897085337,13,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-71661,WR,Tino,Tino Ellis,Ellis,,,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-14319,RB,Taiwan,Taiwan Jones,Jones,0,3,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-39795,QB,Davis,Davis Webb,Webb,,,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-91639,QB,Jake,Jake Fromm,Fromm,,,5000,BUF@MIA,BUF,MIA,,,,,,MVP - 1.5X Points/AnyFLEX
+64090-52345,WR,Brandon,Brandon Powell,Powell,1.5733333587646485,15,5000,BUF@MIA,MIA,BUF,,,,,,MVP - 1.5X Points/AnyFLEX

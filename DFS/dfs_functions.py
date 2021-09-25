@@ -10,8 +10,9 @@ from selenium.webdriver import ActionChains
 import pandas as pd
 import numpy as np
 import time, os
+
 directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/'
-game = '09232021CARHOU'
+game = '09262021ATLNYG'
 file = directory+game+'_reduced_players.csv'
 
 team_abbrev_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 'Buffalo Bills', 'Carolina Panthers',
@@ -76,7 +77,7 @@ def main():
     ###CONTESTS###
     create_Combos(0, 2021, 3, game)
     count_CSV_Permutations(filter_Combos_Combos(2021, 3, game))
-    return_CSV_Entries()
+    # return_CSV_Entries()
 
 
     ###DATA PIPELINE###
@@ -202,6 +203,7 @@ def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
     pd.DataFrame(permutationsarr).to_csv(
          'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
             week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv', index=False, header=headers)
+
 def filter_Combos_Combos(season, week, dateteams):
     array = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
         week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv')
@@ -215,6 +217,21 @@ def filter_Combos_Combos(season, week, dateteams):
         lineup_teams = []
         team1 = ''
         team2 = ''
+        team1_players = []
+        team2_players = []
+
+        def countPlayerTeamPositions(team, position):
+            this_team = ''
+            if team == team1:
+                this_team = team1_players
+            if team == team2:
+                this_team = team2_players
+            count = 0
+            for player in range(0,len(this_team)):
+                if position in this_team[player]:
+                    count += 1
+            return count
+
         qb_counter = 0
         rb_counter = 0
         rb1_counter = 0
@@ -228,6 +245,7 @@ def filter_Combos_Combos(season, week, dateteams):
         te_counter = 0
         te1_counter = 0
         te2_counter = 0
+        te3_counter = 0
         kicker_counter = 0
         add_to = True
         for j in range(10,15):
@@ -235,6 +253,12 @@ def filter_Combos_Combos(season, week, dateteams):
                 team1 = str(array[i][j-5])
             if j > 10 and str(array[i][j-5]) != team1 and team2 == '':
                 team2 = str(array[i][j-5])
+
+            if str(array[i][j-5]) == team1:
+                team1_players.append(str(array[i][j]))
+
+            if str(array[i][j-5]) == team2:
+                team2_players.append(str(array[i][j]))
 
             lineup_teams.append(str(array[i][j-5]))
             lineup_names.append(str(array[i][j-10]))
@@ -268,48 +292,97 @@ def filter_Combos_Combos(season, week, dateteams):
                     te1_counter += 1
                 if 'TE2' in str(array[i][j]):
                     te2_counter += 1
-
+                if 'TE3' in str(array[i][j]):
+                    te3_counter += 1
             # COUNTS KICKERS
             elif 'K' in str(array[i][j]):
                 kicker_counter+=1
 
-            # # # REMOVES MVP TE
-            # if j == 10 and str(array[i][j]) == 'TE':
-            #     add_to = False
-            #
-            # # # REMOVES MVP K
-            # if j == 10 and str(array[i][j]) == 'K':
-            #     add_to = False
+            # REMOVES MVP K
+            if j == 10 and str(array[i][j]) == 'K':
+                add_to = False
 
 
         #GAME SPECIFIC FILTERS
-        if 'Christian McCaffrey' not in lineup_names:
-            add_to = False
-        if lineup_teams.count('HOU') >= 3:
-            add_to = False
-        if 'Brandin Cooks' in lineup_names and ('Chris Conley' in lineup_names or 'Anthony Miller' in lineup_names):
-            add_to = False
-        # no car wr3 and wr4
-        if 'Terrace Marshall Jr.' in lineup_names and 'Brandon Zylstra' in lineup_names:
-            add_to = False
-        #dan arnold w/ no wrs
-        if 'Dan Arnold' in lineup_names and ('Terrace Marshall Jr.' not in lineup_names and 'Brandon Zylstra' not in lineup_names and 'DJ Moore' not in lineup_names and 'Robby Anderson' not in lineup_names):
-            add_to = False
-        #no chubba if 1 panthers wr in (plus CMC, maybe Darnold)
-        if 'Chuba Hubbard' in lineup_names and ('Terrace Marshall Jr.' in lineup_names or 'Brandon Zylstra' in lineup_names or 'DJ Moore' in lineup_names or 'Robby Anderson' in lineup_names):
-            add_to = False
+
 
         #REMOVE NON MVP CHOICES
-        if lineup_names[0] not in ('Sam Darnold','Christian McCaffrey','DJ Moore','Brandin Cooks'):
+        if lineup_names[0] not in ('Daniel Jones','Matt Ryan','Calvin Ridley','Kyle Pitts','Saquon Barkley','Sterling Shepard','Mike Davis','Cordarrelle Patterson'):
+            add_to=False
+
+        # must be at least one QB
+        if countPlayerTeamPositions('ATL','QB') == 0 and countPlayerTeamPositions('NYG','QB') == 0:
             add_to = False
+
+        # no two RBs from same team ***********************
+        if countPlayerTeamPositions('ATL','RB') >= 2 or countPlayerTeamPositions('NYG','QB') >= 2:
+            add_to = False
+
+        # no three WRs from same team ***********************
+        if countPlayerTeamPositions('ATL','WR') >= 3 or countPlayerTeamPositions('NYG','WR') >= 3:
+            add_to = False
+
+        # no two TEs from same team ***********************
+        if countPlayerTeamPositions('ATL','TE') >= 2 or countPlayerTeamPositions('NYG','TE') >= 2:
+            add_to = False
+
+        # less than one TE and WR4 combined in a lineup (each team)
+        if (countPlayerTeamPositions('ATL','TE') >= 2 and countPlayerTeamPositions('ATL','WR4') >= 2) or (countPlayerTeamPositions('NYG','TE') >= 2 and countPlayerTeamPositions('NYG','WR4') >= 2):
+            add_to = False
+
+        # WR4 TE2 (both teams) <= 1
+        if (countPlayerTeamPositions('ATL','TE4') + countPlayerTeamPositions('ATL','WR4') + countPlayerTeamPositions('NYG','TE4') + countPlayerTeamPositions('NYG','WR4')) >= 2:
+            add_to = False
+
+        # WR3 WR4 TE2 (each team)  <= 1
+        if (countPlayerTeamPositions('ATL','WR3') + countPlayerTeamPositions('ATL','WR4') + countPlayerTeamPositions('ATL','TE2') >= 2) or (countPlayerTeamPositions('NYG','WR3') + countPlayerTeamPositions('NYG','WR4') + countPlayerTeamPositions('NYG','TE2') >= 2):
+            add_to = False
+
+        # RB3 WR4 TE2 (each team)  <= 1
+        if (countPlayerTeamPositions('ATL','RB3') + countPlayerTeamPositions('ATL','TE2') + countPlayerTeamPositions('ATL','WR4') >= 2) or (countPlayerTeamPositions('NYG','RB3') + countPlayerTeamPositions('NYG','TE2') + countPlayerTeamPositions('NYG','WR4') >= 2):
+            add_to = False
+
+        # 0 QB and 2 WR (same team) == 0
+        if (countPlayerTeamPositions('ATL','QB') == 0 and countPlayerTeamPositions('ATL','WR') >= 2) or (countPlayerTeamPositions('NYG','QB') == 0 and countPlayerTeamPositions('NYG','WR') >= 2):
+            add_to = False
+
+        # 0 QB and 1 WR and 1 TE (same team) == 0
+        if (countPlayerTeamPositions('ATL','QB') == 0 and countPlayerTeamPositions('ATL','WR') >= 1 and countPlayerTeamPositions('ATL','TE') >= 1) or (countPlayerTeamPositions('NYG','QB') == 0 and countPlayerTeamPositions('NYG','WR') >= 1 and countPlayerTeamPositions('NYG','TE') >= 1):
+            add_to = False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         #GENERAL SINGLE GAME DFS FILTERS
-        # depth chart positions
-        if rb2_counter >= 2 or rb3_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2 or te1_counter >= 2 or te2_counter >= 2:
+        # depth chart position basic filters
+        if rb2_counter >= 2 or rb3_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2 or te2_counter >= 2 or te3_counter >= 2:
             add_to = False
 
-        # EVERY COMPETITION BASIC FILTERS
-        if qb_counter == 0 or qb_counter >= 3 or rb_counter >= 3 or wr_counter >= 4 or te_counter >= 3 or kicker_counter >= 2:
+        # simple position basic filters
+        if qb_counter >= 3 or rb_counter >= 3 or wr_counter >= 4 or te_counter >= 3 or kicker_counter >= 2:
             add_to = False
 
         if add_to == True:
@@ -321,26 +394,41 @@ def filter_Combos_Combos(season, week, dateteams):
     pd.DataFrame(this_list).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv', index=False,
                                                           header=col)  # ,'Count])
     return list
+
 def count_CSV_Permutations(list):
     array = pd.read_csv(file).to_numpy()
+    perms = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv').to_numpy()
+
+    list_mvp = []
+    list_util = []
+
     names = []
 
-    def nameIndex(name):
-        for i in range(0, len(names)):
-            if str(names[i][0]) == str(name):
-                return i
+    #get names of reduced players
+    #for every entry in perms count mvps by player
+    #for every entry in perms count utils by player
 
     for i in range(0, len(array)):
-        names.append([array[i][3]] + [0, 0])
+        names.append([array[i][3]])
 
-    for i in range(0, len(list)):
+    for i in range(0, len(perms)):
         for j in range(0, 5):
             if j == 0:
-                names[nameIndex(list[i][j])][1] += 1
+                list_mvp.append(perms[i][0])
             else:
-                names[nameIndex(list[i][j])][2] += 1
+                list_util.append(perms[i][j])
 
-    print(pd.DataFrame(names, columns=['Name','MVPs','UTILs']))
+    for i in range(0, len(names)):
+        name = names[i][0]
+        names[i].append(list_mvp.count(name))
+        names[i].append(list_util.count(name))
+        names[i].append(str(round(float(list_mvp.count(name)/len(list_mvp)*100),2))+'%')
+        names[i].append(str(round(float(list_util.count(name)/len(list_mvp)*100),2))+'%')
+
+    x = pd.DataFrame(names, columns=['Name','MVPs','UTILs','MVP Exposure','UTIL Exposure'])
+    pd.set_option('display.max_columns', None)
+    print(x)
+
 def return_CSV_Entries():
     this_list = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv').to_numpy()
     ret_list = []

@@ -24,6 +24,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09092021DALTB_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09122021LARCHI_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\09132021BALLV.csv">
           <value>
             <Attribute>
@@ -32,6 +46,13 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\09162021NYGWAS.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09192021ATLTB_reduced_players.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -53,6 +74,118 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\09232021CARHOU_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021ARIJAC_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021ATLNYG.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021ATLNYG_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021BALDET_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021CHICLE_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021CINPIT_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021DENNYJ_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021GBSF_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021INDTEN_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021LACKC_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021MIALV_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021NONE.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021NONE_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021SEAMIN_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021TBLAR_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\09262021WASBUF_reduced_players.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -102,6 +235,13 @@
           </value>
         </entry>
         <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week3\09232021CARHOU_BEFORE_GAME_reduced_players.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\DFS\DFS_DATA\DFS_FILES\2021\Week3\09262021ATLNYG_BEFORE_GAME_permutations.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

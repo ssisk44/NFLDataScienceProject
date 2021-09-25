@@ -1,0 +1,60 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+64342-41535,QB,Baker,Baker Mayfield,Mayfield,16.079999923706055,2,16000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-53562,RB,Nick,Nick Chubb,Chubb,18.700000762939453,2,14000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-91591,QB,Justin,Justin Fields,Fields,5.599999904632568,2,14000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-14225,QB,Andy,Andy Dalton,Dalton,7.639999866485596,2,13500,CHI@CLE,CHI,CLE,O,Knee,,,,MVP - 1.5X Points/AnyFLEX
+64342-73273,RB,David,David Montgomery,Montgomery,13.850000381469727,2,13500,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-28643,WR,Allen,Allen Robinson II,Robinson II,7.949999809265137,2,12000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-31394,WR,Jarvis,Jarvis Landry,Landry,9.149999618530273,2,11000,CHI@CLE,CLE,CHI,IR,Knee - mcl,,,,MVP - 1.5X Points/AnyFLEX
+64342-45229,RB,Kareem,Kareem Hunt,Hunt,10.699999809265137,2,10500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-31360,WR,Odell,Odell Beckham Jr.,Beckham Jr.,10.75999995640346,7,10000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-69777,WR,Darnell,Darnell Mooney,Mooney,7.349999904632568,2,10000,CHI@CLE,CHI,CLE,Q,Groin,,,,MVP - 1.5X Points/AnyFLEX
+64342-31280,K,Cody,Cody Parkey,Parkey,7.529411764705882,17,8500,CHI@CLE,CLE,CHI,Q,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+64342-60479,K,Chase,Chase McLaughlin,McLaughlin,5,2,8500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-33714,K,Cairo,Cairo Santos,Santos,5,2,8000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-40126,TE,Austin,Austin Hooper,Hooper,5.349999904632568,2,8000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-55335,TE,David,David Njoku,Njoku,5.949999809265137,2,7500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-32243,WR,Marquise,Marquise Goodwin,Goodwin,3.9000000953674316,2,7500,CHI@CLE,CHI,CLE,Q,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+64342-91426,WR,Donovan,Donovan Peoples-Jones,Peoples-Jones,0.4000000059604645,2,7000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-91047,TE,Cole,Cole Kmet,Kmet,3.5999999046325684,2,7000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-27441,RB,Damien,Damien Williams,Williams,3.700000047683716,2,7000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-70601,TE,Harrison,Harrison Bryant,Bryant,4.550000190734863,2,6500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-45791,WR,Rashard,Rashard Higgins,Higgins,3.700000047683716,1,6500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-30678,WR,Damiere,Damiere Byrd,Byrd,3.4000000953674316,1,6000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-11512,TE,Jimmy,Jimmy Graham,Graham,1.600000023841858,1,6000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-27273,RB,Andy,Andy Janovich,Janovich,3,2,5500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-70282,RB,Demetric,Demetric Felton,Felton,6.050000190734863,2,5500,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-22027,QB,Nick,Nick Foles,Foles,12.464444478352865,9,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-28694,TE,Jesse,Jesse James,James,2.6583333015441895,12,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-64023,TE,Kyle,Kyle Markway,Markway,0,1,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-71578,RB,Artavis,Artavis Pierce,Pierce,1.8799999237060547,5,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-64949,WR,Ja'Marcus,Ja'Marcus Bradley,Bradley,4.25,2,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-138552,TE,Connor,Connor Davis,Davis,0,1,5000,CHI@CLE,CLE,CHI,IR,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+64342-71359,WR,Javon,Javon Wims,Wims,1.5727272033691406,11,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-103998,WR,Thomas,Thomas Ives,Ives,0,2,5000,CHI@CLE,CHI,CLE,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+64342-55750,WR,Chris,Chris Lacy,Lacy,0,1,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-57543,RB,D'Ernest,D'Ernest Johnson,Johnson,1.21875,16,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-104008,TE,Stephen,Stephen Carlson,Carlson,0.44999998807907104,8,5000,CHI@CLE,CLE,CHI,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+64342-69325,WR,Riley,Riley Ridley,Ridley,2.1,5,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-22994,QB,Case,Case Keenum,Keenum,1.840000033378601,1,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-103896,WR,Nsimba,Nsimba Webster,Webster,0,1,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-41562,QB,Nick,Nick Mullens,Mullens,11.66181807084517,11,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-103901,WR,Davion,Davion Davis,Davis,,,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-72412,RB,Khalil,Khalil Herbert,Herbert,0,1,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-103902,WR,Alexander,Alexander Hollins,Hollins,,,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-40674,WR,Jester,Jester Weah,Weah,0,1,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-130274,WR,Isaiah,Isaiah Coulter,Coulter,,,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-104421,TE,Jesper,Jesper Horsted,Horsted,0,2,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-25957,TE,J.P.,J.P. Holtz,Holtz,0,7,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-79974,RB,Tarik,Tarik Cohen,Cohen,2.9,5,5000,CHI@CLE,CHI,CLE,NA,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+64342-57064,RB,Ryan,Ryan Nall,Nall,1.6700000762939453,10,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-38634,WR,Ryan,Ryan Switzer,Switzer,0,1,5000,CHI@CLE,CLE,CHI,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+64342-57325,TE,Jordan,Jordan Franks,Franks,0,1,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-87662,WR,Anthony,Anthony Schwartz,Schwartz,5.050000190734863,2,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-33137,WR,Justin,Justin Hardy,Hardy,,,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-34295,WR,Breshad,Breshad Perriman,Perriman,7.008333206176758,12,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-63479,RB,John,John Kelly,Kelly,0,1,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-44280,WR,JoJo,JoJo Natson,Natson,0.07500000298023224,4,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-55417,WR,Jon'Vea,Jon'Vea Johnson,Johnson,0,1,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-45307,WR,Rodney,Rodney Adams,Adams,0,2,5000,CHI@CLE,CHI,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64342-88186,WR,JoJo,JoJo Ward,Ward,0,2,5000,CHI@CLE,CLE,CHI,,,,,,MVP - 1.5X Points/AnyFLEX

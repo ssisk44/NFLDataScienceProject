@@ -1,0 +1,57 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+64100-41535,QB,Baker,Baker Mayfield,Mayfield,13.640000343322754,1,15500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-14377,QB,Tyrod,Tyrod Taylor,Taylor,23.639999389648438,1,15000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-53562,RB,Nick,Nick Chubb,Chubb,21.100000381469727,1,13500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-29501,WR,Brandin,Brandin Cooks,Cooks,15.699999809265137,1,12000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-31394,WR,Jarvis,Jarvis Landry,Landry,16.899999618530273,1,11500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-45229,RB,Kareem,Kareem Hunt,Hunt,15.600000381469727,1,11000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-14211,RB,Mark,Mark Ingram II,Ingram II,14.5,1,10500,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-31360,WR,Odell,Odell Beckham Jr.,Beckham Jr.,10.75999995640346,7,10000,HOU@CLE,CLE,HOU,O,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+64100-62497,RB,David,David Johnson,Johnson,10.300000190734863,1,9500,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-56378,K,Joey,Joey Slye,Slye,14,1,9000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-31280,K,Cody,Cody Parkey,Parkey,7.529411764705882,17,8500,HOU@CLE,CLE,HOU,Q,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+64100-8117,WR,Danny,Danny Amendola,Amendola,11.899999618530273,1,8500,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-60479,K,Chase,Chase McLaughlin,McLaughlin,3,1,8500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-41936,WR,Anthony,Anthony Miller,Miller,5.152941086713006,17,8500,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-40126,TE,Austin,Austin Hooper,Hooper,4.199999809265137,1,8000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-29932,K,Ka'imi,Ka'imi Fairbairn,Fairbairn,8.25,16,8000,HOU@CLE,HOU,CLE,IR,Leg,,,,MVP - 1.5X Points/AnyFLEX
+64100-57338,TE,Jordan,Jordan Akins,Akins,0,1,8000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-91426,WR,Donovan,Donovan Peoples-Jones,Peoples-Jones,0.8999999761581421,1,7500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-30403,WR,Chris,Chris Conley,Conley,3.700000047683716,1,7500,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-55335,TE,David,David Njoku,Njoku,9.100000381469727,1,7000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-41426,RB,Phillip,Phillip Lindsay,Lindsay,8.5,1,7000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-45791,WR,Rashard,Rashard Higgins,Higgins,8.25,14,7000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-70601,TE,Harrison,Harrison Bryant,Bryant,2.200000047683716,1,6500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-87662,WR,Anthony,Anthony Schwartz,Schwartz,10.100000381469727,1,6500,HOU@CLE,CLE,HOU,Q,Knee,,,,MVP - 1.5X Points/AnyFLEX
+64100-57543,RB,D'Ernest,D'Ernest Johnson,Johnson,1.21875,16,6000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-70282,RB,Demetric,Demetric Felton,Felton,0,1,5500,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-91419,WR,Nico,Nico Collins,Collins,1.2000000476837158,1,5500,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-29411,TE,Pharaoh,Pharaoh Brown,Brown,8.699999809265137,1,5500,HOU@CLE,HOU,CLE,Q,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+64100-27273,RB,Andy,Andy Janovich,Janovich,0,1,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-80011,TE,Antony,Antony Auclair,Auclair,0,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-88590,RB,Scottie,Scottie Phillips,Phillips,2.0999999046325684,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-94094,TE,Brevin,Brevin Jordan,Jordan,,,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-33047,WR,Chris,Chris Moore,Moore,0,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-64023,TE,Kyle,Kyle Markway,Markway,0,1,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-89628,QB,Davis,Davis Mills,Mills,,,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-69150,WR,Jordan,Jordan Veasy,Veasy,0,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-47780,WR,Taywan,Taywan Taylor,Taylor,0,2,5000,HOU@CLE,HOU,CLE,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+64100-30253,QB,Jeff,Jeff Driskel,Driskel,8.020000457763672,4,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-60981,TE,Charlie,Charlie Heck,Heck,0.800000011920929,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-64949,WR,Ja'Marcus,Ja'Marcus Bradley,Bradley,4.25,2,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-138552,TE,Connor,Connor Davis,Davis,0,1,5000,HOU@CLE,CLE,HOU,IR,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
+64100-52808,RB,Dontrell,Dontrell Hilliard,Hilliard,1.1,5,5000,HOU@CLE,HOU,CLE,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+64100-31561,WR,Donte,Donte Moncrief,Moncrief,0.40000001589457196,6,5000,HOU@CLE,HOU,CLE,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
+64100-104008,TE,Stephen,Stephen Carlson,Carlson,0.44999998807907104,8,5000,HOU@CLE,CLE,HOU,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
+64100-27338,RB,Rex,Rex Burkhead,Burkhead,1.100000023841858,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-22994,QB,Case,Case Keenum,Keenum,1.840000033378601,1,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-41562,QB,Nick,Nick Mullens,Mullens,11.66181807084517,11,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-103901,WR,Davion,Davion Davis,Davis,,,5000,HOU@CLE,CLE,HOU,IR,Suspension,,,,MVP - 1.5X Points/AnyFLEX
+64100-54879,QB,Deshaun,Deshaun Watson,Watson,23.520000457763672,16,5000,HOU@CLE,HOU,CLE,O,Coach's decision,,,,MVP - 1.5X Points/AnyFLEX
+64100-103902,WR,Alexander,Alexander Hollins,Hollins,,,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-38634,WR,Ryan,Ryan Switzer,Switzer,0,1,5000,HOU@CLE,CLE,HOU,IR,Foot,,,,MVP - 1.5X Points/AnyFLEX
+64100-57325,TE,Jordan,Jordan Franks,Franks,0,1,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-11504,WR,Andre,Andre Roberts,Roberts,0,1,5000,HOU@CLE,HOU,CLE,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-63479,RB,John,John Kelly,Kelly,0,1,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-44280,WR,JoJo,JoJo Natson,Natson,0.07500000298023224,4,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX
+64100-88186,WR,JoJo,JoJo Ward,Ward,0,2,5000,HOU@CLE,CLE,HOU,,,,,,MVP - 1.5X Points/AnyFLEX

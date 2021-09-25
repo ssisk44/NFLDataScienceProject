@@ -1,0 +1,48 @@
+Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
+64363-33259,QB,Teddy,Teddy Bridgewater,Bridgewater,20.84000015258789,2,15500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-90406,QB,Zach,Zach Wilson,Wilson,12.8100004196167,2,14000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-28900,RB,Melvin,Melvin Gordon III,Gordon III,13.600000381469727,2,13500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-45439,WR,Corey,Corey Davis,Davis,13,2,12500,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-57403,WR,Courtland,Courtland Sutton,Sutton,11.149999618530273,2,11500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-93541,RB,Javonte,Javonte Williams,Williams,6.25,2,11000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-57091,WR,Tim,Tim Patrick,Patrick,11.550000190734863,2,10500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-24755,WR,Jamison,Jamison Crowder,Crowder,11.876667022705078,12,10000,NYJ@DEN,NYJ,DEN,D,Groin,,,,MVP - 1.5X Points/AnyFLEX
+64363-64051,QB,Drew,Drew Lock,Lock,15.101539024939903,13,10000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-90561,WR,Jerry,Jerry Jeudy,Jeudy,10.199999809265137,1,9500,NYJ@DEN,DEN,NYJ,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+64363-71705,TE,Noah,Noah Fant,Fant,10.25,2,9500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-26247,K,Brandon,Brandon McManus,McManus,11,2,9000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-93539,RB,Michael,Michael Carter,Carter,6.150000095367432,2,9000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-27776,RB,Tevin,Tevin Coleman,Coleman,2.4000000953674316,2,8500,NYJ@DEN,NYJ,DEN,O,Illness,,,,MVP - 1.5X Points/AnyFLEX
+64363-52495,WR,Braxton,Braxton Berrios,Berrios,9.199999809265137,2,8500,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-64194,K,Matt,Matt Ammendola,Ammendola,3,2,8000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-63050,RB,Ty,Ty Johnson,Johnson,4.050000190734863,2,8000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-79998,WR,Keelan,Keelan Cole Sr.,Cole Sr.,7.993750095367432,16,8000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-86192,WR,KJ,KJ Hamler,Hamler,3.299999952316284,2,7500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-88575,WR,Elijah,Elijah Moore,Moore,3.450000047683716,2,7500,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-26038,TE,Tyler,Tyler Kroft,Kroft,2.700000047683716,2,6500,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-72453,WR,Denzel,Denzel Mims,Mims,4.5,1,6000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-71367,RB,La'Mical,La'Mical Perine,Perine,4.7,10,6000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-64350,WR,Jeff,Jeff Smith,Smith,2,2,6000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-70859,TE,Albert,Albert Okwuegbunam,Okwuegbunam,5.75,2,5500,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-34073,TE,Ryan,Ryan Griffin,Griffin,2.8499999046325684,2,5500,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-64962,RB,LeVante,LeVante Bellamy,Bellamy,0.6999999682108561,3,5000,NYJ@DEN,DEN,NYJ,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+64363-84101,WR,Vyncint,Vyncint Smith,Smith,0.44999998807907104,4,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-52553,WR,De'Mornay,De'Mornay Pierson-El,Pierson-El,,,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-41741,WR,DaeSean,DaeSean Hamilton,Hamilton,4.233333269755046,12,5000,NYJ@DEN,DEN,NYJ,IR,Knee - acl,,,,MVP - 1.5X Points/AnyFLEX
+64363-71372,WR,Tyrie,Tyrie Cleveland,Cleveland,1.3285714558192663,7,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-70868,RB,Damarea,Damarea Crockett,Crockett,,,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-28055,WR,Amara,Amara Darboh,Darboh,0,1,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-130326,WR,Manasseh,Manasseh Bailey,Bailey,0,1,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-54426,TE,Andrew,Andrew Beck,Beck,0,1,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-63646,WR,Lawrence,Lawrence Cager,Cager,1.5,3,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-54817,WR,Diontae,Diontae Spencer,Spencer,0,2,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-61157,QB,Brett,Brett Rypien,Rypien,5.100000063578288,3,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-64744,RB,Josh,Josh Adams,Adams,4.7999997820172995,7,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-149742,RB,Nate,Nate McCrary,McCrary,,,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-79980,TE,Eric,Eric Saubert,Saubert,1.2000000476837158,2,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-70705,TE,Trevon,Trevon Wesco,Wesco,0.3333333333333333,3,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-61042,QB,Kendall,Kendall Hinton,Hinton,2,1,5000,NYJ@DEN,DEN,NYJ,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-72693,RB,Adrian,Adrian Killins,Killins,-0.25,2,5000,NYJ@DEN,DEN,NYJ,IR,Ankle,,,,MVP - 1.5X Points/AnyFLEX
+64363-58041,RB,Mike,Mike Boone,Boone,2.316666603088379,6,5000,NYJ@DEN,DEN,NYJ,IR,Quadriceps,,,,MVP - 1.5X Points/AnyFLEX
+64363-52410,WR,Josh,Josh Malone,Malone,1.2000000476837158,4,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
+64363-62718,TE,Daniel,Daniel Brown,Brown,1.024999976158142,4,5000,NYJ@DEN,NYJ,DEN,,,,,,MVP - 1.5X Points/AnyFLEX
