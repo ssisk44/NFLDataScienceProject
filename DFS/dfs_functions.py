@@ -1,11 +1,8 @@
 import math
 import random
 import re
-from itertools import permutations, combinations
-import os
-import sqlite3
+from itertools import combinations
 from bs4 import BeautifulSoup
-import requests
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import pandas as pd
