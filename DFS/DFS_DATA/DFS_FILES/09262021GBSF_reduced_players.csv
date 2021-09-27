@@ -1,57 +1,26 @@
 Id,Position,First Name,Nickname,Last Name,FPPG,Played,Salary,Game,Team,Opponent,Injury Indicator,Injury Details,Tier,,,Roster Position
 64424-6894,QB,Aaron,Aaron Rodgers,Rodgers,15.0600004196167,2,16000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-45889,WR,Davante,Davante Adams,Adams,12.100000381469727,2,14000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-56018,WR,Deebo,Deebo Samuel,Samuel,20.25,2,13500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-54604,QB,Jimmy,Jimmy Garoppolo,Garoppolo,17.15999984741211,2,13000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-40442,RB,Aaron,Aaron Jones,Jones,20.850000381469727,2,13000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-39793,TE,George,George Kittle,Kittle,6.75,2,11500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-92413,RB,Eli,Eli Mitchell,Mitchell,11.350000381469727,2,11000,GB@SF,SF,GB,D,Shoulder,,,,MVP - 1.5X Points/AnyFLEX
-64424-80353,TE,Robert,Robert Tonyan,Tonyan,7.25,2,10000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-85798,WR,Brandon,Brandon Aiyuk,Aiyuk,0.550000011920929,2,9500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-6910,K,Robbie,Robbie Gould,Gould,10,2,9500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-40442,RB1,Aaron,Aaron Jones,Jones,20.850000381469727,2,13000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-45889,WR1,Davante,Davante Adams,Adams,12.100000381469727,2,14000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-56809,WR2,Allen,Allen Lazard,Lazard,2.5999999046325684,1,8000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-40647,WR3,Marquez,Marquez Valdes-Scantling,Valdes-Scantling,1.600000023841858,2,7500,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-80353,TE1,Robert,Robert Tonyan,Tonyan,7.25,2,10000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
 64424-6897,K,Mason,Mason Crosby,Crosby,4,2,9000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-86646,RB,Trey,Trey Sermon,Sermon,0.800000011920929,1,8500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-56809,WR,Allen,Allen Lazard,Lazard,2.5999999046325684,1,8000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-83091,RB,Trenton,Trenton Cannon,Cannon,0.20000000298023224,2,7500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-61610,RB,Jacques,Jacques Patrick,Patrick,0,1,7500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-40647,WR,Marquez,Marquez Valdes-Scantling,Valdes-Scantling,1.600000023841858,2,7500,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-93107,RB,AJ,AJ Dillon,Dillon,3.0999999046325684,2,7000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-65724,RB,JaMycal,JaMycal Hasty,Hasty,8.100000381469727,2,7000,GB@SF,SF,GB,O,Ankle,,,,MVP - 1.5X Points/AnyFLEX
-64424-63806,RB,Kerryon,Kerryon Johnson,Johnson,4.449999945504325,14,7000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-22018,WR,Mohamed,Mohamed Sanu,Sanu,0.6000000238418579,2,6500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-14257,WR,Randall,Randall Cobb,Cobb,3.950000047683716,2,6500,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-61593,WR,Jauan,Jauan Jennings,Jennings,8.699999809265137,1,6000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-149696,QB,Trey,Trey Lance,Lance,4.400000095367432,1,6000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-56059,WR,Trent,Trent Sherfield,Sherfield,5.349999904632568,2,6000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-39428,RB,Kyle,Kyle Juszczyk,Juszczyk,1.9500000476837158,2,5500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-64841,WR,Equanimeous,Equanimeous St. Brown,St. Brown,0.5,1,5500,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-91225,RB,Kylin,Kylin Hill,Hill,1.100000023841858,2,5500,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-89970,WR,Amari,Amari Rodgers,Rodgers,1.2000000476837158,2,5500,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-55552,RB,Jeff,Jeff Wilson Jr.,Wilson Jr.,11.316666920979818,12,5000,GB@SF,SF,GB,NA,Knee - meniscus,,,,MVP - 1.5X Points/AnyFLEX
-64424-29956,TE,Joshua,Joshua Perkins,Perkins,0,1,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-34308,QB,Blake,Blake Bortles,Bortles,0,1,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-41997,WR,River,River Cracraft,Cracraft,1.4199999809265136,5,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-6672,TE,Marcedes,Marcedes Lewis,Lewis,2.4000000953674316,1,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-22035,WR,Travis,Travis Benjamin,Benjamin,0,1,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-62998,TE,Jace,Jace Sternberger,Sternberger,2.924999952316284,8,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-69017,QB,Jordan,Jordan Love,Love,0.20999999344348907,2,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-27801,QB,Nate,Nate Sudfeld,Sudfeld,-0.25999999046325684,2,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-130335,WR,Reggie,Reggie Begelton,Begelton,,,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-86178,WR,Dominique,Dominique Dafney,Dafney,2.4000000953674316,4,5000,GB@SF,GB,SF,Q,Hip,,,,MVP - 1.5X Points/AnyFLEX
-64424-83117,TE,Tanner,Tanner Hudson,Hudson,1.1199999809265138,5,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-28080,WR,Devin,Devin Funchess,Funchess,,,5000,GB@SF,GB,SF,Q,Hamstring,,,,MVP - 1.5X Points/AnyFLEX
-64424-72627,RB,Patrick,Patrick Taylor,Taylor,,,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-52405,WR,Jalen,Jalen Hurd,Hurd,0,1,5000,GB@SF,SF,GB,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
-64424-71351,TE,Charlie,Charlie Woerner,Woerner,1.274999976158142,4,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-61112,TE,Josiah,Josiah Deguara,Deguara,1.7000000476837158,1,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-63550,WR,Isaiah,Isaiah Zuber,Zuber,1.5,4,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-83138,TE,Ross,Ross Dwelley,Dwelley,3.3333333333333335,12,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-28744,RB,Raheem,Raheem Mostert,Mostert,2,1,5000,GB@SF,SF,GB,IR,Knee - meniscus,,,,MVP - 1.5X Points/AnyFLEX
-64424-56142,WR,Juwann,Juwann Winfree,Winfree,,,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-69326,TE,Isaac,Isaac Nauta,Nauta,0.26666667064030963,3,5000,GB@SF,GB,SF,Q,Undisclosed,,,,MVP - 1.5X Points/AnyFLEX
-64424-104281,QB,Jake,Jake Dolegala,Dolegala,0,1,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-104289,WR,Malik,Malik Taylor,Taylor,2.4000000953674316,1,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-30837,WR,Jordan,Jordan Matthews,Matthews,,,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-39034,QB,Kurt,Kurt Benkert,Benkert,0,1,5000,GB@SF,GB,SF,,,,,,MVP - 1.5X Points/AnyFLEX
-64424-53498,WR,Richie,Richie James,James,5.290000152587891,10,5000,GB@SF,SF,GB,IR,Knee,,,,MVP - 1.5X Points/AnyFLEX
-64424-28157,WR,Bennie,Bennie Fowler III,Fowler III,2.0999999046325684,1,5000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-54604,QB,Jimmy,Jimmy Garoppolo,Garoppolo,17.15999984741211,2,13000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-86646,RB1,Trey,Trey Sermon,Sermon,0.800000011920929,1,8500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-83091,RB2,Trenton,Trenton Cannon,Cannon,0.20000000298023224,2,7500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-56018,WR1,Deebo,Deebo Samuel,Samuel,20.25,2,13500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-85798,WR2,Brandon,Brandon Aiyuk,Aiyuk,0.550000011920929,2,9500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-22018,WR3,Mohamed,Mohamed Sanu,Sanu,0.6000000238418579,2,6500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-56059,WR4,Trent,Trent Sherfield,Sherfield,5.349999904632568,2,6000,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-39793,TE1,George,George Kittle,Kittle,6.75,2,11500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+64424-6910,K,Robbie,Robbie Gould,Gould,10,2,9500,GB@SF,SF,GB,,,,,,MVP - 1.5X Points/AnyFLEX
+
+
+
+
+
+
+
+
+

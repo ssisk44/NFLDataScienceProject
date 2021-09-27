@@ -1,4 +1,5 @@
 import math
+import random
 import re
 from itertools import permutations, combinations
 import os
@@ -12,8 +13,8 @@ import numpy as np
 import time, os
 
 directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/'
-game = '09262021ATLNYG'
-file = directory+game+'_reduced_players.csv'
+game = '09262021GBSF'
+file = directory + game + '_reduced_players.csv'
 
 team_abbrev_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 'Buffalo Bills', 'Carolina Panthers',
                     'Chicago Bears', 'Cincinnati Bengals', 'Cleveland Browns', 'Dallas Cowboys', 'Denver Broncos',
@@ -25,67 +26,72 @@ team_abbrev_list = ['Arizona Cardinals', 'Atlanta Falcons', 'Baltimore Ravens', 
                     'Tennessee Titans', 'Washington Football Team', 'Oakland Raiders', 'Washington Redskins']
 
 bbref_team_abbrev_dict_2016_to_2017 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
-                    'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
-                    'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
-                    'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
-                    'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
-                    'Indianapolis Colts': 'clt',
-                    'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan',
-                    'San Diego Chargers': 'sdg',
-                    'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
-                    'New England Patriots': 'nwe',
-                    'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
+                                       'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
+                                       'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
+                                       'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
+                                       'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
+                                       'Indianapolis Colts': 'clt',
+                                       'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan',
+                                       'San Diego Chargers': 'sdg',
+                                       'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
+                                       'New England Patriots': 'nwe',
+                                       'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
                                        'Philadelphia Eagles': 'phi',
-                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
+                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo',
+                                       'Seattle Seahawks': 'sea',
                                        'Tampa Bay Buccaneers': 'tam',
-                                       'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai', 'Washington Redskins': 'was'}
+                                       'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai',
+                                       'Washington Redskins': 'was'}
 
 bbref_team_abbrev_dict_2017_to_2019 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
-                    'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
-                    'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
-                    'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
-                    'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
-                    'Indianapolis Colts': 'clt',
-                    'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan',
-                    'Los Angeles Chargers': 'sdg',
-                    'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
-                    'New England Patriots': 'nwe',
-                    'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
+                                       'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
+                                       'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
+                                       'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
+                                       'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
+                                       'Indianapolis Colts': 'clt',
+                                       'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan',
+                                       'Los Angeles Chargers': 'sdg',
+                                       'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
+                                       'New England Patriots': 'nwe',
+                                       'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
                                        'Philadelphia Eagles': 'phi',
-                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
+                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo',
+                                       'Seattle Seahawks': 'sea',
                                        'Tampa Bay Buccaneers': 'tam',
-                                       'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai', 'Washington Redskins': 'was'}
+                                       'Tennessee Titans': 'oti', 'Oakland Raiders': 'rai',
+                                       'Washington Redskins': 'was'}
 
 bbref_team_abbrev_dict_2020_to_2021 = {'Arizona Cardinals': 'crd', 'Atlanta Falcons': 'atl', 'Baltimore Ravens': 'rav',
-                    'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
-                    'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
-                    'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
-                    'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
-                    'Indianapolis Colts': 'clt',
-                    'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan', 'Las Vegas Raiders': 'rai',
-                    'Los Angeles Chargers': 'sdg',
-                    'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
-                    'New England Patriots': 'nwe',
-                    'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
-                                          'Philadelphia Eagles': 'phi',
-                                          'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo', 'Seattle Seahawks': 'sea',
-                                          'Tampa Bay Buccaneers': 'tam',
-                                          'Tennessee Titans': 'oti', 'Washington Football Team': 'was'}
+                                       'Buffalo Bills': 'buf', 'Carolina Panthers': 'car',
+                                       'Chicago Bears': 'chi', 'Cincinnati Bengals': 'cin', 'Cleveland Browns': 'cle',
+                                       'Dallas Cowboys': 'dal', 'Denver Broncos': 'den',
+                                       'Detroit Lions': 'det', 'Green Bay Packers': 'gnb', 'Houston Texans': 'htx',
+                                       'Indianapolis Colts': 'clt',
+                                       'Jacksonville Jaguars': 'jax', 'Kansas City Chiefs': 'kan',
+                                       'Las Vegas Raiders': 'rai',
+                                       'Los Angeles Chargers': 'sdg',
+                                       'Los Angeles Rams': 'ram', 'Miami Dolphins': 'mia', 'Minnesota Vikings': 'min',
+                                       'New England Patriots': 'nwe',
+                                       'New Orleans Saints': 'nor', 'New York Giants': 'nyg', 'New York Jets': 'nyj',
+                                       'Philadelphia Eagles': 'phi',
+                                       'Pittsburgh Steelers': 'pit', 'San Francisco 49ers': 'sfo',
+                                       'Seattle Seahawks': 'sea',
+                                       'Tampa Bay Buccaneers': 'tam',
+                                       'Tennessee Titans': 'oti', 'Washington Football Team': 'was'}
 
 
 def main():
     ###CONTESTS###
     create_Combos(0, 2021, 3, game)
-    count_CSV_Permutations(filter_Combos_Combos(2021, 3, game))
-    # return_CSV_Entries()
-
+    filter_Combos_Combos(2021, 3, game)
+    count_CSV_Permutations([])
+    return_CSV_Entries()
 
     ###DATA PIPELINE###
-    # get_Box_Scores(2016)
+    # get_Box_Scores(2021)
     # getSimplePositions(2016) ###ERASES MANUALLY INPUT PLAYERS IN CASE OF NAN
     # updateGameHistoryWithSimplePlayerPositions(2016)
     # getDepthChartPositions(2016) ###ERASES MANUALLY INPUT PLAYERS IN CASE OF NAN
-
 
     ###DATA ANALYSIS###
     # create_Analysis_Table()
@@ -107,11 +113,10 @@ def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
     # if found == False:
 
     pd.DataFrame(array).to_csv(
-            directory + str(season) + '/Week' + str(
-                week) + '/' + dateteams + '_BEFORE_GAME_reduced_players.csv', index=False)
+        directory + str(season) + '/Week' + str(
+            week) + '/' + dateteams + '_BEFORE_GAME_reduced_players.csv', index=False)
 
     # sorts by predicted FPPG
-
 
     # creates all permutations of first player, with all combinations of the next four
     newcombos = []
@@ -134,6 +139,7 @@ def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
             temp.append(combos[i][3][3])
             newcombos.append(temp)
     print(len(newcombos))
+
     def salaryLookup(name):
         for i in range(0, len(players)):
             if players[i][3] == name:
@@ -192,31 +198,41 @@ def create_Combos(min_points_for_players_in_lineup, season, week, dateteams):
                 break
 
         if len(currentlineup) == 5 and all_player_team_check(p_teams) == True:
-            currentlineup = currentlineup+p_teams+p_positions
+            currentlineup = currentlineup + p_teams + p_positions
             currentlineup.append(salary)
             currentlineup.append(lineupscore)
             currentlineup = currentlineup + p_id
             permutationsarr.append(currentlineup)
     print(len(permutationsarr))
     permutationsarr.sort(key=lambda x: x[-1], reverse=True)
-    headers = ['Name1', 'Name2', 'Name3', 'Name4', 'Name5','Name1Team', 'Name2Team', 'Name3Team', 'Name4Team', 'Name5Team','Name1Position', 'Name2Position', 'Name3Position', 'Name4Position', 'Name5Position','Salary', 'FPPG','p_id1','p_id2','p_id3','p_id4','p_id5']
+    headers = ['Name1', 'Name2', 'Name3', 'Name4', 'Name5', 'Name1Team', 'Name2Team', 'Name3Team', 'Name4Team',
+               'Name5Team', 'Name1Position', 'Name2Position', 'Name3Position', 'Name4Position', 'Name5Position',
+               'Salary', 'FPPG', 'p_id1', 'p_id2', 'p_id3', 'p_id4', 'p_id5']
     pd.DataFrame(permutationsarr).to_csv(
-         'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
+        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
             week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv', index=False, header=headers)
 
+
 def filter_Combos_Combos(season, week, dateteams):
-    array = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
-        week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv')
+    array = pd.read_csv(
+        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DFS_FILES/' + str(season) + '/Week' + str(
+            week) + '/' + dateteams + '_BEFORE_GAME_permutations.csv')
     col = array.columns
     array = array.to_numpy()
 
     print("Initial Length: " + str(len(array)))
     list = []
-    for i in range(0,len(array)):
+    for i in range(0, len(array)):
         lineup_names = []
         lineup_teams = []
+
         team1 = ''
         team2 = ''
+        team1_mvp = ''
+        team2_mvp = ''
+        all_positions = []
+        team1_positions = []
+        team2_positions = []
         team1_players = []
         team2_players = []
 
@@ -227,7 +243,7 @@ def filter_Combos_Combos(season, week, dateteams):
             if team == team2:
                 this_team = team2_players
             count = 0
-            for player in range(0,len(this_team)):
+            for player in range(0, len(this_team)):
                 if position in this_team[player]:
                     count += 1
             return count
@@ -248,20 +264,28 @@ def filter_Combos_Combos(season, week, dateteams):
         te3_counter = 0
         kicker_counter = 0
         add_to = True
-        for j in range(10,15):
+        for j in range(10, 15):
             if j == 10:
-                team1 = str(array[i][j-5])
-            if j > 10 and str(array[i][j-5]) != team1 and team2 == '':
-                team2 = str(array[i][j-5])
+                team1 = str(array[i][j - 5])
+            if j > 10 and str(array[i][j - 5]) != team1 and team2 == '':
+                team2 = str(array[i][j - 5])
 
-            if str(array[i][j-5]) == team1:
+            all_positions.append(str(array[i][j]))
+            if str(array[i][j - 5]) == team1:
                 team1_players.append(str(array[i][j]))
+                if j == 10:
+                    team1_mvp = str(array[i][j])
+                team1_positions.append(str(array[i][j]))
 
-            if str(array[i][j-5]) == team2:
+            if str(array[i][j - 5]) == team2:
                 team2_players.append(str(array[i][j]))
+                if j == 10:
+                    team2_mvp = str(array[i][j])
+                team2_positions.append(str(array[i][j]))
 
-            lineup_teams.append(str(array[i][j-5]))
-            lineup_names.append(str(array[i][j-10]))
+            lineup_teams.append(str(array[i][j - 5]))
+            lineup_names.append(str(array[i][j - 10]))
+
             # COUNTS QBS
             if 'QB' in str(array[i][j]):
                 qb_counter += 1
@@ -296,87 +320,154 @@ def filter_Combos_Combos(season, week, dateteams):
                     te3_counter += 1
             # COUNTS KICKERS
             elif 'K' in str(array[i][j]):
-                kicker_counter+=1
+                kicker_counter += 1
 
             # REMOVES MVP K
             if j == 10 and str(array[i][j]) == 'K':
                 add_to = False
 
+        # GAME SPECIFIC FILTERS
 
-        #GAME SPECIFIC FILTERS
 
+        # #ATL has 3 or less in top 5
+        # if (team1 == 'ATL' and len(team1_positions) >=4) or (team1 == 'ATL' and len(team2_positions) >=4):
+        #     add_to = False
 
-        #REMOVE NON MVP CHOICES
-        if lineup_names[0] not in ('Daniel Jones','Matt Ryan','Calvin Ridley','Kyle Pitts','Saquon Barkley','Sterling Shepard','Mike Davis','Cordarrelle Patterson'):
+        if 'Randall Cobb' in lineup_names and 'Aaron Rodgers' not in lineup_names:
+            add_to = False
+
+        if ('Mohamed Sanu' in lineup_names or 'Trent Sherfield' in lineup_names) and 'Jimmy Garoppolo' not in lineup_names:
+            add_to = False
+
+        if (team1 == 'SF' and team1_positions.count('WR2') == 1 and team1_positions.count('WR3') == 1) or (
+                team1 == 'SF' and team2_positions.count('WR2') == 1 and team2_positions.count('WR3') == 1):
+            add_to = False
+
+        if (team1 == 'SF' and team1_positions.count('WR4') == 1 and team1_positions.count('WR3') == 1) or (
+                team1 == 'SF' and team2_positions.count('WR4') == 1 and team2_positions.count('WR3') == 1):
+            add_to = False
+
+        if (team1 == 'SF' and team1_positions.count('WR2') == 1 and team1_positions.count('WR4') == 1) or (
+                team1 == 'SF' and team2_positions.count('WR2') == 1 and team2_positions.count('WR4') == 1):
+            add_to = False
+
+        # REMOVE NON MVP CHOICES
+        if lineup_names[0] not in ('Aaron Rodgers', 'Aaron Jones','Davante Adams','Jimmy Garappolo','Deebo Samuel','George Kittle'):
             add_to=False
 
+        # ALL GAME FILTERS
+        #**********************************************************
+        if (team1_positions.count('RB1') == 1 and team1_positions.count('RB2') == 1) or (team2_positions.count('RB1') == 1 and team2_positions.count('RB2') == 1):
+            add_to = False
+
+        if (team1_positions.count('WR3') == 1 and team1_positions.count('RB2') == 1) or (team2_positions.count('WR3') == 1 and team2_positions.count('RB2') == 1):
+            add_to = False
+
+        if ('RB' in team1_mvp and 'WR' in team1_positions and 'QB' not in team1_positions) or ('RB' in team2_mvp and 'WR' in team2_positions and 'QB' not in team2_positions):
+            add_to = False
+
+        # No K and RB2
+        if rb2_counter>=1 and 'K' in all_positions:
+            add_to = False
+
+        # No K and TE2
+        if 'TE2' in all_positions and 'K' in all_positions:
+            add_to = False
+
+        # No TE2 and RB2
+        if 'TE2' in all_positions and rb2_counter>=1:
+            add_to = False
+
+        #***********************************************************
         # must be at least one QB
-        if countPlayerTeamPositions('ATL','QB') == 0 and countPlayerTeamPositions('NYG','QB') == 0:
+        if countPlayerTeamPositions(team1, 'QB') == 0 and countPlayerTeamPositions(team2, 'QB') == 0:
             add_to = False
 
-        # no two RBs from same team ***********************
-        if countPlayerTeamPositions('ATL','RB') >= 2 or countPlayerTeamPositions('NYG','QB') >= 2:
+        # no two RBs from same team
+        if countPlayerTeamPositions(team1, 'RB') >= 2 or countPlayerTeamPositions(team2, 'QB') >= 2:
             add_to = False
 
-        # no three WRs from same team ***********************
-        if countPlayerTeamPositions('ATL','WR') >= 3 or countPlayerTeamPositions('NYG','WR') >= 3:
+        # no three WRs from same team
+        if countPlayerTeamPositions(team1, 'WR') >= 3 or countPlayerTeamPositions(team2, 'WR') >= 3:
             add_to = False
 
-        # no two TEs from same team ***********************
-        if countPlayerTeamPositions('ATL','TE') >= 2 or countPlayerTeamPositions('NYG','TE') >= 2:
+        # no two TEs from same team
+        if countPlayerTeamPositions(team1, 'TE') >= 2 or countPlayerTeamPositions(team2, 'TE') >= 2:
             add_to = False
 
         # less than one TE and WR4 combined in a lineup (each team)
-        if (countPlayerTeamPositions('ATL','TE') >= 2 and countPlayerTeamPositions('ATL','WR4') >= 2) or (countPlayerTeamPositions('NYG','TE') >= 2 and countPlayerTeamPositions('NYG','WR4') >= 2):
-            add_to = False
-
-        # WR4 TE2 (both teams) <= 1
-        if (countPlayerTeamPositions('ATL','TE4') + countPlayerTeamPositions('ATL','WR4') + countPlayerTeamPositions('NYG','TE4') + countPlayerTeamPositions('NYG','WR4')) >= 2:
+        if (countPlayerTeamPositions(team1, 'TE') >= 2 and countPlayerTeamPositions(team1, 'WR4') >= 2) or (
+                countPlayerTeamPositions(team2, 'TE') >= 2 and countPlayerTeamPositions(team2, 'WR4') >= 2):
             add_to = False
 
         # WR3 WR4 TE2 (each team)  <= 1
-        if (countPlayerTeamPositions('ATL','WR3') + countPlayerTeamPositions('ATL','WR4') + countPlayerTeamPositions('ATL','TE2') >= 2) or (countPlayerTeamPositions('NYG','WR3') + countPlayerTeamPositions('NYG','WR4') + countPlayerTeamPositions('NYG','TE2') >= 2):
+        if (countPlayerTeamPositions(team1, 'WR3') + countPlayerTeamPositions(team1, 'WR4') + countPlayerTeamPositions(
+                team1, 'TE2') >= 2) or (countPlayerTeamPositions(team2, 'WR3') + countPlayerTeamPositions(team2,
+                                                                                                          'WR4') + countPlayerTeamPositions(
+                team2, 'TE2') >= 2):
             add_to = False
 
         # RB3 WR4 TE2 (each team)  <= 1
-        if (countPlayerTeamPositions('ATL','RB3') + countPlayerTeamPositions('ATL','TE2') + countPlayerTeamPositions('ATL','WR4') >= 2) or (countPlayerTeamPositions('NYG','RB3') + countPlayerTeamPositions('NYG','TE2') + countPlayerTeamPositions('NYG','WR4') >= 2):
+        if (countPlayerTeamPositions(team1, 'RB3') + countPlayerTeamPositions(team1, 'TE2') + countPlayerTeamPositions(
+                team1, 'WR4') >= 2) or (countPlayerTeamPositions(team2, 'RB3') + countPlayerTeamPositions(team2,
+                                                                                                          'TE2') + countPlayerTeamPositions(
+                team2, 'WR4') >= 2):
             add_to = False
 
         # 0 QB and 2 WR (same team) == 0
-        if (countPlayerTeamPositions('ATL','QB') == 0 and countPlayerTeamPositions('ATL','WR') >= 2) or (countPlayerTeamPositions('NYG','QB') == 0 and countPlayerTeamPositions('NYG','WR') >= 2):
+        if (countPlayerTeamPositions(team1, 'QB') == 0 and countPlayerTeamPositions(team1, 'WR') >= 2) or (
+                countPlayerTeamPositions(team2, 'QB') == 0 and countPlayerTeamPositions(team2, 'WR') >= 2):
             add_to = False
 
         # 0 QB and 1 WR and 1 TE (same team) == 0
-        if (countPlayerTeamPositions('ATL','QB') == 0 and countPlayerTeamPositions('ATL','WR') >= 1 and countPlayerTeamPositions('ATL','TE') >= 1) or (countPlayerTeamPositions('NYG','QB') == 0 and countPlayerTeamPositions('NYG','WR') >= 1 and countPlayerTeamPositions('NYG','TE') >= 1):
+        if (countPlayerTeamPositions(team1, 'QB') == 0 and countPlayerTeamPositions(team1,
+                                                                                    'WR') >= 1 and countPlayerTeamPositions(
+                team1, 'TE') >= 1) or (countPlayerTeamPositions(team2, 'QB') == 0 and countPlayerTeamPositions(team2,
+                                                                                                               'WR') >= 1 and countPlayerTeamPositions(
+                team2, 'TE') >= 1):
             add_to = False
 
+        # *****Research Paper Based******
+        # If QB,TE,WR MVP and other team cant have 4 players
+        if (('WR' in team1_mvp or 'TE' in team1_mvp or 'QB' in team1_mvp) and len(team2_positions) >= 4) or (
+                ('WR' in team2_mvp or 'TE' in team2_mvp or 'QB' in team2_mvp) and len(team1_positions) >= 4):
+            add_to = False
 
+        # if wr is mvp there are no TEs on same team
+        if ('WR' in team1_mvp and 'TE' in team1_positions) or ('WR' in team2_mvp and 'TE' in team2_positions):
+            add_to = False
 
+        # if WR MVP must be WR on other team
+        if ('WR' in team1_mvp and sum('WR' in s for s in team2_positions) == 0) or (
+                'WR' in team2_mvp and sum('WR' in s for s in team1_positions) == 0):
+            add_to = False
 
+        # If QB MVP there must be a WR on same team
+        if ('QB' in team1_mvp and sum('WR' in s for s in team1_positions) == 0) or (
+                'QB' in team2_mvp and sum('WR' in s for s in team2_positions) == 0):
+            add_to = False
 
+        # if QB MVP no kickers
+        if ('QB' in team1_mvp and kicker_counter != 0) or ('QB' in team2_mvp and kicker_counter != 0):
+            add_to = False
 
+        # if RB MVP no kicker on other team
+        if ('RB' in team1_mvp and sum('K' in s for s in team2_positions) != 0) or (
+                'RB' in team2_mvp and sum('K' in s for s in team1_positions) != 0):
+            add_to = False
 
+        # if RB MVP no same team TE
+        if ('RB' in team1_mvp and sum('TE' in s for s in team1_positions) > 0) or (
+                'RB' in team2_mvp and sum('TE' in s for s in team2_positions) != 0):
+            add_to = False
 
+        # if there is a kicker you cant have (3wrs or more that two on either team, 1qb, 1TE, 2-3RBs)
+        if kicker_counter == 1 and (
+                wr_counter >= 3 or countPlayerTeamPositions(team1, 'WR') >= 2 or countPlayerTeamPositions(team2,
+                                                                                                          'WR') >= 2 or qb_counter >= 2 or te_counter >= 2 or 1 < rb_counter >= 3):
+            add_to = False
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        #GENERAL SINGLE GAME DFS FILTERS
+        # GENERAL SINGLE GAME DFS FILTERS
         # depth chart position basic filters
         if rb2_counter >= 2 or rb3_counter >= 2 or wr3_counter >= 2 or wr4_counter >= 2 or te1_counter >= 2 or te2_counter >= 2 or te3_counter >= 2:
             add_to = False
@@ -388,25 +479,27 @@ def filter_Combos_Combos(season, week, dateteams):
         if add_to == True:
             list.append(array[i])
 
-
     print("Length after removal: " + str(len(list)))
     this_list = sorted(list, key=lambda x: (x[0], -x[-6], x[1], [2], x[3], x[4]))
     pd.DataFrame(this_list).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv', index=False,
-                                                          header=col)  # ,'Count])
+                                   header=col)  # ,'Count])
     return list
+
 
 def count_CSV_Permutations(list):
     array = pd.read_csv(file).to_numpy()
     perms = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv').to_numpy()
+    if len(list) != 0:
+        perms = list
 
     list_mvp = []
     list_util = []
 
     names = []
 
-    #get names of reduced players
-    #for every entry in perms count mvps by player
-    #for every entry in perms count utils by player
+    # get names of reduced players
+    # for every entry in perms count mvps by player
+    # for every entry in perms count utils by player
 
     for i in range(0, len(array)):
         names.append([array[i][3]])
@@ -422,61 +515,94 @@ def count_CSV_Permutations(list):
         name = names[i][0]
         names[i].append(list_mvp.count(name))
         names[i].append(list_util.count(name))
-        names[i].append(str(round(float(list_mvp.count(name)/len(list_mvp)*100),2))+'%')
-        names[i].append(str(round(float(list_util.count(name)/len(list_mvp)*100),2))+'%')
+        names[i].append(str(round(float(list_mvp.count(name) / len(list_mvp) * 100), 2)) + '%')
+        names[i].append(str(round(float(list_util.count(name) / len(list_mvp) * 100), 2)) + '%')
+        names[i].append(str(round(float(float(names[i][3][:-1]) + float(names[i][4][:-1])), 2)) + '%')
 
-    x = pd.DataFrame(names, columns=['Name','MVPs','UTILs','MVP Exposure','UTIL Exposure'])
+    x = pd.DataFrame(names, columns=['Name', 'MVPs', 'UTILs', 'MVP Exposure', 'UTIL Exposure', 'Total Exposure'])
+    x.to_csv('Exposure.csv', index=False)
     pd.set_option('display.max_columns', None)
-    print(x)
+    # print(x)
+
 
 def return_CSV_Entries():
     this_list = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/remaining_output.csv').to_numpy()
     ret_list = []
-    for i in range(0,len(this_list)):
+    name_list = []
+    for i in range(0, len(this_list)):
         ret_list.append(this_list[i][-5:])
+        n = []
+        for j in range(0, 5):
+            n.append(this_list[i][j])
+        name_list.append(n)
+
+    rand_list = []
+    rand_numbers = []
+    names = []
+    for i in range(0, 450):
+        num = random.randint(0, len(ret_list))
+        choice = ret_list[num]
+        if num not in rand_numbers:
+            rand_numbers.append(num)
+            rand_list.append(choice)
+            names.append(name_list[num])
+    rand_list = rand_list + names
+
     pd.DataFrame(ret_list).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/output_contest_file.csv', index=False)
+    pd.DataFrame(rand_list).to_csv(
+        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/random_selection_of_output_contest_file.csv', index=False)
+
+
 ########################################
 
 
 ##### DATA PIPELINE #####
 def get_Box_Scores(season):
-    schedule = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/'+str(season)+'NFLScheduleAndResults.csv').to_numpy()
+    schedule = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/' + str(
+        season) + 'NFLScheduleAndResults.csv').to_numpy()
     game_count = 0
 
     # sets team dictionairy to the right years values
     def get_Teams_Dictionairy_For_Year(season):
-        if season==2016:
+        if season == 2016:
             this_dict = bbref_team_abbrev_dict_2016_to_2017
-        elif 2017<=season<=2019:
+        elif 2017 <= season <= 2019:
             this_dict = bbref_team_abbrev_dict_2017_to_2019
-        elif 2020<=season<=2021:
+        elif 2020 <= season <= 2021:
             this_dict = bbref_team_abbrev_dict_2020_to_2021
         return this_dict
+
     this_dict = get_Teams_Dictionairy_For_Year(season)
 
     for game in range(0, len(schedule)):
         if game_count <= 255 and 1 <= int(schedule[game][0]) <= 18:
             game_count += 1
 
-            #gets index of game for link
-            index = list(this_dict.keys()).index(define_Home_Team(schedule[game][4], schedule[game][6], schedule[game][5]))
+            # gets index of game for link
+            index = list(this_dict.keys()).index(
+                define_Home_Team(schedule[game][4], schedule[game][6], schedule[game][5]))
             teamcode = list(this_dict.values())[index]
 
-            #make game links and get stats with them
+            # make game links and get stats with them
             date = str(schedule[game][2])
 
-            link = 'https://www.pro-football-reference.com/boxscores/'+date[0:4]+date[5:7]+date[8:]+'0'+str(teamcode)+'.htm'
+            link = 'https://www.pro-football-reference.com/boxscores/' + date[0:4] + date[5:7] + date[8:] + '0' + str(
+                teamcode) + '.htm'
             game = schedule[game]
 
             file_found = False
-            for file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'):
-                checkfile = (str(game[0]) + str(define_Away_Team(game[4], game[6], game[5]))[0:3] + str(define_Home_Team(game[4], game[6], game[5]))[0:3] + '.csv')
+            for file in os.listdir(
+                    'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'):
+                checkfile = (str(game[0]) + str(define_Away_Team(game[4], game[6], game[5]))[0:3] + str(
+                    define_Home_Team(game[4], game[6], game[5]))[0:3] + '.csv')
                 if file == checkfile:
                     file_found = True
                     break
 
             if file_found == False:
                 get_Game_Stats(link, game, season)
+
+
 def get_Season_Schedule(season):
     try:
         # get season schedule
@@ -502,10 +628,13 @@ def get_Season_Schedule(season):
             if arr[i][0] != '':
                 newarr.append(arr[i].split(','))
         header = newarr[0]
-        pd.DataFrame(newarr[1:]).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/'+str(season)+'NFLScheduleAndResults.csv', index=False, header=header)
+        pd.DataFrame(newarr[1:]).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SCHEDULES/' + str(
+            season) + 'NFLScheduleAndResults.csv', index=False, header=header)
         return newarr[1:]
     except:
         get_Season_Schedule(season)
+
+
 def get_Game_Stats(link, game, season):
     chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
     os.environ["webdriver.chrome.driver"] = chromedriver
@@ -634,11 +763,11 @@ def get_Game_Stats(link, game, season):
 
     def lineup_scoring(entry):
         score = (int(entry[6]) * 4) + (int(entry[7]) * .04) + (int(entry[8]) * 6) + (int(entry[9]) * .1) + (
-                    int(entry[10]) * .5) + (
+                int(entry[10]) * .5) + (
                         int(entry[11]) * 6) + (int(entry[12]) * .1) + (int(entry[13]) * -1) + (int(entry[14]) * -2) + (
-                            int(entry[15]) * 6) + (
+                        int(entry[15]) * 6) + (
                         int(entry[16]) * 6) + (int(entry[17]) * 1) + (int(entry[18]) * 3) + (int(entry[19]) * 3) + (
-                            int(entry[20]) * 3) + (
+                        int(entry[20]) * 3) + (
                         int(entry[21]) * 4) + (int(entry[22]) * 5) + (int(entry[23]) * 2)
         score = round(score, 2)
         return score
@@ -664,7 +793,8 @@ def get_Game_Stats(link, game, season):
         entry = []
         entry.append(season)
         entry.append(game[0])
-        entry.append(str(define_Away_Team(game[4], game[6], game[5])) + 'V' + str(define_Home_Team(game[4], game[6], game[5])))
+        entry.append(
+            str(define_Away_Team(game[4], game[6], game[5])) + 'V' + str(define_Home_Team(game[4], game[6], game[5])))
         entry.append(get_team(names[player]))
         entry.append(names[player])
         entry.append('')
@@ -697,17 +827,25 @@ def get_Game_Stats(link, game, season):
         entry.append(points)
         player_data = np.vstack([player_data, entry])
     player_data = sorted(player_data, key=lambda x: float(x[-1]), reverse=True)
-    pd.DataFrame(player_data).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) +'/' + str(game[0]) + str(define_Away_Team(game[4], game[6], game[5]))[0:3] + str(define_Home_Team(game[4], game[6], game[5]))[0:3] + '.csv', index=False, header=col)
+    pd.DataFrame(player_data).to_csv(
+        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/' + str(game[0]) + str(
+            define_Away_Team(game[4], game[6], game[5]))[0:3] + str(define_Home_Team(game[4], game[6], game[5]))[
+                                                                0:3] + '.csv', index=False, header=col)
+
+
 def define_Home_Team(winner, loser, value):  # value = @ of matchup, returns home team
     if str(value) == '@':
         return loser
     else:
         return winner
+
+
 def define_Away_Team(winner, loser, value):  # value = @ of matchup, returns away team
     if str(value) == '@':
         return winner
     else:
         return loser
+
 
 def getSimplePositions(season):
     directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SIMPLEPOSITIONROSTERS/' + str(season) + '/'
@@ -744,7 +882,7 @@ def getSimplePositions(season):
         teamcode = list(this_dict.values())[team]
         found = False
         for files in os.listdir(directory):
-             if str(teamname) in files:
+            if str(teamname) in files:
                 found = True
                 break
 
@@ -763,10 +901,14 @@ def getSimplePositions(season):
             pd.DataFrame(new_arr, columns=col).to_csv(str(directory) + str(teamname) + str(season) + 'Roster.csv',
                                                       index=False)
             print(teamcode)
+
+
 def getSimplePositionsFilesForALLSeasons():
     None
+
+
 def updateGameHistoryWithSimplePlayerPositions(season):
-    #puts all files into one giant player database per season
+    # puts all files into one giant player database per season
     directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SIMPLEPOSITIONROSTERS/' + str(season) + '/'
     roster_array = []
     col = []
@@ -774,35 +916,37 @@ def updateGameHistoryWithSimplePlayerPositions(season):
         if 'ALL_PLAYERS' in files:
             continue
         team = str(files[0:files.index('2')])
-        df = pd.read_csv(directory+files)
+        df = pd.read_csv(directory + files)
         df["Team"] = team
         col = df.columns
         arr = df.to_numpy()
-        for entry in range(0,len(arr)):
+        for entry in range(0, len(arr)):
             roster_array.append(arr[entry])
-    pd.DataFrame(roster_array, columns=col).to_csv(str(directory) + '0' + str(season) + '_ALL_PLAYERS_ROSTER.csv', index=False)
+    pd.DataFrame(roster_array, columns=col).to_csv(str(directory) + '0' + str(season) + '_ALL_PLAYERS_ROSTER.csv',
+                                                   index=False)
 
-    def getPositionFromName(name,team):
-        for entry in range(0,len(roster_array)):
+    def getPositionFromName(name, team):
+        for entry in range(0, len(roster_array)):
             if str(roster_array[entry][1]) == str(name) and str(roster_array[entry][-1]) == str(team):
                 return str(roster_array[entry][3])
 
-    def getTeam(teamnames,teamabbrev):
+    def getTeam(teamnames, teamabbrev):
         teams_dict = {'Arizona Cardinals': 'ARI', 'Atlanta Falcons': 'ATL', 'Baltimore Ravens': 'BAL',
-                                'Buffalo Bills': 'BUF', 'Carolina Panthers': 'CAR',
-                                'Chicago Bears': 'CHI', 'Cincinnati Bengals': 'CIN', 'Cleveland Browns': 'CLE',
-                                'Dallas Cowboys': 'DAL', 'Denver Broncos': 'DEN',
-                                'Detroit Lions': 'DET', 'Green Bay Packers': 'GNB', 'Houston Texans': 'HOU',
-                                'Indianapolis Colts': 'IND',
-                                'Jacksonville Jaguars': 'JAX', 'Kansas City Chiefs': 'KAN', 'Las Vegas Raiders': 'LVR',
-                                'Los Angeles Chargers': 'LAC',
-                                'Los Angeles Rams': 'LAR', 'Miami Dolphins': 'MIA', 'Minnesota Vikings': 'MIN',
-                                'New England Patriots': 'NWE',
-                                'New Orleans Saints': 'NOR', 'New York Giants': 'NYG', 'New York Jets': 'NYJ',
-                                'Philadelphia Eagles': 'PHI',
-                                'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
-                                'Tampa Bay Buccaneers': 'TAM',
-                                'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS', 'San Diego Chargers': 'SDG', 'Oakland Raiders': 'OAK', 'Washington Redskins': 'WAS'}
+                      'Buffalo Bills': 'BUF', 'Carolina Panthers': 'CAR',
+                      'Chicago Bears': 'CHI', 'Cincinnati Bengals': 'CIN', 'Cleveland Browns': 'CLE',
+                      'Dallas Cowboys': 'DAL', 'Denver Broncos': 'DEN',
+                      'Detroit Lions': 'DET', 'Green Bay Packers': 'GNB', 'Houston Texans': 'HOU',
+                      'Indianapolis Colts': 'IND',
+                      'Jacksonville Jaguars': 'JAX', 'Kansas City Chiefs': 'KAN', 'Las Vegas Raiders': 'LVR',
+                      'Los Angeles Chargers': 'LAC',
+                      'Los Angeles Rams': 'LAR', 'Miami Dolphins': 'MIA', 'Minnesota Vikings': 'MIN',
+                      'New England Patriots': 'NWE',
+                      'New Orleans Saints': 'NOR', 'New York Giants': 'NYG', 'New York Jets': 'NYJ',
+                      'Philadelphia Eagles': 'PHI',
+                      'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
+                      'Tampa Bay Buccaneers': 'TAM',
+                      'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS', 'San Diego Chargers': 'SDG',
+                      'Oakland Raiders': 'OAK', 'Washington Redskins': 'WAS'}
         t_keys = list(teams_dict.keys())
         t_values = list(teams_dict.values())
         index = str(teamnames).index('V')
@@ -816,23 +960,23 @@ def updateGameHistoryWithSimplePlayerPositions(season):
             team2 = str(teamnames)[:index]
             return team2
 
-
-
-    #edits all games from the season with positions
+    # edits all games from the season with positions
     games_directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'
     for files in os.listdir(games_directory):
         df = pd.read_csv(games_directory + files)
         col = df.columns
         arr = df.to_numpy()
-        for entry in range(0,len(arr)):
+        for entry in range(0, len(arr)):
             teamnames = arr[entry][2]
             teamabbrev = arr[entry][3]
-            this_team = getTeam(teamnames,teamabbrev)
+            this_team = getTeam(teamnames, teamabbrev)
             name = arr[entry][4]
             position = getPositionFromName(name, this_team)
             arr[entry][5] = position
-        pd.DataFrame(arr, columns=col).to_csv(games_directory+files, index=False)
+        pd.DataFrame(arr, columns=col).to_csv(games_directory + files, index=False)
         print(files)
+
+
 def getDepthChartPositions(season):
     directory = 'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'
     week_counter = 0
@@ -844,14 +988,14 @@ def getDepthChartPositions(season):
         col = game.columns
         game_arr = game.to_numpy()
 
-        #prevent reacquiring weekly depth chart for each game
+        # prevent reacquiring weekly depth chart for each game
         if week != week_counter:
             week_counter = week
             df_list = []
             chromedriver = "C:/Users/samue/OneDrive/Documents/chromedriver.exe"
             os.environ["webdriver.chrome.driver"] = chromedriver
             driver = webdriver.Chrome(chromedriver)
-            driver.get('https://www.spotrac.com/nfl/depth-charts/'+str(season)+'/week-'+week+'/')
+            driver.get('https://www.spotrac.com/nfl/depth-charts/' + str(season) + '/week-' + week + '/')
             df = pd.read_html(driver.page_source)
             driver.close()
 
@@ -861,8 +1005,8 @@ def getDepthChartPositions(season):
             weekly_depth_chart = pd.concat(df_list)
             weekly_depth_chart_arr = weekly_depth_chart.to_numpy()
 
-        for player in range(0,len(game_arr)):
-            for entry in range(0,len(weekly_depth_chart_arr)):
+        for player in range(0, len(game_arr)):
+            for entry in range(0, len(weekly_depth_chart_arr)):
                 name = str(weekly_depth_chart_arr[entry][0])
                 if name[-2:] == 'IR':
                     name = name[:-3]
@@ -872,7 +1016,11 @@ def getDepthChartPositions(season):
                 else:
                     game_arr[player][-1] = ''
         print(file)
-        pd.DataFrame(game_arr).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DEPTHCHARTROSTERS'+str(season)+'/'+file, header=col, index=False)
+        pd.DataFrame(game_arr).to_csv(
+            'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/DEPTHCHARTROSTERS' + str(season) + '/' + file,
+            header=col, index=False)
+
+
 ##############################
 
 
@@ -892,19 +1040,23 @@ def create_Analysis_Table():
                             'Philadelphia Eagles': 'PHI',
                             'Pittsburgh Steelers': 'PIT', 'San Francisco 49ers': 'SFO', 'Seattle Seahawks': 'SEA',
                             'Tampa Bay Buccaneers': 'TAM',
-                            'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS', 'San Diego Chargers': 'SDG', 'Oakland Raiders': 'OAK', 'Washington Redskins': 'WAS'}
+                            'Tennessee Titans': 'TEN', 'Washington Football Team': 'WAS', 'San Diego Chargers': 'SDG',
+                            'Oakland Raiders': 'OAK', 'Washington Redskins': 'WAS'}
     t_keys = game_teams_dict_2020.keys()
     t_values = game_teams_dict_2020.values()
 
     # ASSIGN WINNER AND LOSER
     all_contest_results_array = []
     col = ['Season', 'Week', 'Game', 'Team', 'Name', 'Position', 'PassTD',
-     'PassYD', 'RushTD', 'RushYD', 'Receptions', 'RecTD', 'RecYD', 'INT',
-     'FUM/L', 'KRTD', 'PRTD', 'XP', 'FG0-19', 'FG20-29', 'FG30-39',
-     'FG40-49', 'FG50+', '2PC', 'Fantasy Points','Rank','Winner','Depth_Chart_Position']
+           'PassYD', 'RushTD', 'RushYD', 'Receptions', 'RecTD', 'RecYD', 'INT',
+           'FUM/L', 'KRTD', 'PRTD', 'XP', 'FG0-19', 'FG20-29', 'FG30-39',
+           'FG40-49', 'FG50+', '2PC', 'Fantasy Points', 'Rank', 'Winner', 'Depth_Chart_Position']
     for season in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'):
-        for game_file in os.listdir('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'):
-            arr = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/'+str(season)+'/'+game_file).to_numpy()
+        for game_file in os.listdir(
+                'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(season) + '/'):
+            arr = pd.read_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/SEASON/' + str(
+                season) + '/' + game_file).to_numpy()
+
             def getWinner():
                 index = str(arr[0][2]).index('V')
                 if str(arr[0][2])[index + 1] == 'e' or str(arr[0][2])[index + 1] == 'i':
@@ -920,6 +1072,7 @@ def create_Analysis_Table():
                 for entry in range(0, len(schedule)):
                     if schedule[entry][0] == week and (schedule[entry][4] == team1 or schedule[entry][4] == team2):
                         return list(t_values)[list(t_keys).index(schedule[entry][4])]
+
             def getDCPosition(position_dc):
                 if position_dc == 'nan':
                     return ''
@@ -928,9 +1081,9 @@ def create_Analysis_Table():
 
             winner = getWinner()
             game_list = []
-            for entry in range(0,len(arr)):
+            for entry in range(0, len(arr)):
                 player_list = list(arr[entry])
-                player_list.append(entry+1)
+                player_list.append(entry + 1)
                 if str(arr[entry][3]) == winner:
                     player_list.append(True)
                 else:
@@ -941,6 +1094,8 @@ def create_Analysis_Table():
             for player in game_list:
                 all_contest_results_array.append(player)
     pd.DataFrame(all_contest_results_array).to_csv('all_contests_array.csv', index=False, header=col)
+
+
 def print_Analysis_Table():
     def print_Analysis(array, title):
         total_num_entries = 0
@@ -953,6 +1108,7 @@ def print_Analysis_Table():
                 (array[entry][0] / total_num_entries) * 100) + '%')
         print('TOTAL' + '\t' + str(total_num_entries))
         print('\n')
+
     all_contest_results_array = pd.read_csv('all_contests_array.csv').to_numpy()
 
     # PRINTS MVP PER CONTEST BY SIMPLE POSITION
@@ -971,13 +1127,15 @@ def print_Analysis_Table():
         count += retlist[i][0]
     print_Analysis(retlist, "Positional MVPs")
 
-    #PRINTS TOP 5 PER CONTEST BY SIMPLE POSITION
+    # PRINTS TOP 5 PER CONTEST BY SIMPLE POSITION
     UTIL_Position_DC_Counter = []
     retlist = []
     for i in range(0, len(all_contest_results_array)):
         rank = all_contest_results_array[i][-3]
         position_dc = str(all_contest_results_array[i][5])
         if rank in (1, 2, 3, 4, 5):
+            # if 'K' in position_dc:
+            #     print(rank, all_contest_results_array[i])
             UTIL_Position_DC_Counter.append(position_dc)
     myset = set(UTIL_Position_DC_Counter)
     for i in myset:
@@ -998,6 +1156,7 @@ def print_Analysis_Table():
                     this_count = top_5_list.count(str(position))
                     count[this_count] = count[this_count] + 1
                     top_5_list = []
+
         print(str(position) + ' Count List: ', count)
 
     print_simple_position_count('QB')
@@ -1059,6 +1218,8 @@ def print_Analysis_Table():
     #     retlist.append([mylist[i],count_list[i]])
     # retlist = sorted(retlist, key=lambda x: x[1], reverse=True)
     # pd.DataFrame(retlist).to_csv('contest_output.csv',index=False)
+
+
 def top_5_pattern_counter():
     all_contest_results_array = pd.read_csv('all_contests_array.csv').to_numpy()
     # PRINTS TOP 5 PER CONTEST BY SIMPLE POSITION
@@ -1076,7 +1237,7 @@ def top_5_pattern_counter():
 
     count_all = []
     previously_used = []
-    for entry in range(0,len(all)):
+    for entry in range(0, len(all)):
         if all[entry] in previously_used:
             continue
         else:
@@ -1092,7 +1253,11 @@ def top_5_pattern_counter():
             e.append(e.count('nan'))
             count_all.append(e)
     count_all = sorted(count_all, key=lambda x: (x[5], x[1], x[2], x[3], x[4]), reverse=True)
-    pd.DataFrame(count_all, columns=['MVP','UTIL1','UTIL2','UTIL3','UTIL4','Lineup Frequency Count','QB Count','RB Count','WR Count','TE Count','K Count','nan Count']).to_csv('C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/Historical_Position_Combinations_Count.csv', index=False)
+    pd.DataFrame(count_all,
+                 columns=['MVP', 'UTIL1', 'UTIL2', 'UTIL3', 'UTIL4', 'Lineup Frequency Count', 'QB Count', 'RB Count',
+                          'WR Count', 'TE Count', 'K Count', 'nan Count']).to_csv(
+        'C:/Users/samue/PycharmProjects/NFL_FanDuel_DFS/DFS/DFS_DATA/ANALYSIS/Historical_Position_Combinations_Count.csv',
+        index=False)
 
 
 main()
